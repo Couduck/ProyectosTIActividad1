@@ -4,7 +4,8 @@ import java.io.IOException;
 
 public class Archivo
 {
-    public void abrirPagina(String link) throws IOException {
+    public void abrirPagina(String link) throws IOException
+    {
         File file = new File (link);
         Desktop.getDesktop().browse(file.toURI());
     }
@@ -29,8 +30,6 @@ public class Archivo
 
             else
             {
-
-
                 regresar = String.valueOf(numero);
             }
         }
