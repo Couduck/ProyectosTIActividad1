@@ -29,6 +29,8 @@ public class Archivo
 
             else
             {
+
+
                 regresar = String.valueOf(numero);
             }
         }
