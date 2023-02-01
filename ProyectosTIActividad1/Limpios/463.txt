@@ -6,21 +6,17 @@ Anexo (continuaci&oacute;n)
 
 
 
-<body background="../../images/YPFFON.JPG" bgcolor="#FFFFFF"
-text="#000000" link="#0000FF" vlink="#000080" alink="#800040">
+
 &#160;
 
     
-        <img
-        src="../../images/LEFT.GIF" align="bottom" border="0"
-        width="30" height="30">
+        
         P&aacute;gina
         Anterior
     
 
 PREVISIONES
-(expresados en millones de pesos - <a
-href="SPNOTES.HTML#1 Bases de Presentaci&oacute;n de los Estados Contables">Nota
+(expresados en millones de pesos - Nota
 1)
 ANEXO E
 
@@ -207,8 +203,7 @@ ANEXO E
     
     
         Para p&eacute;rdidas futuras por contratos a largo
-        plazo <a
-        href="SPNOTES4.HTML#13 Compromisos y Contingencias">(Nota
+        plazo (Nota
         13) 
         69
         1
@@ -253,8 +248,7 @@ ANEXO E
     
     
         Para p&eacute;rdidas futuras por contratos a largo
-        plazo <a
-        href="SPNOTES4.HTML#13 Compromisos y Contingencias">(Nota
+        plazo (Nota
         13)
         31
         1
@@ -325,23 +319,18 @@ los elementos de juicio disponibles, consider&aacute;ndose
 adem&aacute;s la probabilidad de ocurrencia.
 
     
-        <img
-        src="../../images/BOSCH.GIF" alt="FIRMA" align="bottom"
-        width="209" height="66"> 
+         
         Roberto J.A. Dormal Bosch
         Por Comisi&oacute;n Fiscalizadora 
         
-        <img
-        src="../../images/SHFIRML.GIF" alt="FIRMA" align="bottom"
-        width="125" height="140"> 
+         
         Nells Leon
         Presidente 
         
     
 
 COSTO DE VENTAS
-(expresados en millones de pesos - <a
-href="SPNOTES.HTML#1 Bases de Presentaci&oacute;n de los Estados Contables">Nota
+(expresados en millones de pesos - Nota
 1)
 ANEXO F
 
@@ -386,8 +375,7 @@ ANEXO F
         9
     
     
-        Existencia final <a
-        href="SPNOTES2.HTML#d) Bienes de cambio:">(Nota 3.d)
+        Existencia final (Nota 3.d)
         (275)
         (295)
         (503)
@@ -402,20 +390,15 @@ ANEXO F
 
 (1) Incluido en los estados de resultados dentro del rubro
 &quot;Resultados financieros y por tenencia generados por
-activos&#148; <a
-href="SPNOTES2.HTML#j) Resultados financieros y por tenencia:">(Nota
+activos&#148; (Nota
 3.j).
 
     
-        <img
-        src="../../images/BOSCH.GIF" alt="FIRMA" align="bottom"
-        width="209" height="66"> 
+         
         Roberto J.A. Dormal Bosch
         Por Comisi&oacute;n Fiscalizadora 
         
-        <img
-        src="../../images/SHFIRML.GIF" alt="FIRMA" align="bottom"
-        width="125" height="140"> 
+         
         Nells Leon
         Presidente 
         
@@ -423,8 +406,7 @@ href="SPNOTES2.HTML#j) Resultados financieros y por tenencia:">(Nota
 
 ACTIVOS
 Y PASIVOS EN MONEDA EXTRANJERA
-(expresados en millones de pesos - <a
-href="SPNOTES.HTML#1 Bases de Presentaci&oacute;n de los Estados Contables">Nota
+(expresados en millones de pesos - Nota
 1)
 ANEXO G
 
@@ -676,26 +658,20 @@ ANEXO G
 (2) Tipo de cambio vendedor.
 
     
-        <img
-        src="../../images/BOSCH.GIF" alt="FIRMA" align="bottom"
-        width="209" height="66"> 
+         
         Roberto J.A. Dormal Bosch
         Por Comisi&oacute;n Fiscalizadora 
         
-        <img
-        src="../../images/SHFIRML.GIF" alt="FIRMA" align="bottom"
-        width="125" height="140"> 
+         
         Nells Leon
         Presidente 
         
     
 
-<a
-name="INFORMACION REQUERIDA POR EL ARTICULO 64 APARTADO I INCISO B) DE LA LEY N&#176; 19.550">INFORMACION
+INFORMACION
 REQUERIDA POR EL ARTICULO 64 APARTADO I INCISO B) DE LA LEY
 N&#176; 19.550
-(expresados en millones de pesos - <a
-href="SPNOTES.HTML#1 Bases de Presentaci&oacute;n de los Estados Contables">Nota
+(expresados en millones de pesos - Nota
 1)
 ANEXO H
 
@@ -938,24 +914,17 @@ ANEXO H
 Directores y S&iacute;ndicos.
 
     
-        <img
-        src="../../images/BOSCH.GIF" alt="FIRMA" align="bottom"
-        width="209" height="66"> 
+         
         Roberto J.A. Dormal Bosch
         Por Comisi&oacute;n Fiscalizadora 
         
-        <img
-        src="../../images/SHFIRML.GIF" alt="FIRMA" align="bottom"
-        width="125" height="140"> 
+         
         Nells Leon
         Presidente 
         
     
 
-&#160;&#160;<img src="../../images/BARRA.GIF"
-align="bottom" width="520" height="10">
-<img
-src="../../images/YPF3D2.GIF" alt="YPF LOGO" align="bottom"
-border="0" width="111" height="52">
+&#160;&#160;
+
 
 

@@ -1759,64 +1759,56 @@ TexasWilliamson
 
 
 
-TexasWilson<TD 
-WIDTH=89>2
+TexasWilson2
 31
 
 
 
 
 
-TexasWinkler<TD 
-WIDTH=89>2
+TexasWinkler2
 30
 
 
 
 
 
-TexasWise<TD 
-WIDTH=89>3
+TexasWise3
 42
 
 
 
 
 
-TexasWood<TD 
-WIDTH=89>4
+TexasWood4
 63
 
 
 
 
 
-TexasYoakum<TD 
-WIDTH=89>2
+TexasYoakum2
 30
 
 
 
 
 
-TexasYoung<TD 
-WIDTH=89>2
+TexasYoung2
 30
 
 
 
 
 
-TexasZapata<TD 
-WIDTH=89>4
+TexasZapata4
 63
 
 
 
 
 
-TexasZavala<TD 
-WIDTH=89>2
+TexasZavala2
 30
 
 

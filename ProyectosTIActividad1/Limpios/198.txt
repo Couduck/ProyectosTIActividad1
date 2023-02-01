@@ -36,8 +36,7 @@ P-45441 March 30, 1995
 
 
 
-<IMG SRC="../../../../gif/icons/back-yellow.gif"
-ALIGN=BOTTOM>     Imaging Radar Home Page
+     Imaging Radar Home Page
 
 
 Updated 03/30/95

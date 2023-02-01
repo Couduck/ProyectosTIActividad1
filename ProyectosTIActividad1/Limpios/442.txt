@@ -1,7 +1,5 @@
 
-<!--
-Author:	Infowar.Com
--->
+
 
 Infowar.Com Discussion Groups
 
@@ -24,8 +22,7 @@ Infowar.Com Discussion Groups
 
 
 
-<A HREF="http://www.infowar.com/sponsors/ad1/oss96.html-ssi
-">
+
 
 
 

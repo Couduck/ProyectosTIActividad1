@@ -3,10 +3,7 @@
 Patient Information
 
 
-<!-- 
-        Design (c) Copyright 1996 LA Internet Corporation
-        Direct all questions to: info@lainet.com
- -->
+
 
 
 

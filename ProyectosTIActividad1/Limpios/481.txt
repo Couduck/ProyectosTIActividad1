@@ -6,18 +6,13 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
 
 
 
-<body background="../../../images/YPFFON.JPG" bgcolor="#FFFFFF"
-text="#000000" link="#0000FF" vlink="#000080" alink="#800040">
+
 &#160;
-<img src="../../../images/ZSTATABL.GIF"
-alt="INFORMACION ESTADISTICA" align="bottom" width="579"
-height="30">&#160;
+&#160;
 
     
         
-        <img
-        src="../../../images/LEFT.GIF" align="bottom" border="0"
-        width="30" height="30"> 
+         
         
         P&aacute;gina
         Anterior
@@ -38,9 +33,7 @@ height="30">&#160;
                 (miles de millones de B.P.E)
             
         
-        <img src="../../../images/GRAFCIAS.GIF"
-        alt="GRAFICO IMAGEN" align="bottom" width="569"
-        height="229">
+        
         *Incluyendo Maxus
         
     
@@ -52,9 +45,7 @@ height="30">&#160;
                 Areas Geogr&aacute;ficas
                 % Total en el Mundo
             
-            <img src="../../../images/ZCORINF2.GIF"
-            alt="GRAFICO IMAGEN" align="bottom" width="359"
-            height="123">
+            
         
         
     
@@ -67,9 +58,7 @@ height="30">&#160;
                 % Total en el Mundo
             
         
-        <img src="../../../images/ZCORIN2A.GIF"
-        alt="GRAFICO IMAGEN" align="bottom" width="356"
-        height="122"> 
+         
         
     
     
@@ -81,9 +70,7 @@ height="30">&#160;
                 % Total Argentina
             
         
-        <img src="../../../images/ZCORINF3.GIF"
-        alt="GRAFICO IMAGEN" align="bottom" width="358"
-        height="122"> 
+         
         
     
     
@@ -95,9 +82,7 @@ height="30">&#160;
                 % Total Argentina
             
         
-        <img src="../../../images/ZCORIN3A.GIF"
-        alt="GRAFICO IMAGEN" align="bottom" width="353"
-        height="122"> 
+         
         
     
     
@@ -109,9 +94,7 @@ height="30">&#160;
                 % Total Argentina
             
         
-        <img src="../../../images/ZCORINF4.GIF"
-        alt="GRAFICO IMAGEN" align="bottom" width="355"
-        height="123"> 
+         
         
     
 
@@ -123,15 +106,10 @@ height="30">&#160;
         P&aacute;gina
         Siguiente 
         
-        <img
-        src="../../../images/RIGHT.GIF" align="bottom" border="0"
-        width="30" height="30">
+        
     
 
-<img src="../../../images/BARRA.GIF"
-align="bottom" width="520" height="10">
-<img
-src="../../../images/YPF3D2.GIF" alt="YPF LOGO" align="bottom"
-border="0" width="111" height="52">
+
+
 
 

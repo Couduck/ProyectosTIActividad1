@@ -1,7 +1,6 @@
 
 William Puette 2
-<BODY BACKGROUND="Imgbgs/sky.jpg" TEXT=#0000FF LINK= #ff0000
-VLINK= #ff00ff ALINK=#ff0000>
+
 
 
 

@@ -7,8 +7,7 @@
 
   
     
-      <IMG BORDER="0" ALIGN="Top" SRC="button.jpg" WIDTH="50"
-	  HEIGHT="50">
+      
     
     
       
@@ -69,10 +68,7 @@
   
   Accounts and Services
   
-  <IMG
-      BORDER="0" ALIGN="Middle" SRC="tels2.jpg" WIDTH="200" HEIGHT="120"><FONT
-      SIZE=+1><IMG BORDER="0" ALIGN="Middle" SRC="mary_dms.jpg"
-      ALT="" WIDTH="102" HEIGHT="112">
+  
   
   
   

@@ -142,8 +142,7 @@ Stokes Matrix is given by:
 
 
 
-<IMG SRC="gif/icons/back-yellow.gif"
-ALIGN=BOTTOM>     Imaging Radar Home Page
+     Imaging Radar Home Page
 
 Updated 8/25/94
 bruce.chapman@jpl.nasa.gov

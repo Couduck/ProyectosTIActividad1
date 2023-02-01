@@ -3,6 +3,7 @@ import java.io.*;
 
 public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 {
+    //Quita todas als etiquetas de la actividaad
     public void removerTodasLasEtiquetas() throws IOException
     {
         long inicioPrograma = System.currentTimeMillis();
@@ -14,7 +15,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioBorradoEtiquetas = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en cargar todas las páginas
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 504; i++)
+        for(int i = 2; i < 490; i++)
         {
             //Se genera el link del archivo cuyas etiquetas sevan a remover en la iteración
             String linkActual = "Files\\" + this.numeroAString(i) + ".html";
@@ -63,6 +64,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
+    //Abre todas las páginas de la actividad
     public void abrirTodaslasPaginas() throws IOException
     {
         //Empieza el conteo de los milisegundos que pasan en el programa completo
@@ -125,6 +127,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
+    //Quita las etiquetas de la página del link correspondiente
     public void quitarEtiquetas(String link, int num) throws IOException {
         FileWriter fileEscritura = new FileWriter("Limpios\\" + this.numeroAString(num) + ".txt");
         FileReader fileLectura = new FileReader(link);
@@ -134,11 +137,22 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
         {
-            String lineaPura = linea.replaceAll("<.*?>","");
-            temporal.append(lineaPura + "\n");
+            if(linea.equals(""))
+            {
+                temporal.append('\n');
+            }
+
+            else
+            {
+                temporal.append(linea + '\n');
+            }
+            //String lineaPura = linea.replaceAll("<.*?>|<.*?(?:\\n.*?)+>","");
+            //temporal.append(lineaPura + "\n");
         }
 
-        archivoCompleto = temporal.toString();
+        archivoCompleto = temporal.toString().replaceAll("<.*?>|<.*?(?:\n.*?)+>","");
+
+        //archivoCompleto = temporal.toString();
 
         fileEscritura.write(archivoCompleto);
 

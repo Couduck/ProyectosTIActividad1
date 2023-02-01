@@ -29,8 +29,7 @@ in climate modeling, the threshold windspeed for sand and dust
 transport and other boundary layer models.  For further information
 contact Dan Blumberg at :  dan.blumberg@asu.edu
 
-<IMG SRC="../../gif/icons/back-yellow.gif"
-ALIGN=BOTTOM>     Imaging Radar Home Page
+     Imaging Radar Home Page
 
 
 Updated 4/27/95

@@ -11,8 +11,7 @@ Keep Car Cool
 
 
 
-<IMG BORDER=0 ALT="Maintenance Tips Masthead" WIDTH=480 HEIGHT=60
-LOWSRC="images/maintips-low.gif" SRC="images/maintips480x60.gif">
+
 
 
 
@@ -59,8 +58,7 @@ Lake Drive, Port Clinton, OH  43452.
 
 
 
-<IMG ALT="AUTOSHOP mini logo" WIDTH=152 HEIGHT= 52
-SRC="images/Autoshop_Logo_Small.gif">
+
 
 
 

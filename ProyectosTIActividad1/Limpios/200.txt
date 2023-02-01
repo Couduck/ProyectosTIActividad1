@@ -48,8 +48,7 @@
   
   Accounts and Services
   
-  <IMG BORDER="0" ALIGN="Middle" SRC="button.jpg"
-      WIDTH="50" HEIGHT="50">
+  
   
   Copyright &copy; Surrey Metro Savings August 30, 1996
 

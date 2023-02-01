@@ -52,8 +52,7 @@ P-45510 April 21, 1995
 
 
 
-<IMG SRC="../../../../gif/icons/back-yellow.gif"
-ALIGN=BOTTOM>     Imaging Radar Home Page
+     Imaging Radar Home Page
 
 
 Updated 04/20/95

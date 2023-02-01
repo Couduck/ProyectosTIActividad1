@@ -1,6 +1,5 @@
 
-<!-- This document was created from RTF source by rtftohtml version
-2.7.5 -->
+
 
 Whatsnew@AUTOSHOP-Online
 
@@ -112,16 +111,13 @@ safety recall notices.
 
 
 
-<IMG ALT="Buttons (new)" WIDTH=508 HEIGHT= 48
-SRC="images/Buttons/new_buttons.gif" border=0
-ISMAP>
+
 
 | Service Department | Sample
 Questions 
 | Tips | Home |
 
-<IMG ALT="AUTOSHOP mini logo" WIDTH=152 HEIGHT= 52
-SRC="images/Autoshop_Logo_Small.gif">
+
 
 
 
