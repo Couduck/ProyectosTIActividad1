@@ -1,1226 +1,1226 @@
+ 
+ 
+ 
+    Amip Modeling Participants/Subproject Leader Lists 
+    
+ 
+ 
 
+ 
+ &nbsp;     AMIP
+Modeling Participants&nbsp;Address List &nbsp; 
+  Go to Subproject Leader's List  
+  
 
+   (BMRC) &nbsp;  
 
-   Amip Modeling Participants/Subproject Leader Lists
-   
+ Dr. Bryant J. McAvaney&nbsp; 
+Bureau of Meteorology Research Centre 
 
+ GPO Box 1289K 
 
+ Melbourne, Victoria 3001&nbsp; 
 
+ Australia 
 
-&nbsp;AMIP
-Modeling Participants&nbsp;Address List&nbsp;
-Go to Subproject Leader's List 
+ Fax: 61-3 669-4660 
 
+ email: bma@bom.gov.au 
 
-(BMRC)&nbsp;
+   (CCC) &nbsp;  
 
-Dr. Bryant J. McAvaney&nbsp;
-Bureau of Meteorology Research Centre
+ Dr. George J. Boer&nbsp; 
 
-GPO Box 1289K
+ Canadian Centre for Climate Modelling and Analysis 
 
-Melbourne, Victoria 3001&nbsp;
+ Atmospheric Environment Service&nbsp; 
 
-Australia
+ University Of Victoria&nbsp; 
 
-Fax: 61-3 669-4660
+ P.O. Box 1700 Ms 3339&nbsp; 
 
-email: bma@bom.gov.au
+ Victoria, BC V8W 2Y2&nbsp; 
 
-(CCC)&nbsp;
+ Canada&nbsp; 
 
-Dr. George J. Boer&nbsp;
+ Fax: (604) 363-8247 
 
-Canadian Centre for Climate Modelling and Analysis
+ email: gboer@uvic.bc.doe.ca&nbsp; 
+ 
 
-Atmospheric Environment Service&nbsp;
+ 
+   (CCSR)   
 
-University Of Victoria&nbsp;
+ Dr. Akimasa Sumi 
 
-P.O. Box 1700 Ms 3339&nbsp;
+ Center for Climate System Research 
 
-Victoria, BC V8W 2Y2&nbsp;
+ University of Tokyo 
 
-Canada&nbsp;
+ 4-6-1 Komaba, Meguro-ku 
 
-Fax: (604) 363-8247
+ Tokyo 153 
 
-email: gboer@uvic.bc.doe.ca&nbsp;
+ Japan&nbsp; 
 
+ Tel: 81-3-5453-3950 
 
+ Fax: 81-3-5453-3964 
 
-(CCSR)
+ email: sumi@ccsr.u-tokyo.ac.jp 
+ 
 
-Dr. Akimasa Sumi
+ 
+   (CNRM)   
 
-Center for Climate System Research
+ Dr. Michel Deque 
 
-University of Tokyo
+ Centre National de Recherches Meteorologiques&nbsp; 
 
-4-6-1 Komaba, Meguro-ku
+ 42 Avenue Coriolis&nbsp; 
 
-Tokyo 153
+ 31057 Toulouse Cedex&nbsp; 
 
-Japan&nbsp;
+ France&nbsp; 
 
-Tel: 81-3-5453-3950
+ Fax: 33 61 07 96 10&nbsp; 
 
-Fax: 81-3-5453-3964
+ email: michel.deque@meteo.fr&nbsp; 
+ 
 
-email: sumi@ccsr.u-tokyo.ac.jp
+ 
+   (COLA)   
 
+ Dr. David Straus&nbsp; 
 
+ Center for Ocean-Land-Atmosphere Studies&nbsp; 
 
-(CNRM)
+ Institute of Global Environment and Society, Inc.&nbsp; 
 
-Dr. Michel Deque
+ 4041 Powder Mill Rd., Suite 302&nbsp; 
 
-Centre National de Recherches Meteorologiques&nbsp;
+ Calverton, MD 20705-3106&nbsp; 
 
-42 Avenue Coriolis&nbsp;
+ Fax: (301) 595-9793&nbsp; 
 
-31057 Toulouse Cedex&nbsp;
+ email: straus@cola.iges.org&nbsp; 
+ 
 
-France&nbsp;
+ 
+   (CSIRO)   
 
-Fax: 33 61 07 96 10&nbsp;
+ Dr. Barrie G. Hunt&nbsp; 
 
-email: michel.deque@meteo.fr&nbsp;
+ Division of Atmospheric Research, CSIRO 
 
+ Private Bag No. 1&nbsp; 
 
+ Mordialloc, Victoria 3195&nbsp; 
 
-(COLA)
+ Australia&nbsp; 
 
-Dr. David Straus&nbsp;
+ Fax: 61 3586-7600&nbsp; 
 
-Center for Ocean-Land-Atmosphere Studies&nbsp;
+ email: bgh@atmos.dar.CSIRO.AU&nbsp; 
+ 
 
-Institute of Global Environment and Society, Inc.&nbsp;
+ 
+   (CSU)&nbsp;   
 
-4041 Powder Mill Rd., Suite 302&nbsp;
+ Dr. David A. Randall&nbsp; 
 
-Calverton, MD 20705-3106&nbsp;
+ Department of Atmospheric Science&nbsp; 
 
-Fax: (301) 595-9793&nbsp;
+ Colorado State University&nbsp; 
 
-email: straus@cola.iges.org&nbsp;
+ Fort Collins, CO 80523&nbsp; 
 
+ Fax: (303) 491-8428&nbsp; 
 
+ email: randall@redfish.atmos.colostate.edu&nbsp; 
+ 
 
-(CSIRO)
+ 
+   (DERF)   
 
-Dr. Barrie G. Hunt&nbsp;
+ Mr. William Stern 
 
-Division of Atmospheric Research, CSIRO
+ Dynamical Extended-Range Forecasting 
 
-Private Bag No. 1&nbsp;
+ Geophysical Fluid Dynamics Laboratory (NOAA) 
 
-Mordialloc, Victoria 3195&nbsp;
+ P.O. Box 308 
 
-Australia&nbsp;
+ Princeton, New Jersey 08540 
 
-Fax: 61 3586-7600&nbsp;
+ Fax:(609) 987-5063 
 
-email: bgh@atmos.dar.CSIRO.AU&nbsp;
+ email: wfs@GFDL.GOV 
+ 
 
+ 
+   (DNM)   
 
+ Dr. Vener Galin&nbsp; 
 
-(CSU)&nbsp;
+ Department of Numerical Mathematics 
 
-Dr. David A. Randall&nbsp;
+ Russian Academy of Sciences&nbsp; 
 
-Department of Atmospheric Science&nbsp;
+ Leninsky Prospect, 32 A 
 
-Colorado State University&nbsp;
+ Moscow 117334 
 
-Fort Collins, CO 80523&nbsp;
+ Russia&nbsp; 
 
-Fax: (303) 491-8428&nbsp;
+ Fax: 7 095-938-1808 
 
-email: randall@redfish.atmos.colostate.edu&nbsp;
+ email: galin@inm.ras.ru&nbsp; 
+ 
 
+ 
+   (ECMWF)   
 
+ Dr. Laura Ferranti&nbsp; 
 
-(DERF)
+ European Centre for Medium-Range Weather Forecasts&nbsp; 
 
-Mr. William Stern
+ Shinfield Park, 
 
-Dynamical Extended-Range Forecasting
+ Reading RG2 9AX,&nbsp; 
 
-Geophysical Fluid Dynamics Laboratory (NOAA)
+ United Kingdom&nbsp; 
 
-P.O. Box 308
+ Fax: 44-1734-869450&nbsp; 
 
-Princeton, New Jersey 08540
+ email: Laura.Ferranti@ecmwf.int 
+ 
 
-Fax:(609) 987-5063
+ 
+   (GFDL)   
 
-email: wfs@GFDL.GOV
+ Dr. Richard T. Wetherald&nbsp; 
 
+ Geophysical Fluid Dynamics Laboratory (NOAA)&nbsp; 
 
+ Princeton University&nbsp; 
 
-(DNM)
+ P.O. Box 308&nbsp; 
 
-Dr. Vener Galin&nbsp;
+ Princeton, NJ 08540 
 
-Department of Numerical Mathematics
+ Fax: (609) 987-5063&nbsp; 
 
-Russian Academy of Sciences&nbsp;
+ email: rw@gfdl.gov 
+ 
 
-Leninsky Prospect, 32 A
+ 
+   (GISS)   
 
-Moscow 117334
+ Dr. Kenneth Lo&nbsp; 
 
-Russia&nbsp;
+ Goddard Institute for Space Studies&nbsp; 
 
-Fax: 7 095-938-1808
+ 2880 Broadway, Room 680&nbsp; 
 
-email: galin@inm.ras.ru&nbsp;
+ New York, NY 10025&nbsp; 
 
+ Fax: 212-678-5552&nbsp; 
 
+ email: cdkkl@nasagiss.giss.nasa.gov 
+ 
 
-(ECMWF)
+ 
+   (GLA) &nbsp;  
 
-Dr. Laura Ferranti&nbsp;
+ Dr. William Lau&nbsp; 
 
-European Centre for Medium-Range Weather Forecasts&nbsp;
+ Code 913&nbsp; 
 
-Shinfield Park,
+ Goddard Space Flight Center&nbsp; 
 
-Reading RG2 9AX,&nbsp;
+ Greenbelt, MD 20771 
 
-United Kingdom&nbsp;
+ Fax: 301-286-1759&nbsp; 
 
-Fax: 44-1734-869450&nbsp;
+ email: lau@climate.gsfc.nasa.gov&nbsp; 
+ 
 
-email: Laura.Ferranti@ecmwf.int
+ 
+   (GSFC)   
 
+ Dr. Wei Min 
 
+ Data Assimilation Office, Code 910.3&nbsp; 
 
-(GFDL)
+ NASA Goddard Space Flight Center&nbsp; 
 
-Dr. Richard T. Wetherald&nbsp;
+ Greenbelt, MD 20771&nbsp; 
 
-Geophysical Fluid Dynamics Laboratory (NOAA)&nbsp;
+ Fax: (301) 286-1754&nbsp; 
 
-Princeton University&nbsp;
+ email: min@dao.gsfc.nasa.gov 
+ 
 
-P.O. Box 308&nbsp;
+ 
+   (IAP)   
 
-Princeton, NJ 08540
+ Dr. Qing-cun Zeng&nbsp; 
 
-Fax: (609) 987-5063&nbsp;
+ Institute of Atmospheric Physics&nbsp; 
 
-email: rw@gfdl.gov
+ Chinese Academy of Sciences&nbsp; 
 
+ P.O. Box 2718 
 
+ Beijing 100080 
 
-(GISS)
+ P.R. China&nbsp; 
 
-Dr. Kenneth Lo&nbsp;
+ Fax: 86-1-2562347&nbsp; 
 
-Goddard Institute for Space Studies&nbsp;
+ email: whj@sgi50s.iap.ac.cn 
+ 
 
-2880 Broadway, Room 680&nbsp;
+ 
+   (JMA)   
 
-New York, NY 10025&nbsp;
+ Dr. Nobuo Sato&nbsp; 
 
-Fax: 212-678-5552&nbsp;
+ Numerical Prediction Section&nbsp; 
 
-email: cdkkl@nasagiss.giss.nasa.gov
+ Japan Meteorological Agency&nbsp; 
 
+ 1-3-4 Ote-machi,Chiyoda-ku&nbsp; 
 
+ Tokyo 100&nbsp; 
 
-(GLA)&nbsp;
+ Japan 
 
-Dr. William Lau&nbsp;
+ Fax: 81 (03) 3211-8407&nbsp; 
 
-Code 913&nbsp;
+ email: /PN=N.SATO/O=JMA/ADMD=ATI/C=JP@sprint.com 
+ 
 
-Goddard Space Flight Center&nbsp;
+ 
+   (LLNL)   
 
-Greenbelt, MD 20771
+ Dr. Michael F. Wehner&nbsp; 
 
-Fax: 301-286-1759&nbsp;
+ Lawrence Livermore National Lab 
 
-email: lau@climate.gsfc.nasa.gov&nbsp;
+ Climate Systems Modeling Group&nbsp; 
 
+ P.O. Box 808, L-256&nbsp; 
 
+ Livermore, CA 94551, USA 
 
-(GSFC)
+ Fax: (510) 422-6388&nbsp; 
 
-Dr. Wei Min
+ email: mwehner@llnl.gov&nbsp; 
+ 
 
-Data Assimilation Office, Code 910.3&nbsp;
+ 
+   (LMD) &nbsp;  
 
-NASA Goddard Space Flight Center&nbsp;
+ Dr. Jan Polcher&nbsp; 
 
-Greenbelt, MD 20771&nbsp;
+ Laboratoire de Meteorologie Dynamique&nbsp; 
 
-Fax: (301) 286-1754&nbsp;
+ Ecole Normale Superieure 
 
-email: min@dao.gsfc.nasa.gov
+ 24, rue Lhomond&nbsp; 
 
+ 75231 Paris Cedex 05&nbsp; 
 
+ France Fax:-33-1-43368392&nbsp; 
 
-(IAP)
+ email: polcher@lmd.ens.fr&nbsp; 
+ 
 
-Dr. Qing-cun Zeng&nbsp;
+ 
+   (MGO)   
 
-Institute of Atmospheric Physics&nbsp;
+ Dr. Valentin P. Meleshko 
 
-Chinese Academy of Sciences&nbsp;
+ Main Geophysical Observatory&nbsp; 
 
-P.O. Box 2718
+ 7 Karbyshev Street&nbsp; 
 
-Beijing 100080
+ St. Petersburg 194018&nbsp; 
 
-P.R. China&nbsp;
+ Russia&nbsp; 
 
-Fax: 86-1-2562347&nbsp;
+ Fax: 7-812-247-0103 
 
-email: whj@sgi50s.iap.ac.cn
+ email: vmeleshk@mgo.spb.su 
+ 
 
+ 
+   (MPI)   
 
+ Dr. Erich Roeckner 
 
-(JMA)
+ Max Planck Institute for Meteorology&nbsp; 
 
-Dr. Nobuo Sato&nbsp;
+ Bundesstrasse 55 
 
-Numerical Prediction Section&nbsp;
+ D-20146 Hamburg 13&nbsp; 
 
-Japan Meteorological Agency&nbsp;
+ Germany&nbsp; 
 
-1-3-4 Ote-machi,Chiyoda-ku&nbsp;
+ Fax: (49) 40 41173 368 
 
-Tokyo 100&nbsp;
+ email: roeckner@dkrz.d400.de 
+ 
 
-Japan
+ 
+   (MRI)   
 
-Fax: 81 (03) 3211-8407&nbsp;
+ Dr. Akio Kitoh&nbsp; 
 
-email: /PN=N.SATO/O=JMA/ADMD=ATI/C=JP@sprint.com
+ Japan Meteorological Agency&nbsp; 
 
+ Meteorological Research Institute&nbsp; 
 
+ Nagamine 1-1, Tsukuba&nbsp; 
 
-(LLNL)
+ Ibaraki 305&nbsp; 
 
-Dr. Michael F. Wehner&nbsp;
+ Japan&nbsp; 
 
-Lawrence Livermore National Lab
+ Fax: 81-298-55-2552&nbsp; 
 
-Climate Systems Modeling Group&nbsp;
+ email: kitoh@mri-jma.go.jp 
+ 
 
-P.O. Box 808, L-256&nbsp;
+ 
+   (NCAR)   
 
-Livermore, CA 94551, USA
+ Dr. David L. Williamson 
 
-Fax: (510) 422-6388&nbsp;
+ Climate and Global Dynamics Division&nbsp; 
 
-email: mwehner@llnl.gov&nbsp;
+ National Center for Atmospheric Research&nbsp; 
 
+ P.O. Box 3000&nbsp; 
 
+ Boulder, CO 80307-3000 
 
-(LMD)&nbsp;
+ Fax: 303-497-1324&nbsp; 
 
-Dr. Jan Polcher&nbsp;
+ email: wmson@ncar.ucar.edu 
+ 
 
-Laboratoire de Meteorologie Dynamique&nbsp;
+ 
+   (NMC)   
 
-Ecole Normale Superieure
+ Dr. Huug van den Dool&nbsp; 
 
-24, rue Lhomond&nbsp;
+ Prediction Branch, Climate Analysis Center&nbsp; 
 
-75231 Paris Cedex 05&nbsp;
+ National Meteorological Center&nbsp; 
 
-France Fax:-33-1-43368392&nbsp;
+ 51, WWB Room 604&nbsp; 
 
-email: polcher@lmd.ens.fr&nbsp;
+ Camp Springs, MD 20748 
 
+ Fax: 301-763-8395 
 
+ emmail: wd51hd@sgi45.wwb.noaa.gov 
+ 
 
-(MGO)
+ 
+   (NRL) &nbsp;  
 
-Dr. Valentin P. Meleshko
+ Dr. Tom Rosmond&nbsp; 
 
-Main Geophysical Observatory&nbsp;
+ Naval Research Laboratory&nbsp; 
 
-7 Karbyshev Street&nbsp;
+ 7 Gracehopper Ave. Stop 2&nbsp; 
 
-St. Petersburg 194018&nbsp;
+ Monterey, CA 93943-5502 
 
-Russia&nbsp;
+ Fax: 408-656-4769&nbsp; 
 
-Fax: 7-812-247-0103
+ email: rosmond@nrlmry.navy.mil&nbsp; 
+ 
 
-email: vmeleshk@mgo.spb.su
+ 
+   (NTU)   
 
+ Prof. Wen-Shung Kau&nbsp; 
 
+ Department of Atmospheric Sciences&nbsp; 
 
-(MPI)
+ National Taiwan University&nbsp; 
 
-Dr. Erich Roeckner
+ 61, Ln144, Sec 4 Keelung Rd, 10772&nbsp; 
 
-Max Planck Institute for Meteorology&nbsp;
+ Taipei, Taiwan&nbsp; 
 
-Bundesstrasse 55
+ R.O.C.&nbsp; 
 
-D-20146 Hamburg 13&nbsp;
+ Fax: 886-02-363-3642 
 
-Germany&nbsp;
+ email: wen@wen.asalpha1.as.ntu.tw 
+ 
 
-Fax: (49) 40 41173 368
+ 
+   (RPN)   
 
-email: roeckner@dkrz.d400.de
+ Dr. Harold Ritchie 
 
+ Recherche en prévision numerique 
 
+ 2121 Trans-Canada Highway #500 
 
-(MRI)
+ Dorval, Québec H9P 1J3&nbsp; 
 
-Dr. Akio Kitoh&nbsp;
+ Canada&nbsp; 
 
-Japan Meteorological Agency&nbsp;
+ Fax: (514) 421-2106 
 
-Meteorological Research Institute&nbsp;
+ email: hritchie@rpn.aes.doe.ca 
+ 
 
-Nagamine 1-1, Tsukuba&nbsp;
+ 
+   (SUNYA)   
 
-Ibaraki 305&nbsp;
+ Dr. Wei-Chyung Wang (see  SUNYA/NCAR ) 
+ 
 
-Japan&nbsp;
+ 
+   (SUNYA/NCAR)   
 
-Fax: 81-298-55-2552&nbsp;
+ Dr. Wei-Chyung Wang&nbsp; 
 
-email: kitoh@mri-jma.go.jp
+ Atmospheric Sciences Research Center&nbsp; 
 
+ State University of New York at Albany&nbsp; 
 
+ 100 Fuller Rd.&nbsp; 
 
-(NCAR)
+ Albany, NY 12205 
 
-Dr. David L. Williamson
+ Fax: (518) 442-3360&nbsp; 
 
-Climate and Global Dynamics Division&nbsp;
+ email: wang@climate.ASRC.Albany.edu 
+ 
 
-National Center for Atmospheric Research&nbsp;
+ 
+   (UCLA)   
 
-P.O. Box 3000&nbsp;
+ Dr. Carlos R. Mechoso&nbsp; 
 
-Boulder, CO 80307-3000
+ Department of Atmospheric Sciences 
 
-Fax: 303-497-1324&nbsp;
+ University of California, Los Angeles 
 
-email: wmson@ncar.ucar.edu
+ 405 Hilgard Avenue 
 
+ Los Angeles, CA 90024 
 
+ Fax: (310) 206-5219&nbsp; 
 
-(NMC)
+ email: mechoso@atmos.ucla.edu 
+ 
 
-Dr. Huug van den Dool&nbsp;
+ 
+   (UGAMP)   
 
-Prediction Branch, Climate Analysis Center&nbsp;
+ Dr. Michael Blackburn 
 
-National Meteorological Center&nbsp;
+ Department of Meteorology 
 
-51, WWB Room 604&nbsp;
+ University of Reading&nbsp; 
 
-Camp Springs, MD 20748
+ 2 Earley Gate, Whiteknights 
 
-Fax: 301-763-8395
+ P.O. Box 239 
 
-emmail: wd51hd@sgi45.wwb.noaa.gov
+ Reading RG6 2AU 
 
+ United Kingdom&nbsp; 
 
+ Fax: 44 734 318316 
 
-(NRL)&nbsp;
+ email: M.Blackburn@reading.ac.uk 
+ 
 
-Dr. Tom Rosmond&nbsp;
+ 
+   (UIUC)   
 
-Naval Research Laboratory&nbsp;
+ Dr. Michael E. Schlesinger 
 
-7 Gracehopper Ave. Stop 2&nbsp;
+ Department of Atmospheric Sciences 
 
-Monterey, CA 93943-5502
+ University of Illinois at Urbana/Champaign 
 
-Fax: 408-656-4769&nbsp;
+ 105 S. Gregory Avenue 
 
-email: rosmond@nrlmry.navy.mil&nbsp;
+ Urbana, IL 61801 
 
+ Fax: (217) 244-4393&nbsp; 
 
+ email: schlesin@uiatma.atmos.uiuc.edu 
+ 
 
-(NTU)
+ 
+   (UKMO)   
 
-Prof. Wen-Shung Kau&nbsp;
+ Dr. Vicky Pope 
 
-Department of Atmospheric Sciences&nbsp;
+ Hadley Centre for Climate Prediction and Research 
 
-National Taiwan University&nbsp;
+ U.K. Meteorological Office 
 
-61, Ln144, Sec 4 Keelung Rd, 10772&nbsp;
+ London Road&nbsp; 
 
-Taipei, Taiwan&nbsp;
+ Bracknell, Berkshire RG12 2SY 
 
-R.O.C.&nbsp;
+ United Kingdom 
 
-Fax: 886-02-363-3642
+ Fax: 44 1344-854898 
 
-email: wen@wen.asalpha1.as.ntu.tw
+ email: vdpope@meto.govt.uk 
+ 
 
+ 
+   (YONU)   
 
+ Prof. Jeong-Woo Kim 
 
-(RPN)
+ Department of Astronomy and Atmospheric Sciences&nbsp; 
 
-Dr. Harold Ritchie
+ Yonsei University&nbsp; 
 
-Recherche en prévision numerique
+ 134 Shinchon-Dong, Seodamoon-Ku&nbsp; 
 
-2121 Trans-Canada Highway #500
+ Seoul 120-749, KOREA&nbsp; 
 
-Dorval, Québec H9P 1J3&nbsp;
+ Fax: 82-2-365-5163&nbsp; 
+email: jwkim@atmos.yonsei.ac.kr&nbsp; 
+ 
 
-Canada&nbsp;
+ 
+  Return to AMIP Modeling Participants
+List&nbsp; 
+  Return to AMIP Diagnostic Subproject Leaders
+List &nbsp; 
+ Return to AMIP home page &nbsp; 
+ Return to PCMDI home page &nbsp;&nbsp;
 
-Fax: (514) 421-2106
+  
+     AMIP
+Diagnostic Subproject Leaders Address List 
+   Go to Modeling Participants List 
 
-email: hritchie@rpn.aes.doe.ca
+  
 
+ 
+ 
+ 
+ 
+    Subproject 1    
 
+ Dr. Julia Slingo&nbsp; 
 
-(SUNYA)
+ Centre for Global Atmospheric Modelling&nbsp; 
 
-Dr. Wei-Chyung Wang (see SUNYA/NCAR)
+ Department of Meteorology&nbsp; 
 
+ University of Reading 
 
+ 2 Early Gate, Whiteknights&nbsp; 
 
-(SUNYA/NCAR)
+ Reading RG6 2AU 
 
-Dr. Wei-Chyung Wang&nbsp;
+ United Kingdom&nbsp; 
 
-Atmospheric Sciences Research Center&nbsp;
+ Fax: 07-34-318-316&nbsp; 
 
-State University of New York at Albany&nbsp;
+ email: swssling@met.reading.ac.uk&nbsp; 
+ 
+ 
 
-100 Fuller Rd.&nbsp;
+ 
+ 
+ Dr. Kenneth R. Sperber 
 
-Albany, NY 12205
+ PCMDI&nbsp; 
 
-Fax: (518) 442-3360&nbsp;
+ Lawrence Livermore National Laboratory 
 
-email: wang@climate.ASRC.Albany.edu
+ P.O. Box 808, L-264&nbsp; 
 
+ Livermore, CA 94550&nbsp; 
 
+ Fax: 510-422-7675&nbsp; 
 
-(UCLA)
+ email: sperber@space.llnl.gov 
+ 
+ 
+ 
+ 
 
-Dr. Carlos R. Mechoso&nbsp;
+ 
+    Subproject 2    
 
-Department of Atmospheric Sciences
+ Dr. Francis Zwiers&nbsp; 
 
-University of California, Los Angeles
+ Canadian Centre for Climate Modelling and Analysis 
 
-405 Hilgard Avenue
+ Atmospheric Environment Service&nbsp; 
 
-Los Angeles, CA 90024
+ University of Victoria&nbsp; 
 
-Fax: (310) 206-5219&nbsp;
+ P.O. Box 1700 MS 3339 
 
-email: mechoso@atmos.ucla.edu
+ Victoria, BC V8W 2Y2, CANADA&nbsp; 
 
+ Fax: (604) 363-8247 
 
+ email: fzwiers@uvic.bc.doe.ca&nbsp; 
+ 
 
-(UGAMP)
+ 
+    Subproject 3    
 
-Dr. Michael Blackburn
+ Dr. Steven Lambert 
 
-Department of Meteorology
+ Canadian Climate Centre&nbsp; 
 
-University of Reading&nbsp;
+ University of Victoria&nbsp; 
 
-2 Earley Gate, Whiteknights
+ P.O. Box 1700 MS 3339 
 
-P.O. Box 239
+ (3964 Gordon Head Road) 
 
-Reading RG6 2AU
+ Victoria, BC V8W 2Y2&nbsp; 
 
-United Kingdom&nbsp;
+ Canada&nbsp; 
 
-Fax: 44 734 318316
+ Fax: (604) 363-8247&nbsp; 
 
-email: M.Blackburn@reading.ac.uk
+ email: slambert@uvic.bc.doe.ca 
+ 
 
+ &nbsp; 
 
+ 
+ 
+ 
+ 
+    Subproject 4    
 
-(UIUC)
+ Dr. P. Duvel&nbsp; 
 
-Dr. Michael E. Schlesinger
+ Laboratoire de Météorologique Dynamique 
 
-Department of Atmospheric Sciences
+ Ecole Polytechnique&nbsp; 
 
-University of Illinois at Urbana/Champaign
+ 91128 Palaiseau Cedex&nbsp; 
 
-105 S. Gregory Avenue
+ France&nbsp; 
 
-Urbana, IL 61801
+ Fax: 33 (1) 69 33 30 49&nbsp; 
 
-Fax: (217) 244-4393&nbsp;
+ email: duvel@lmdx12.polytechnique.fr 
+ 
+ 
 
-email: schlesin@uiatma.atmos.uiuc.edu
+ 
+ 
+  
+Dr. F. Cheruy&nbsp; 
 
+ Laboratoire de Météorologique Dynamique 
 
+ Ecole Polytechnique&nbsp; 
 
-(UKMO)
+ 91128 Palaiseau Cedex&nbsp; 
 
-Dr. Vicky Pope
+ France&nbsp; 
 
-Hadley Centre for Climate Prediction and Research
+ Fax: 33-1-69 33 30 05&nbsp; 
 
-U.K. Meteorological Office
+ email: fred@jungle.polytechnique.fr 
+ 
+ 
+ 
+ 
 
-London Road&nbsp;
+ &nbsp; 
 
-Bracknell, Berkshire RG12 2SY
+ 
+    Subproject 5    
 
-United Kingdom
+ Prof. David A. Randall&nbsp; 
 
-Fax: 44 1344-854898
+ Dept. of Atmospheric Science&nbsp; 
 
-email: vdpope@meto.govt.uk
+ Colorado State University&nbsp; 
 
+ Foothills Campus&nbsp; 
 
+ Fort Collins, CO 80523-1371&nbsp; 
 
-(YONU)
+ Fax (303) 491-8428&nbsp; 
 
-Prof. Jeong-Woo Kim
+ email: randall@redfish.atmos.colostate.edu&nbsp; 
+ 
 
-Department of Astronomy and Atmospheric Sciences&nbsp;
+ 
+    Subproject 6    
 
-Yonsei University&nbsp;
+ Dr. Timothy N. Palmer&nbsp; 
 
-134 Shinchon-Dong, Seodamoon-Ku&nbsp;
+ ECMWF&nbsp; 
 
-Seoul 120-749, KOREA&nbsp;
+ Shinfield Park&nbsp; 
 
-Fax: 82-2-365-5163&nbsp;
-email: jwkim@atmos.yonsei.ac.kr&nbsp;
+ Reading, Berks RG2 9AX&nbsp; 
 
+ United Kingdom&nbsp; 
 
+ Fax: 44-734-869450&nbsp; 
 
-Return to AMIP Modeling Participants
-List&nbsp;
-Return to AMIP Diagnostic Subproject Leaders
-List&nbsp;
-Return to AMIP home page&nbsp;
-Return to PCMDI home page&nbsp;&nbsp;
+ email: tim.palmer@ecmwf.co.uk 
+ 
 
+ 
+    Subproject 7    
 
-AMIP
-Diagnostic Subproject Leaders Address List
-Go to Modeling Participants List
+ Dr. William K.M. Lau&nbsp; 
 
+ NASA/Goddard Space Flight Center 
 
+ Code 913&nbsp; 
 
+ Greenbelt, MD 20771&nbsp; 
 
+ Fax: 301-286-1759&nbsp; 
 
+ email: lau@climate.gsfc.nasa.gov&nbsp; 
+ 
 
+ 
+    Subproject 8    
 
-Subproject 1
+ Prof. John E. Walsh&nbsp; 
 
-Dr. Julia Slingo&nbsp;
+ Department of Atmospheric Sciences&nbsp; 
 
-Centre for Global Atmospheric Modelling&nbsp;
+ University of Illinois at Urbana-Champaign&nbsp; 
 
-Department of Meteorology&nbsp;
+ 105 South Gregory Avenue&nbsp; 
 
-University of Reading
+ Urbana, IL 61801&nbsp; 
 
-2 Early Gate, Whiteknights&nbsp;
+ Fax: (217) 244-4393&nbsp; 
 
-Reading RG6 2AU
+ email: walsh@wx.atmos.uiuc.edu 
+ 
 
-United Kingdom&nbsp;
+ 
+    Subproject 9    
 
-Fax: 07-34-318-316&nbsp;
+ Dr. Bryant J. McAvaney&nbsp; 
 
-email: swssling@met.reading.ac.uk&nbsp;
+ Bureau of Meteorology Research Centre&nbsp; 
 
+ GPO Box 1289K, 13th Floor Celsius House&nbsp; 
 
+ 150 Lonsdale Street&nbsp; 
 
+ Melbourne, Victoria 3000&nbsp; 
 
+ Australia&nbsp; 
 
-Dr. Kenneth R. Sperber
+ Fax: 61-3-669-4660&nbsp; 
 
-PCMDI&nbsp;
+ email: bma@bom.gov.au 
+ 
 
-Lawrence Livermore National Laboratory
+ 
+    Subproject 10    
 
-P.O. Box 808, L-264&nbsp;
+ Prof. Stefano Tibaldi&nbsp; 
 
-Livermore, CA 94550&nbsp;
+ ADGBN Atmospheric Dynamics Group&nbsp; 
 
-Fax: 510-422-7675&nbsp;
+ University of Bologna, Depart. of Physics&nbsp; 
 
-email: sperber@space.llnl.gov
+ Viale Carlo Berti Pichat 6/2&nbsp; 
 
+ 40127 Bologna&nbsp; 
 
+ Italy&nbsp; 
 
+ Fax: 39 51 6305074/ 3951247244&nbsp; 
 
+ email: Tibaldi@astbol.bo.cnr.it 
+ 
 
+ 
+    Subproject 11    
 
-Subproject 2
+ Prof. Alan Robock&nbsp; 
 
-Dr. Francis Zwiers&nbsp;
+ Department of Meteorology&nbsp; 
 
-Canadian Centre for Climate Modelling and Analysis
+ University of Maryland&nbsp; 
 
-Atmospheric Environment Service&nbsp;
+ College Park, MD 20742-2425&nbsp; 
 
-University of Victoria&nbsp;
+ Fax: (301) 314-9482 
 
-P.O. Box 1700 MS 3339
+ email: alan@atmos.umd.edu 
+ 
 
-Victoria, BC V8W 2Y2, CANADA&nbsp;
+ 
+    Subproject 12    
 
-Fax: (604) 363-8247
+ Prof. Ann Henderson-Sellers&nbsp; 
 
-email: fzwiers@uvic.bc.doe.ca&nbsp;
+ Climatic Impacts Centre&nbsp; 
 
+ School of Earth Sciences&nbsp; 
 
+ Macquarie University&nbsp; 
 
-Subproject 3
+ North Ryde, NSW 2109&nbsp; 
 
-Dr. Steven Lambert
+ Australia&nbsp; 
 
-Canadian Climate Centre&nbsp;
+ Fax: 8 011 61 2 850 9671&nbsp; 
 
-University of Victoria&nbsp;
+ email: ann@mgmet.cic.mq.edu.au&nbsp; 
+ 
 
-P.O. Box 1700 MS 3339
+ &nbsp; 
 
-(3964 Gordon Head Road)
+ 
+ 
+ 
+ 
+    Subproject 13    
 
-Victoria, BC V8W 2Y2&nbsp;
+ Dr. Igor Mokhov&nbsp; 
 
-Canada&nbsp;
+ Institute of Atmospheric Physics&nbsp; 
 
-Fax: (604) 363-8247&nbsp;
+ Academy of Science&nbsp; 
 
-email: slambert@uvic.bc.doe.ca
+ 3 Phzhevsky 109017&nbsp; 
 
+ Moscow, Russia&nbsp; 
 
-&nbsp;
+ Fax: 7-095-233 1652&nbsp; 
 
+ email: root@iaph.msk.su&nbsp; 
+ 
+ 
 
+ 
+ 
+ Prof. Bryan C. Weare&nbsp; 
 
+ Department of Land, Air and Water Resources 
 
+ Atmospheric Science Section&nbsp; 
 
-Subproject 4
+ University of California, Davis&nbsp; 
 
-Dr. P. Duvel&nbsp;
+ Davis, CA 95616&nbsp; 
 
-Laboratoire de Météorologique Dynamique
+ Fax: (916) 752-1552&nbsp; 
 
-Ecole Polytechnique&nbsp;
+ email: bcweare@ucdavis.edu&nbsp; 
+ 
+ 
+ 
+ 
 
-91128 Palaiseau Cedex&nbsp;
+ &nbsp; 
 
-France&nbsp;
+ 
+    Subproject 14    
 
-Fax: 33 (1) 69 33 30 49&nbsp;
+ Dr. Gerald L. Potter&nbsp; 
 
-email: duvel@lmdx12.polytechnique.fr
+ PCMDI&nbsp; 
 
+ Lawrence Livermore National Laboratory 
 
+ P.O. Box 808, L-264&nbsp; 
 
+ Livermore, CA 94550&nbsp; 
 
+ Fax: 510-422-7675&nbsp; 
 
+ email: gpotter@llnl.gov&nbsp; 
+ 
 
-Dr. F. Cheruy&nbsp;
+ 
+    Subproject 15    
 
-Laboratoire de Météorologique Dynamique
+ Dr. Raymond Hide&nbsp; 
 
-Ecole Polytechnique&nbsp;
+ c/o Dr. Jean O. Dickey&nbsp; 
 
-91128 Palaiseau Cedex&nbsp;
+ Space Geodetic Science and Applications Group&nbsp; 
 
-France&nbsp;
+ Mail Stop 238-232&nbsp; 
 
-Fax: 33-1-69 33 30 05&nbsp;
+ Jet Propulsion Laboratory&nbsp; 
 
-email: fred@jungle.polytechnique.fr
+ 4800 Oak Grove Drive&nbsp; 
 
+ Pasadena, CA 91109&nbsp; 
 
+ Fax: (818) 393-6890&nbsp; 
+ 
 
+ 
+    Subproject 16    
 
+ Prof. Carlos R. Mechoso 
 
-&nbsp;
+ Department of Atmospheric Sciences&nbsp; 
 
+ University of California, Los Angeles&nbsp; 
 
-Subproject 5
+ 405 Hilgard Avenue&nbsp; 
 
-Prof. David A. Randall&nbsp;
+ Los Angeles, CA 90024 
 
-Dept. of Atmospheric Science&nbsp;
+ Fax: (310) 206-5219&nbsp; 
 
-Colorado State University&nbsp;
+ email: mechoso@atmos.ucla.edu 
+ 
 
-Foothills Campus&nbsp;
+ 
+    Subproject 17    
 
-Fort Collins, CO 80523-1371&nbsp;
+ Dr. Donald Perkey 
 
-Fax (303) 491-8428&nbsp;
+ Institute for Global Change Research and Education 
 
-email: randall@redfish.atmos.colostate.edu&nbsp;
+ Huntsville, AL 35812 
 
+ Fax: (205) 544-5760&nbsp; 
 
+ email:&nbsp; 
+ 
 
-Subproject 6
+ 
+    Subproject 18    
 
-Dr. Timothy N. Palmer&nbsp;
+ Dr. Valentin P. Meleshko&nbsp; 
 
-ECMWF&nbsp;
+ Main Geophysical Observatory&nbsp; 
 
-Shinfield Park&nbsp;
+ 7 Karbyshev Street&nbsp; 
 
-Reading, Berks RG2 9AX&nbsp;
+ St. Petersburg 194018&nbsp; 
 
-United Kingdom&nbsp;
+ Russia&nbsp; 
 
-Fax: 44-734-869450&nbsp;
+ Fax: 7-812-247-01-03&nbsp; 
 
-email: tim.palmer@ecmwf.co.uk
+ email: vmeleshk@mgo.spb.su 
+ 
 
+ &nbsp; 
 
+ 
+ 
+ 
+ 
+    Subproject 19    
 
-Subproject 7
+ Prof. John R. Christy&nbsp; 
 
-Dr. William K.M. Lau&nbsp;
+ Earth System Science Laboratory&nbsp; 
 
-NASA/Goddard Space Flight Center
+ Research Institute Room A-11&nbsp; 
 
-Code 913&nbsp;
+ The University of Alabama in Huntsville&nbsp; 
 
-Greenbelt, MD 20771&nbsp;
+ Huntsville, AL 35899&nbsp; 
 
-Fax: 301-286-1759&nbsp;
+ Fax: (205) 895-6970&nbsp; 
+ 
+ 
 
-email: lau@climate.gsfc.nasa.gov&nbsp;
+ 
+ 
+  
+Prof. Bryan C. Weare&nbsp; 
 
+ Department of Land, Air and Water Resources 
 
+ Atmospheric Science Section&nbsp; 
 
-Subproject 8
+ University of California, Davis&nbsp; 
 
-Prof. John E. Walsh&nbsp;
+ Davis, CA 95616&nbsp; 
 
-Department of Atmospheric Sciences&nbsp;
+ Fax: (916) 752-1552&nbsp; 
 
-University of Illinois at Urbana-Champaign&nbsp;
+ email: bcweare@ucdavis.edu&nbsp; 
+ 
+ 
+ 
+ 
 
-105 South Gregory Avenue&nbsp;
+ &nbsp; 
 
-Urbana, IL 61801&nbsp;
+ 
+    Subproject 20    
 
-Fax: (217) 244-4393&nbsp;
+ Dr. Bruce Hewitson&nbsp; 
 
-email: walsh@wx.atmos.uiuc.edu
+ Department of Environmental and Geographical Science&nbsp; 
 
+ University of Cape Town&nbsp; 
 
+ Randebosch 7700&nbsp; 
 
-Subproject 9
+ Cape Town, South Africa&nbsp; 
 
-Dr. Bryant J. McAvaney&nbsp;
+ Fax: 27 21 650 3791&nbsp; 
 
-Bureau of Meteorology Research Centre&nbsp;
+ email: hewitson@enviro.uct.ac.az&nbsp; 
+ 
 
-GPO Box 1289K, 13th Floor Celsius House&nbsp;
+ 
+    Subproject 21    
 
-150 Lonsdale Street&nbsp;
+ Dr. Phil D. Jones&nbsp; 
 
-Melbourne, Victoria 3000&nbsp;
+ Climatic Research Unit&nbsp; 
 
-Australia&nbsp;
+ School of Environmental Sciences&nbsp; 
 
-Fax: 61-3-669-4660&nbsp;
+ University of East Anglia&nbsp; 
 
-email: bma@bom.gov.au
+ Norwich NR4 7TJ&nbsp; 
 
+ United Kingdom&nbsp; 
 
+ Fax: 44-603-507-784&nbsp; 
 
-Subproject 10
+ email: FO28@EAST-ANGLIA.AC.UK&nbsp; 
+ 
 
-Prof. Stefano Tibaldi&nbsp;
+ 
+    Subproject 22    
 
-ADGBN Atmospheric Dynamics Group&nbsp;
+ Dr. Hiroshi L. Tanaka&nbsp; 
 
-University of Bologna, Depart. of Physics&nbsp;
+ Institute of Geoscience&nbsp; 
 
-Viale Carlo Berti Pichat 6/2&nbsp;
+ University of Tsukuba&nbsp; 
 
-40127 Bologna&nbsp;
+ Tsukuba, 305&nbsp; 
 
-Italy&nbsp;
+ Japan&nbsp; 
 
-Fax: 39 51 6305074/ 3951247244&nbsp;
+ Fax: 81 298 51 9764 
 
-email: Tibaldi@astbol.bo.cnr.it
+ email: tanaka@atm.geo.tsukuba.ac.jp&nbsp; 
+ 
 
+ 
+    Subproject 23    
 
+ Prof. Sultan Hameed&nbsp; 
 
-Subproject 11
+ Institute for Terrestrial and Planetary Atmospheres&nbsp; 
 
-Prof. Alan Robock&nbsp;
+ Marine Sciences Research Center&nbsp; 
 
-Department of Meteorology&nbsp;
+ State University of New York&nbsp; 
 
-University of Maryland&nbsp;
+ Stony Brook, NY 11794-5000&nbsp; 
 
-College Park, MD 20742-2425&nbsp;
+ Fax: 516 632 8379&nbsp; 
 
-Fax: (301) 314-9482
+ email: hameed@atmsci.sunysb.edu&nbsp; 
+ 
 
-email: alan@atmos.umd.edu
+ 
+    Subproject 24    
 
+ Dr. George S. Golitsyn&nbsp; 
 
+ Institute of Atmospheric Physics&nbsp; 
 
-Subproject 12
+ Russian Academy of Sciences&nbsp; 
 
-Prof. Ann Henderson-Sellers&nbsp;
+ 3 Pyzhevsky, Moscow 109017&nbsp; 
 
-Climatic Impacts Centre&nbsp;
+ Russia&nbsp; 
 
-School of Earth Sciences&nbsp;
+ Fax: 7-095-233 1652&nbsp; 
 
-Macquarie University&nbsp;
+ email: ifaran@rinarostra.msk.su&nbsp; 
+ 
 
-North Ryde, NSW 2109&nbsp;
+ 
+    Subproject 25    
 
-Australia&nbsp;
+ Dr. Wei-Chyung Wang&nbsp; 
 
-Fax: 8 011 61 2 850 9671&nbsp;
+ Atmospheric Sciences Research Center&nbsp; 
 
-email: ann@mgmet.cic.mq.edu.au&nbsp;
+ State University of New York at Albany&nbsp; 
 
+ 100 Fuller Rd.&nbsp; 
 
-&nbsp;
+ Albany, NY 12205&nbsp; 
 
+ Fax: (518) 442-3360&nbsp; 
 
+ email: wang@climate.ASRC.Albany.edu&nbsp; 
+ 
 
+ 
+    Subproject 26 
+   Dr. Sulochana Gadgil&nbsp; 
 
+ Centre for Atmospheric Sciences&nbsp; 
 
-Subproject 13
+ Indian Institute for Science&nbsp; 
 
-Dr. Igor Mokhov&nbsp;
+ Bangalore 560 012&nbsp; 
 
-Institute of Atmospheric Physics&nbsp;
+ India&nbsp; 
 
-Academy of Science&nbsp;
+ Fax: 91 80 334 1683&nbsp; 
 
-3 Phzhevsky 109017&nbsp;
+ e-mail: sulo@cas.iisc.ernet.in 
+ 
 
-Moscow, Russia&nbsp;
+  &nbsp;  
 
-Fax: 7-095-233 1652&nbsp;
+ 
+  Return to AMIP Modeling Participants
+List&nbsp; 
+  Return to AMIP Diagnostic Subproject Leaders
+List&nbsp; 
+  Return to AMIP home
+page &nbsp; 
+ Return to PCMDI home page &nbsp; 
 
-email: root@iaph.msk.su&nbsp;
+ 
+ Last update February 16, 1997. For address changes, contact
+ Anna McCravy .&nbsp; 
+   &nbsp;and&nbsp; LLNL
+Disclaimers  
 
-
-
-
-
-Prof. Bryan C. Weare&nbsp;
-
-Department of Land, Air and Water Resources
-
-Atmospheric Science Section&nbsp;
-
-University of California, Davis&nbsp;
-
-Davis, CA 95616&nbsp;
-
-Fax: (916) 752-1552&nbsp;
-
-email: bcweare@ucdavis.edu&nbsp;
-
-
-
-
-
-&nbsp;
-
-
-Subproject 14
-
-Dr. Gerald L. Potter&nbsp;
-
-PCMDI&nbsp;
-
-Lawrence Livermore National Laboratory
-
-P.O. Box 808, L-264&nbsp;
-
-Livermore, CA 94550&nbsp;
-
-Fax: 510-422-7675&nbsp;
-
-email: gpotter@llnl.gov&nbsp;
-
-
-
-Subproject 15
-
-Dr. Raymond Hide&nbsp;
-
-c/o Dr. Jean O. Dickey&nbsp;
-
-Space Geodetic Science and Applications Group&nbsp;
-
-Mail Stop 238-232&nbsp;
-
-Jet Propulsion Laboratory&nbsp;
-
-4800 Oak Grove Drive&nbsp;
-
-Pasadena, CA 91109&nbsp;
-
-Fax: (818) 393-6890&nbsp;
-
-
-
-Subproject 16
-
-Prof. Carlos R. Mechoso
-
-Department of Atmospheric Sciences&nbsp;
-
-University of California, Los Angeles&nbsp;
-
-405 Hilgard Avenue&nbsp;
-
-Los Angeles, CA 90024
-
-Fax: (310) 206-5219&nbsp;
-
-email: mechoso@atmos.ucla.edu
-
-
-
-Subproject 17
-
-Dr. Donald Perkey
-
-Institute for Global Change Research and Education
-
-Huntsville, AL 35812
-
-Fax: (205) 544-5760&nbsp;
-
-email:&nbsp;
-
-
-
-Subproject 18
-
-Dr. Valentin P. Meleshko&nbsp;
-
-Main Geophysical Observatory&nbsp;
-
-7 Karbyshev Street&nbsp;
-
-St. Petersburg 194018&nbsp;
-
-Russia&nbsp;
-
-Fax: 7-812-247-01-03&nbsp;
-
-email: vmeleshk@mgo.spb.su
-
-
-&nbsp;
-
-
-
-
-
-Subproject 19
-
-Prof. John R. Christy&nbsp;
-
-Earth System Science Laboratory&nbsp;
-
-Research Institute Room A-11&nbsp;
-
-The University of Alabama in Huntsville&nbsp;
-
-Huntsville, AL 35899&nbsp;
-
-Fax: (205) 895-6970&nbsp;
-
-
-
-
-
-
-Prof. Bryan C. Weare&nbsp;
-
-Department of Land, Air and Water Resources
-
-Atmospheric Science Section&nbsp;
-
-University of California, Davis&nbsp;
-
-Davis, CA 95616&nbsp;
-
-Fax: (916) 752-1552&nbsp;
-
-email: bcweare@ucdavis.edu&nbsp;
-
-
-
-
-
-&nbsp;
-
-
-Subproject 20
-
-Dr. Bruce Hewitson&nbsp;
-
-Department of Environmental and Geographical Science&nbsp;
-
-University of Cape Town&nbsp;
-
-Randebosch 7700&nbsp;
-
-Cape Town, South Africa&nbsp;
-
-Fax: 27 21 650 3791&nbsp;
-
-email: hewitson@enviro.uct.ac.az&nbsp;
-
-
-
-Subproject 21
-
-Dr. Phil D. Jones&nbsp;
-
-Climatic Research Unit&nbsp;
-
-School of Environmental Sciences&nbsp;
-
-University of East Anglia&nbsp;
-
-Norwich NR4 7TJ&nbsp;
-
-United Kingdom&nbsp;
-
-Fax: 44-603-507-784&nbsp;
-
-email: FO28@EAST-ANGLIA.AC.UK&nbsp;
-
-
-
-Subproject 22
-
-Dr. Hiroshi L. Tanaka&nbsp;
-
-Institute of Geoscience&nbsp;
-
-University of Tsukuba&nbsp;
-
-Tsukuba, 305&nbsp;
-
-Japan&nbsp;
-
-Fax: 81 298 51 9764
-
-email: tanaka@atm.geo.tsukuba.ac.jp&nbsp;
-
-
-
-Subproject 23
-
-Prof. Sultan Hameed&nbsp;
-
-Institute for Terrestrial and Planetary Atmospheres&nbsp;
-
-Marine Sciences Research Center&nbsp;
-
-State University of New York&nbsp;
-
-Stony Brook, NY 11794-5000&nbsp;
-
-Fax: 516 632 8379&nbsp;
-
-email: hameed@atmsci.sunysb.edu&nbsp;
-
-
-
-Subproject 24
-
-Dr. George S. Golitsyn&nbsp;
-
-Institute of Atmospheric Physics&nbsp;
-
-Russian Academy of Sciences&nbsp;
-
-3 Pyzhevsky, Moscow 109017&nbsp;
-
-Russia&nbsp;
-
-Fax: 7-095-233 1652&nbsp;
-
-email: ifaran@rinarostra.msk.su&nbsp;
-
-
-
-Subproject 25
-
-Dr. Wei-Chyung Wang&nbsp;
-
-Atmospheric Sciences Research Center&nbsp;
-
-State University of New York at Albany&nbsp;
-
-100 Fuller Rd.&nbsp;
-
-Albany, NY 12205&nbsp;
-
-Fax: (518) 442-3360&nbsp;
-
-email: wang@climate.ASRC.Albany.edu&nbsp;
-
-
-
-Subproject 26
-Dr. Sulochana Gadgil&nbsp;
-
-Centre for Atmospheric Sciences&nbsp;
-
-Indian Institute for Science&nbsp;
-
-Bangalore 560 012&nbsp;
-
-India&nbsp;
-
-Fax: 91 80 334 1683&nbsp;
-
-e-mail: sulo@cas.iisc.ernet.in
-
-
-&nbsp;
-
-
-Return to AMIP Modeling Participants
-List&nbsp;
-Return to AMIP Diagnostic Subproject Leaders
-List&nbsp;
-Return to AMIP home
-page&nbsp;
-Return to PCMDI home page&nbsp;
-
-
-Last update February 16, 1997. For address changes, contact
-Anna McCravy.&nbsp;
-&nbsp;and&nbsp;LLNL
-Disclaimers
-
-
-
+ 
+ 

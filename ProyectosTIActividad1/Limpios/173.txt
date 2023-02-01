@@ -1,160 +1,160 @@
+ 
 
+ 
 
+ CDT | FBI Surveillance Activity Data - Arizona 
 
+ 
+ 
+ 
 
-CDT | FBI Surveillance Activity Data - Arizona
+  APPENDIX A: ARIZONA  
 
-
-
-
-
-APPENDIX A: ARIZONA
-
-
-NOTICE OF CAPACITY REQUIREMENTS BY COUNTY
-FOR
-
-TELECOMMUNICATIONS CARRIERS PROVIDING
-LOCAL SERVICES
-
-
-Numbers represent historical simultaneous interceptions
+ 
+   NOTICE OF CAPACITY REQUIREMENTS BY COUNTY
+FOR   
+ 
+   TELECOMMUNICATIONS CARRIERS PROVIDING
+LOCAL SERVICES 
+   
+ 
+ Numbers represent historical simultaneous interceptions
 and an estimation of the simultaneous requirement of pen register,
 trap and trace, and call content interceptions that may be conducted
-anywhere within a county.*
+anywhere within a county. *  
+ 
+ 
+ 
+        County Requirement  
+  
 
+        
+    
 
+   State    County  
+   Estimated Actual Interceptions That May Be Conducted  
+    Estimated Maximum Interceptions That May Be Conducted  
+    Historical Experience  
+  
 
-County Requirement
+   Arizona   Apache   2 
+   3    0 
+  
 
+        
+    
 
+   Arizona   Cochise 
+  37    49 
+   29   
 
+        
+    
 
+   Arizona   Coconino 
+  6    8 
+   4   
 
-StateCounty
-Estimated Actual Interceptions That May Be Conducted
-Estimated Maximum Interceptions That May Be Conducted
-Historical Experience
+        
+    
 
+   Arizona   Gila   2 
+   3    0 
+  
 
-ArizonaApache2
-30
+        
+    
 
+   Arizona   Graham   2 
+   3    0 
+  
 
+        
+    
 
+   Arizona   Greenlee 
+  2    3 
+   0   
 
+        
+    
 
-ArizonaCochise
-3749
-29
+   Arizona   La Paz   2 
+   3    0 
+  
 
+        
+    
 
+   Arizona   Maricopa 
+  502    655 
+   398   
 
+        
+    
 
-ArizonaCoconino
-68
-4
+   Arizona   Mohave   21 
+   28    16 
+  
 
+        
+    
 
+   Arizona   Navajo   2 
+   3    1 
+  
 
+        
+    
 
-ArizonaGila2
-30
+   Arizona   Pima   148 
+   193    117 
+  
 
+        
+    
 
+   Arizona   Pinal   14 
+   19    11 
+  
 
+        
+    
 
+   Arizona   Santa Cruz 
+  14    19 
+   11   
 
-ArizonaGraham2
-30
+        
+    
 
+   Arizona   Yavapai 
+  17    23 
+   13   
 
+        
+    
 
+   Arizona   Yuma   41 
+   54    32 
+  
 
+ 
 
-ArizonaGreenlee
-23
-0
-
-
-
-
-ArizonaLa Paz2
-30
-
-
-
-
-
-ArizonaMaricopa
-502655
-398
-
-
-
-
-ArizonaMohave21
-2816
-
-
-
-
-
-ArizonaNavajo2
-31
-
-
-
-
-
-ArizonaPima148
-193117
-
-
-
-
-
-ArizonaPinal14
-1911
-
-
-
-
-
-ArizonaSanta Cruz
-1419
-11
-
-
-
-
-ArizonaYavapai
-1723
-13
-
-
-
-
-ArizonaYuma41
-5432
-
-
-
-
-
-* The term &quot;county&quot; includes
+ 
+  *   The term &quot;county&quot; includes
 boroughs and parishes as well as the District of Columbia and
 independent cities. U.S. territories (i.e., American Samoa, Guam,
 Mariana Islands, Puerto Rico, and the U.S. Virgin Islands) were
 considered as single entities.
+ 
 
+ 
+ Back. 
+ 
+ CDT Digital Telephony Page. 
+ 
+ CDT Home Page. 
+ 
 
-
-Back.
-
-CDT Digital Telephony Page.
-
-CDT Home Page.
-
-
-
+ 

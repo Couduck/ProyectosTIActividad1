@@ -1,252 +1,252 @@
-
-
-/data/webdev/libiss/tr11.html Sample Issue
-
-
-
-
-Copyright 
-TRAVEL TRADE GAZETTE ASIA via NewsNet 
-September 26, 1996
-SAMPLE ISSUE HEADLINES
-
-
-INDONESIAN SKIES OPEN&nbsp&nbsp&nbsp(103 words)
-
-
-
-INDIAN FLYER PLAN TAKES OFF&nbsp&nbsp&nbsp(115 words)
-
-
-
-TOURISM CO-OPERATIVE&nbsp&nbsp&nbsp(202 words)
-
-
-
-ASIA HAILS NEW LEISURE ALLIANCE&nbsp&nbsp&nbsp(345 words)
-
-
-
-MATHIS IS PENANG-BOUND&nbsp&nbsp&nbsp(114 words)
-
-
-
-RITZ-CARLTON'S ROOMS MANAGER&nbsp&nbsp&nbsp(60 words)
-
-
-
-IHA'S SPEARMAN RETIRES TO SPAIN&nbsp&nbsp&nbsp(260 words)
-
-
-
-FOREIGN INVESTMENT GROWING&nbsp&nbsp&nbsp(177 words)
-
-
-
-LAOS CONTINUES TO DEVELOP&nbsp&nbsp&nbsp(200 words)
-
-
-
-CAMBODIANS HOLD TREK TOURS&nbsp&nbsp&nbsp(209 words)
-
-
-
-VIETNAM: AIRPORT INVESTMENT GROWING&nbsp&nbsp&nbsp(205 words)
-
-
-
-COMFORTABLE CHAOS IN HANOI&nbsp&nbsp&nbsp(574 words)
-
-
-
-A DESTINATION WITH AUTHENTICITY&nbsp&nbsp&nbsp(639 words)
-
-
-
-HONG KONG: RITZ-CARLTON'S AUTUMN DELIGHT&nbsp&nbsp&nbsp(152 words)
-
-
-
-HONG KONG: CRUISE POTENTIAL HAMPERED BY FACILITIES&nbsp&nbsp&nbsp(676 words)
-
-
-
-HONG KONG: THEME PARK IDEA TAKING OFF&nbsp&nbsp&nbsp(146 words)
-
-
-
-HONG KONG: GOING TO WATER FOR HANDOVER&nbsp&nbsp&nbsp(732 words)
-
-
-
-HONG KONG: NEW PARK PLANS CONSIDERED&nbsp&nbsp&nbsp(208 words)
-
-
-
-HONG KONG: A BACK-FLIP ON ECO-TOURISM&nbsp&nbsp&nbsp(520 words)
-
-
-
-DEVELOPMENT PUSH FOR LANTAU&nbsp&nbsp&nbsp(544 words)
-
-
-
-HIGH AIRPORT INVESTMENT&nbsp&nbsp&nbsp(173 words)
-
-
-
-NAME CHOICE FOR CONRAD HK&nbsp&nbsp&nbsp(119 words)
-
-
-
-DE LIMA TO CLOSE&nbsp&nbsp&nbsp(291 words)
-
-
-
-HOTELS FEAR PHONE SURCHARGE CUT&nbsp&nbsp&nbsp(434 words)
-
-
-
-EXPEDIA FOR LEISURE TRAVELLERS&nbsp&nbsp&nbsp(67 words)
-
-
-
-IBM TRAVEL SOFTWARE&nbsp&nbsp&nbsp(161 words)
-
-
-
-INTER-CONTINENTAL GOES ON-LINE&nbsp&nbsp&nbsp(141 words)
-
-
-
-NEW CYBERNOMICS THREAT TO TRAVEL AGENTS&nbsp&nbsp&nbsp(765 words)
-
-
-
-NEW LIFE TO EVENT WHICH MAINTAINS ITS INTEGRITY&nbsp&nbsp&nbsp(264 words)
-
-
-
-MYSTERY OF ABSENT FRIENDS&nbsp&nbsp&nbsp(180 words)
-
-
-
-SPOTLIGHT ON USTTA OPTIONS&nbsp&nbsp&nbsp(88 words)
-
-
-
-PRAISE FOR TWO-WAY TOURISM&nbsp&nbsp&nbsp(187 words)
-
-
-
-ASIAN MARKETS POSE A CHALLENGE&nbsp&nbsp&nbsp(492 words)
-
-
-
-MIXED VIEWS OVER PULL-OUT&nbsp&nbsp&nbsp(315 words)
-
-
-
-THUMBS UP FOR PATA'S FIRST US FAIR&nbsp&nbsp&nbsp(393 words)
-
-
-
-NEW THEME PARK&nbsp&nbsp&nbsp(102 words)
-
-
-
-CRUISE CALL TO THAILAND&nbsp&nbsp&nbsp(206 words)
-
-
-
-SINGAPOREANS GOING FOR ECO-TOURS&nbsp&nbsp&nbsp(325 words)
-
-
-
-JAKARTA HOTEL NAME CHANGE&nbsp&nbsp&nbsp(173 words)
-
-
-
-ANA FLAT OUT FOR SUCCESS&nbsp&nbsp&nbsp(119 words)
-
-
-
-AUSTRALIA: SINGLE AIR MARKET GOAL&nbsp&nbsp&nbsp(290 words)
-
-
-
-ASIANS WOOED WITH OUTBACK DEAL&nbsp&nbsp&nbsp(355 words)
-
-
-
-TRAVEL TRADE ASIA: INTERNATIONAL EVENTS GUIDE '96&nbsp&nbsp&nbsp(437 words)
-
-
-
-LAOS' TRAGIC LOSS A LESSON FOR INDUSTRY&nbsp&nbsp&nbsp(374 words)
-
-
-
-LAO AVIATION STRUGGLES&nbsp&nbsp&nbsp(125 words)
-
-
-
-BUSY TIME FOR INDONESIA&nbsp&nbsp&nbsp(117 words)
-
-
-
-FEE BATTLE LOOMING&nbsp&nbsp&nbsp(376 words)
-
-
-
-AGENTS CAN WIN GAMES EXCLUSIVE&nbsp&nbsp&nbsp(241 words)
-
-
-
-OPERATORS HAIL BEIJING'S DRIVE TO RAISE STANDARDS&nbsp&nbsp&nbsp(180 words)
-
-
-
-HAWAII EYES VISA WAIVER&nbsp&nbsp&nbsp(199 words)
-
-
-
-HONG KONG: TRADE DOES NOT FEAR NET&nbsp&nbsp&nbsp(435 words)
-
-
-
-JAKARTA RATES STILL FALLING&nbsp&nbsp&nbsp(214 words)
-
-
-
-SINGAPORE: ATTRACTIONS DISTRACTIONS&nbsp&nbsp&nbsp(245 words)
-
-
-
-LUFTHANSA QUITTING NEPAL&nbsp&nbsp&nbsp(430 words)
-
-
-
-NO MORE FLIGHTS&nbsp&nbsp&nbsp(110 words)
-
-
-
-REBELS HURTING IRIAN TREKKING TOURS&nbsp&nbsp&nbsp(308 words)
-
-
-
-INDIA: AGENTS SLAM IA FARE HIKE&nbsp&nbsp&nbsp(281 words)
-
-
-
-TOUR AGENTS KILLED IN LAOS&nbsp&nbsp&nbsp(476 words)
-
-
-
-
-
-
-Copyright
+ 
+ 
+ /data/webdev/libiss/tr11.html Sample Issue 
+ 
+ 
+ 
+  
+Copyright  
+TRAVEL TRADE GAZETTE ASIA via NewsNet  
+September 26, 1996 
+SAMPLE ISSUE HEADLINES   
+ 
+ 
+  INDONESIAN SKIES OPEN &nbsp&nbsp&nbsp (103 words)  
+ 
+ 
+ 
+  INDIAN FLYER PLAN TAKES OFF &nbsp&nbsp&nbsp (115 words)  
+ 
+ 
+ 
+  TOURISM CO-OPERATIVE &nbsp&nbsp&nbsp (202 words)  
+ 
+ 
+ 
+  ASIA HAILS NEW LEISURE ALLIANCE &nbsp&nbsp&nbsp (345 words)  
+ 
+ 
+ 
+  MATHIS IS PENANG-BOUND &nbsp&nbsp&nbsp (114 words)  
+ 
+ 
+ 
+  RITZ-CARLTON'S ROOMS MANAGER &nbsp&nbsp&nbsp (60 words)  
+ 
+ 
+ 
+  IHA'S SPEARMAN RETIRES TO SPAIN &nbsp&nbsp&nbsp (260 words)  
+ 
+ 
+ 
+  FOREIGN INVESTMENT GROWING &nbsp&nbsp&nbsp (177 words)  
+ 
+ 
+ 
+  LAOS CONTINUES TO DEVELOP &nbsp&nbsp&nbsp (200 words)  
+ 
+ 
+ 
+  CAMBODIANS HOLD TREK TOURS &nbsp&nbsp&nbsp (209 words)  
+ 
+ 
+ 
+  VIETNAM: AIRPORT INVESTMENT GROWING &nbsp&nbsp&nbsp (205 words)  
+ 
+ 
+ 
+  COMFORTABLE CHAOS IN HANOI &nbsp&nbsp&nbsp (574 words)  
+ 
+ 
+ 
+  A DESTINATION WITH AUTHENTICITY &nbsp&nbsp&nbsp (639 words)  
+ 
+ 
+ 
+  HONG KONG: RITZ-CARLTON'S AUTUMN DELIGHT &nbsp&nbsp&nbsp (152 words)  
+ 
+ 
+ 
+  HONG KONG: CRUISE POTENTIAL HAMPERED BY FACILITIES &nbsp&nbsp&nbsp (676 words)  
+ 
+ 
+ 
+  HONG KONG: THEME PARK IDEA TAKING OFF &nbsp&nbsp&nbsp (146 words)  
+ 
+ 
+ 
+  HONG KONG: GOING TO WATER FOR HANDOVER &nbsp&nbsp&nbsp (732 words)  
+ 
+ 
+ 
+  HONG KONG: NEW PARK PLANS CONSIDERED &nbsp&nbsp&nbsp (208 words)  
+ 
+ 
+ 
+  HONG KONG: A BACK-FLIP ON ECO-TOURISM &nbsp&nbsp&nbsp (520 words)  
+ 
+ 
+ 
+  DEVELOPMENT PUSH FOR LANTAU &nbsp&nbsp&nbsp (544 words)  
+ 
+ 
+ 
+  HIGH AIRPORT INVESTMENT &nbsp&nbsp&nbsp (173 words)  
+ 
+ 
+ 
+  NAME CHOICE FOR CONRAD HK &nbsp&nbsp&nbsp (119 words)  
+ 
+ 
+ 
+  DE LIMA TO CLOSE &nbsp&nbsp&nbsp (291 words)  
+ 
+ 
+ 
+  HOTELS FEAR PHONE SURCHARGE CUT &nbsp&nbsp&nbsp (434 words)  
+ 
+ 
+ 
+  EXPEDIA FOR LEISURE TRAVELLERS &nbsp&nbsp&nbsp (67 words)  
+ 
+ 
+ 
+  IBM TRAVEL SOFTWARE &nbsp&nbsp&nbsp (161 words)  
+ 
+ 
+ 
+  INTER-CONTINENTAL GOES ON-LINE &nbsp&nbsp&nbsp (141 words)  
+ 
+ 
+ 
+  NEW CYBERNOMICS THREAT TO TRAVEL AGENTS &nbsp&nbsp&nbsp (765 words)  
+ 
+ 
+ 
+  NEW LIFE TO EVENT WHICH MAINTAINS ITS INTEGRITY &nbsp&nbsp&nbsp (264 words)  
+ 
+ 
+ 
+  MYSTERY OF ABSENT FRIENDS &nbsp&nbsp&nbsp (180 words)  
+ 
+ 
+ 
+  SPOTLIGHT ON USTTA OPTIONS &nbsp&nbsp&nbsp (88 words)  
+ 
+ 
+ 
+  PRAISE FOR TWO-WAY TOURISM &nbsp&nbsp&nbsp (187 words)  
+ 
+ 
+ 
+  ASIAN MARKETS POSE A CHALLENGE &nbsp&nbsp&nbsp (492 words)  
+ 
+ 
+ 
+  MIXED VIEWS OVER PULL-OUT &nbsp&nbsp&nbsp (315 words)  
+ 
+ 
+ 
+  THUMBS UP FOR PATA'S FIRST US FAIR &nbsp&nbsp&nbsp (393 words)  
+ 
+ 
+ 
+  NEW THEME PARK &nbsp&nbsp&nbsp (102 words)  
+ 
+ 
+ 
+  CRUISE CALL TO THAILAND &nbsp&nbsp&nbsp (206 words)  
+ 
+ 
+ 
+  SINGAPOREANS GOING FOR ECO-TOURS &nbsp&nbsp&nbsp (325 words)  
+ 
+ 
+ 
+  JAKARTA HOTEL NAME CHANGE &nbsp&nbsp&nbsp (173 words)  
+ 
+ 
+ 
+  ANA FLAT OUT FOR SUCCESS &nbsp&nbsp&nbsp (119 words)  
+ 
+ 
+ 
+  AUSTRALIA: SINGLE AIR MARKET GOAL &nbsp&nbsp&nbsp (290 words)  
+ 
+ 
+ 
+  ASIANS WOOED WITH OUTBACK DEAL &nbsp&nbsp&nbsp (355 words)  
+ 
+ 
+ 
+  TRAVEL TRADE ASIA: INTERNATIONAL EVENTS GUIDE '96 &nbsp&nbsp&nbsp (437 words)  
+ 
+ 
+ 
+  LAOS' TRAGIC LOSS A LESSON FOR INDUSTRY &nbsp&nbsp&nbsp (374 words)  
+ 
+ 
+ 
+  LAO AVIATION STRUGGLES &nbsp&nbsp&nbsp (125 words)  
+ 
+ 
+ 
+  BUSY TIME FOR INDONESIA &nbsp&nbsp&nbsp (117 words)  
+ 
+ 
+ 
+  FEE BATTLE LOOMING &nbsp&nbsp&nbsp (376 words)  
+ 
+ 
+ 
+  AGENTS CAN WIN GAMES EXCLUSIVE &nbsp&nbsp&nbsp (241 words)  
+ 
+ 
+ 
+  OPERATORS HAIL BEIJING'S DRIVE TO RAISE STANDARDS &nbsp&nbsp&nbsp (180 words)  
+ 
+ 
+ 
+  HAWAII EYES VISA WAIVER &nbsp&nbsp&nbsp (199 words)  
+ 
+ 
+ 
+  HONG KONG: TRADE DOES NOT FEAR NET &nbsp&nbsp&nbsp (435 words)  
+ 
+ 
+ 
+  JAKARTA RATES STILL FALLING &nbsp&nbsp&nbsp (214 words)  
+ 
+ 
+ 
+  SINGAPORE: ATTRACTIONS DISTRACTIONS &nbsp&nbsp&nbsp (245 words)  
+ 
+ 
+ 
+  LUFTHANSA QUITTING NEPAL &nbsp&nbsp&nbsp (430 words)  
+ 
+ 
+ 
+  NO MORE FLIGHTS &nbsp&nbsp&nbsp (110 words)  
+ 
+ 
+ 
+  REBELS HURTING IRIAN TREKKING TOURS &nbsp&nbsp&nbsp (308 words)  
+ 
+ 
+ 
+  INDIA: AGENTS SLAM IA FARE HIKE &nbsp&nbsp&nbsp (281 words)  
+ 
+ 
+ 
+  TOUR AGENTS KILLED IN LAOS &nbsp&nbsp&nbsp (476 words)  
+ 
+ 
+ 
+  
+ 
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -270,9 +270,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -300,9 +300,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -344,9 +344,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -413,9 +413,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -443,9 +443,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -465,9 +465,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -514,9 +514,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -551,9 +551,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -591,9 +591,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -634,9 +634,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -676,9 +676,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -759,9 +759,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -862,9 +862,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -896,9 +896,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1005,9 +1005,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1037,9 +1037,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1147,9 +1147,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1187,9 +1187,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1274,9 +1274,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1356,9 +1356,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1393,9 +1393,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1421,9 +1421,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1479,9 +1479,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1552,9 +1552,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1576,9 +1576,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1611,9 +1611,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1642,9 +1642,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1760,9 +1760,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1811,9 +1811,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1850,9 +1850,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1876,9 +1876,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1916,9 +1916,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -1999,9 +1999,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2056,9 +2056,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2126,9 +2126,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2154,9 +2154,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2197,9 +2197,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2259,9 +2259,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2299,9 +2299,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2327,9 +2327,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2380,9 +2380,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2444,9 +2444,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2545,9 +2545,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2610,9 +2610,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2641,9 +2641,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2671,9 +2671,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2739,9 +2739,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2786,9 +2786,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2825,9 +2825,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2867,9 +2867,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2935,9 +2935,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -2977,9 +2977,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3025,9 +3025,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3101,9 +3101,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3131,9 +3131,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3188,9 +3188,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3238,9 +3238,9 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-Copyright
+ Back to Headline List  
+ 
+  Copyright
 TRAVEL TRADE GAZETTE ASIA via NewsNet
 September 26, 1996
 
@@ -3322,8 +3322,8 @@ Copyright 1996 Travel Trade Gazette Asia
 
 
 
-Back to Headline List
-
-
-
-
+ Back to Headline List  
+ 
+ 
+ 
+ 

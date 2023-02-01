@@ -1,6 +1,6 @@
-SRL-2 - Weddell Sea, Antarctica
-Weddell Sea, Antarctica 
- 
+ SRL-2 - Weddell Sea, Antarctica 
+ Weddell Sea, Antarctica  
+  
 This Spaceborne Imaging Radar-C/X-band Synthetic Aperture Radar 
 color composite shows a portion of the Weddell Sea, which is 
 adjacent to the continent of Antarctica. The image shows  
@@ -47,15 +47,15 @@ allow further study into ways of improving the separation of the
 various thickness ranges of sea ice, which are vital to 
 understanding the heat balance in the ice, ocean and atmospheric 
 system.
- 
+  
 P-44718 October 5, 1994 
+  
+
  
-
-
-
-
-     Imaging Radar Home Page
-
-
-Updated 03/30/95
-bruce.chapman@jpl.nasa.gov
+ 
+ 
+        Imaging Radar Home Page
+ 
+ 
+ Updated 03/30/95 
+ bruce.chapman@jpl.nasa.gov 

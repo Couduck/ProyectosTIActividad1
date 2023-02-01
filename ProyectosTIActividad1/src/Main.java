@@ -7,6 +7,7 @@ public class Main
     {
         ManejadorArchivos manejadorArchivos = new ManejadorArchivos();      //Se crea objeto de tipo manejadorArchivos
         //manejadorArchivos.abrirTodaslasPaginas();
-        manejadorArchivos.removerTodasLasEtiquetas();
+        //manejadorArchivos.removerTodasLasEtiquetas();
+        manejadorArchivos.generarDiccionario();
     }
 }

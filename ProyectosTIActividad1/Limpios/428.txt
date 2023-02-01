@@ -1,21 +1,21 @@
-
-
-
+ 
+ 
+ 
 Analysis of 1995 ACU Ratings of Congress
+ 
+ 
+ 
 
-
-
-
-
-
-
+ 
+ 
+ 
 Analysis of 1995 ACU Ratings of Congress
+ 
+ 
 
-
-
-
+ 
 A NOTE ON VOTE SELECTION:
-
+ 
 
 Four  categories of votes.  As the umbrella lobbying
 group of the conservative movement, ACU
@@ -37,7 +37,7 @@ we can obtain a comprehensive picture of an
 
 individual Member's ideological predisposition, based
 on votes cast.
-
+ 
 
 
 
@@ -53,7 +53,7 @@ votes we select to rate are not necessarily
 
 those considered the &quot;most important&quot; or
 the &quot;key&quot; votes of any given congressional session.
-
+ 
 
 And they may not be votes we took a position or lobbied
 on during floor consideration.  They are
@@ -65,7 +65,7 @@ Members of Congress stand on an ideological scale.
 
 
 
-
+ 
 
 
 
@@ -83,7 +83,7 @@ voted no.  Similarly, many liberals voted no, but
 
 a significant number voted yes.
 
-
+ 
 
 
 
@@ -97,7 +97,7 @@ other organizations which provide ratings of
 Congress, such as the AFL-CIO, the Christian Coalition,
 or the Chamber of Commerce.
 
-
+ 
 
 
 
@@ -117,30 +117,30 @@ Balanced Budget Act.
 
 
 
-
+ 
 The breakdown is as follows:
+ 
 
-
-
+ 
 House                   
 
-Economic/budget           	6                     
-Social/cultural                	7              
-Defense/foreign policy     	4                    
-Institutional Reform          	6                 
+Economic/budget           	6                      
+Social/cultural                	7               
+Defense/foreign policy     	4                     
+Institutional Reform          	6                  
 
 
-Senate
+Senate 
 
-Economic/budget           	6
-Social/cultural                	8
-Defense/foreign policy     	2
+Economic/budget           	6 
+Social/cultural                	8 
+Defense/foreign policy     	2 
 Institutional Reform          	6
 
-
-
+ 
+ 
 WHAT DO THE DATA SHOW?
-
+ 
 
 
 Two types of analysis.  We did two types of analysis
@@ -151,7 +151,7 @@ look at the Congress in the first session of the
 
 look at vote trends over the last ten years.
 
-
+ 
 
 
 
@@ -169,7 +169,7 @@ decades, are reflected in the ideological vote patterns.
 increases in their &quot;conservative quotient,&quot;
 as would be expected.
 
-
+ 
 
 
 
@@ -181,7 +181,7 @@ of 0.  Of the 73 Republican freshmen, there were
 
 than one-fifth of the entire House, they accounted
 for just less than half of all the perfect 100s.
-
+ 
 
 
 
@@ -191,7 +191,7 @@ Hall, who scored a 76.  The most
 
 liberal Republican in the House was Connie Morella,
 who scored a 25.
-
+ 
 
 
 
@@ -203,7 +203,7 @@ Boehner scored an 88; Dick Gephardt scored a 12;
 David Bonior scored a 12; Vic Fazio scored
 
 an 8.
-
+ 
 
 
 
@@ -212,7 +212,7 @@ scores of 100; there were 11 perfect liberal scores
 
 of 0.
 
-
+ 
 
 
 
@@ -224,7 +224,7 @@ Inouye, Akaka, Sarbanes, Levin, Kerrey,
 
 Lautenberg, Bingaman, Moynihan, Leahy, and Murray.
 
-
+ 
 
 
 
@@ -236,7 +236,7 @@ both of whom scored a 35.  The most liberal Republican
 in the Senate was Jim Jeffords, who
 
 scored a 23.  
-
+ 
 
 
 
@@ -247,7 +247,7 @@ scored a 100; Tom Daschle scored a 4; Wendell Ford
 scored a 13; Ted Kennedy scored a 4; Chris
 
 Dodd scored a 4.  
-
+ 
 
 
 
@@ -261,7 +261,7 @@ provides evidence for the conventional
 wisdom that the Congress is becoming more polarized
 along ideological lines.
 
-
+ 
 
 
 
@@ -276,7 +276,7 @@ freshman Democrats are voting more liberal
 
 than the departing Democrats.  (Use charts for elaboration.)
 
-
+ 
 
 
 
@@ -300,7 +300,7 @@ for Republicans were much higher than normal, with
 most Republicans posting higher
 
 conservative scores than would otherwise have been
-expected.
+expected. 
 
 
 
@@ -321,5 +321,5 @@ Republicans fractured, resulting in some
 
 scores for liberal Republicans that were even lower
 than usual.
-
-
+ 
+ 
