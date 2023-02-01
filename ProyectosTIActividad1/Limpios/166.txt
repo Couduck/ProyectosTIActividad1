@@ -25,7 +25,7 @@ Internet Connection Server Webmaster's Guide
 
 &nbsp;
 
-Welcome&#33;
+Welcome
 
 This book describes both the IBM Internet Connection Server and the IBM Internet Connection Secure Server for OS/2 Warp.
 
@@ -164,7 +164,7 @@ Configuration directives new in Version 4.1:
             BindSpecific                                                       
                                                                                
 
-&#91; Top of Page &#124; Previous Page &#124; Next Page &#124; Table of Contents &#93;
+ Top of Page  Previous Page  Next Page  Table of Contents 
 &nbsp;
 
 

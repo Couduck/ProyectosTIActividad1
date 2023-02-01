@@ -37,7 +37,7 @@ CHAPTER 122-ENCRYPTED WIRE AND ELECTRONIC COMMUNICATIONS
 &quot;2804. Prohibition on mandatory key escrow.
 &quot;2805. Unlawful use of encryption in furtherance of a criminal act.
 
-&quot;&#167;2801. Definitions
+&quot;2801. Definitions
 &quot;As used in this chapter --
 &quot;(1) the terms 'person', 'State', 'wire communications, electronic
 communication', 'investigate or law enforcement officer', 'judge of competent
@@ -61,21 +61,21 @@ is owned or controlled by individuals or persons described in subparagraphs
 (A) and (B). 
 
 
-&quot;&#167;2802. Freedom to use encryption
+&quot;2802. Freedom to use encryption
 
 &quot;Subject to Section 2805, it shall be lawful for any person within
 any State, and for any United States citizen in a foreign country, to use
 any encryption, regardless of the encryption algorithm selected, encryption
 key length chosen, or implementation technique or medium used. 
 
-&quot;&#167;2803. Freedom to sell encryption
+&quot;2803. Freedom to sell encryption
 
 &quot;Subject to section 2805, it shall be lawful for any person within
 any State to sell in interstate commerce any encryption, regardless of the
 encryption algorithm selected encryption key length chosen, or implementation
 technique or medium used.
 
-&quot;&#167;2804. Prohibition on mandatory key escrow
+&quot;2804. Prohibition on mandatory key escrow
 
 &quot;(a) PROHIBITION. -- No person in lawful possession of a key to encrypted
 information may be required by Federal or State law to relinquish to another
@@ -85,7 +85,7 @@ person control of that key.
 officer, under any law in effect on the effective date of this chapter,
 to gain access to a key to encrypted information. 
 
-&quot;&#167;2805. Unlawful use of encryption in furtherance of a
+&quot;2805. Unlawful use of encryption in furtherance of a
 criminal act
 
 &quot;Any person who willfully uses encryption in furtherance of the commission

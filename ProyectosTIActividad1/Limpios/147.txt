@@ -471,11 +471,11 @@ email: wen@wen.asalpha1.as.ntu.tw
 
 Dr. Harold Ritchie
 
-Recherche en pr&eacute;vision numerique
+Recherche en prévision numerique
 
 2121 Trans-Canada Highway #500
 
-Dorval, Qu&eacute;bec H9P 1J3&nbsp;
+Dorval, Québec H9P 1J3&nbsp;
 
 Canada&nbsp;
 
@@ -716,7 +716,7 @@ Subproject 4
 
 Dr. P. Duvel&nbsp;
 
-Laboratoire de M&eacute;t&eacute;orologique Dynamique
+Laboratoire de Météorologique Dynamique
 
 Ecole Polytechnique&nbsp;
 
@@ -735,7 +735,7 @@ email: duvel@lmdx12.polytechnique.fr
 
 Dr. F. Cheruy&nbsp;
 
-Laboratoire de M&eacute;t&eacute;orologique Dynamique
+Laboratoire de Météorologique Dynamique
 
 Ecole Polytechnique&nbsp;
 

@@ -27,7 +27,7 @@ Internet Connection Secure Server Quick Beginnings
 
 Part 1. The IBM Software Servers
 
-Chapter 1. Introducing IBM&#39;s Software Servers
+Chapter 1. Introducing IBMs Software Servers
 
 Congratulations on choosing the
 IBM Internet Connection Secure Server for OS/2 Warp.
@@ -38,7 +38,7 @@ client-server networks.
 This new server and client software is part of a family of
 IBM and Lotus products.  It will help you to quickly install and make
 use of multi-functional, compatible servers.  These servers cover a
-broad range of needs&#58;  from
+broad range of needs  from
 an entry-level database server to a server
 for comprehensive systems management of sophisticated networks.
 Other technology at your fingertips enables you to quickly
@@ -109,7 +109,7 @@ most complete application server environment where
 personal computer technology is deployed.
 To learn how to install your server,
 refer to Chapter 4. "Installing your server".
-&#91; Top of Page &#124; Previous Page &#124; Next Page &#124; Table of Contents &#93;
+ Top of Page  Previous Page  Next Page  Table of Contents 
 &nbsp;
 
 

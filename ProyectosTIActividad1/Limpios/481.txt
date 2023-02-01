@@ -2,19 +2,19 @@
 
 
 
-Informaci&oacute;n Estad&iacute;stica (cont.1)
+Información Estadística (cont.1)
 
 
 
 
-&#160;
-&#160;
+
+
 
     
         
          
         
-        P&aacute;gina
+        Página
         Anterior
     
 
@@ -26,8 +26,8 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
         
             
                 Tabla
-                comparativa de Reservas de Petr&oacute;leo y Gas
-                de las Principales Compa&ntilde;&iacute;as
+                comparativa de Reservas de Petróleo y Gas
+                de las Principales Compa&ntilde;ías
                 Petroleras en 1994 que Cotizan en la Bolsa de New
                 York
                 (miles de millones de B.P.E)
@@ -42,7 +42,7 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
         
             
                 Ventas por
-                Areas Geogr&aacute;ficas
+                Areas Geográficas
                 % Total en el Mundo
             
             
@@ -54,7 +54,7 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
         
             
                 Reservas
-                por Areas Geogr&aacute;ficas
+                por Areas Geográficas
                 % Total en el Mundo
             
         
@@ -65,8 +65,8 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
         
         
             
-                Producci&oacute;n
-                de Petr&oacute;leo
+                Producción
+                de Petróleo
                 % Total Argentina
             
         
@@ -77,7 +77,7 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
         
         
             
-                Producci&oacute;n
+                Producción
                 de Gas Natural
                 % Total Argentina
             
@@ -103,7 +103,7 @@ Informaci&oacute;n Estad&iacute;stica (cont.1)
 
     
         
-        P&aacute;gina
+        Página
         Siguiente 
         
         

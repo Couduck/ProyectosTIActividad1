@@ -78,7 +78,7 @@ insulate the engine, causing it to run hot.
 
 
 
-Copyright &#169;1995, Automotive Information Systems, Inc.
+Copyright 1995, Automotive Information Systems, Inc.
 Site created by Periscope Marketing Communications.
 Last Modified: January 31, 1996.
 

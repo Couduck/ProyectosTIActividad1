@@ -41,7 +41,7 @@ INDUSTRIAL GEARS
         lathe spindles, and machine tools overall lubrication.
     
 
-&#160;
+
 BEARINGS
 AND CIRCULATING SYSTEMS (general use)
 
@@ -67,7 +67,7 @@ AND CIRCULATING SYSTEMS (general use)
         lathe spindles, and machine tools overall lubrication.
     
 
-&#160;
+
 HYDRAULIC SYSTEMS
 
     
@@ -96,7 +96,7 @@ HYDRAULIC SYSTEMS
         hoists, jacks, etc.
     
 
-&#160;
+
 TURBINES
 
     
@@ -117,7 +117,7 @@ TURBINES
         additives.
     
 
-&#160; 
+ 
 AIR
 COMPRESSORS AND VACUUM PUMPS
 
@@ -126,7 +126,7 @@ COMPRESSORS AND VACUUM PUMPS
         Description 
     
     
-        Super M&oacute;vil Normal
+        Super Móvil Normal
         Monograde SAE 20, 30, 40 o 50
         is a line of oils produced on highly refined base
         materials, which are formulated with compounds capable of
@@ -148,7 +148,7 @@ COMPRESSORS AND VACUUM PUMPS
         and average-speed low charge reducers.
     
 
-&#160;
+
 REFRIGERATING
 COMPRESSORS
 
@@ -163,7 +163,7 @@ COMPRESSORS
         for commercial use.
     
 
-&#160;
+
 STATIONARY GAS
 ENGINES
 
@@ -180,7 +180,7 @@ ENGINES
         refinery gases, gases from gas pipelines, etc.
     
 
-&#160;
+
 TEXTILE MACHINERY
 
     
@@ -201,7 +201,7 @@ TEXTILE MACHINERY
         inhibiting additives.
     
 
-&#160; 
+ 
 STEAM MACHINE
 CYLINDERS
 
@@ -216,7 +216,7 @@ CYLINDERS
         lubricate endless and ring type reducing mechanisms.
     
 
-&#160;
+
 GRINDING
 MILL NECKS AND GEARS/EXPOSED MECHANISMS
 
@@ -246,7 +246,7 @@ MILL NECKS AND GEARS/EXPOSED MECHANISMS
         furnace chains requiring highly adhesive lubes.
     
 
-&#160;
+
 ROCK DRILL
 
     
@@ -260,7 +260,7 @@ ROCK DRILL
         Ingersoll Rand air compressor cylinders and air hammers.
     
 
-&#160; 
+ 
 MACHINE TOOLS GUIDES
 
     
@@ -274,7 +274,7 @@ MACHINE TOOLS GUIDES
         Ingersoll Rand air compressor cylinders and air hammers.
     
 
-&#160;
+
 INSULANTS FOR POWER
 USE
 
@@ -289,7 +289,7 @@ USE
         an oil bath.
     
 
-&#160;
+
 METAL MACHINING
 
     
@@ -304,7 +304,7 @@ METAL MACHINING
         addition of an emulsifier to disperse oil in water.
     
 
-&#160;
+
 THERMAL TREATMENTS
 
     
@@ -318,7 +318,7 @@ THERMAL TREATMENTS
         con el objeto de lograr temples duros.
     
 
-&#160;
+
 HEAT TRANSFER
 
     
@@ -338,7 +338,7 @@ HEAT TRANSFER
         type gas turbines and on machine tools hydraulic systems.
     
 
-&#160;
+
 CORROSION INHIBITORS
 
     
@@ -352,7 +352,7 @@ CORROSION INHIBITORS
         parts in order to inhibit rust and corrosion.
     
 
-&#160;
+
 MARINE:
 For application to marine engines
 

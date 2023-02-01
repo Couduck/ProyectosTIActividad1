@@ -15,7 +15,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioBorradoEtiquetas = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en cargar todas las páginas
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 490; i++)
+        for(int i = 2; i < 504; i++)
         {
             //Se genera el link del archivo cuyas etiquetas sevan a remover en la iteración
             String linkActual = "Files\\" + this.numeroAString(i) + ".html";
@@ -129,15 +129,15 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     //Quita las etiquetas de la página del link correspondiente
     public void quitarEtiquetas(String link, int num) throws IOException {
-        FileWriter fileEscritura = new FileWriter("Limpios\\" + this.numeroAString(num) + ".txt");
-        FileReader fileLectura = new FileReader(link);
-        BufferedReader bufred = new BufferedReader(fileLectura);
-        StringBuilder temporal = new StringBuilder();
-        String archivoCompleto, linea;
+        FileWriter fileEscritura = new FileWriter("Limpios\\" + this.numeroAString(num) + ".txt");  //Se crea el archivo de salida del texto filtrado
+        FileReader fileLectura = new FileReader(link);  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+        StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
+        String archivoCompleto, linea;  //Almacenará el archivo completo con el texto completo
 
         while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
         {
-            if(linea.equals(""))
+            if(linea.equals(""))    //Si la linea está vacía, se deja un salto de linea, si no lo está, se pone la linea en cuestión y se deja un salto de linea
             {
                 temporal.append('\n');
             }
@@ -146,19 +146,48 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             {
                 temporal.append(linea + '\n');
             }
-            //String lineaPura = linea.replaceAll("<.*?>|<.*?(?:\\n.*?)+>","");
-            //temporal.append(lineaPura + "\n");
         }
 
+        //Se borran todas las etiquetas de la string que contiene el archivo completo
         archivoCompleto = temporal.toString().replaceAll("<.*?>|<.*?(?:\n.*?)+>","");
+
+        //Se reemplazan los caracteres especiales como letras acentuadas y ñ's
+        archivoCompleto = reemplazarCaracteresEspeciales(archivoCompleto);
 
         //archivoCompleto = temporal.toString();
 
+        //Se guarda en el archivo de escritura el texto filtrado
         fileEscritura.write(archivoCompleto);
 
+        //Cierre de archivos
         fileEscritura.close();
         fileLectura.close();
 
+    }
+
+    public String reemplazarCaracteresEspeciales(String archivoCompleto)
+    {
+        //Reemplaza minusculas acentuadas y ñ's
+        archivoCompleto = archivoCompleto.replaceAll("&aacute;", "á");
+        archivoCompleto = archivoCompleto.replaceAll("&eacute;", "é");
+        archivoCompleto = archivoCompleto.replaceAll("&iacute;", "í");
+        archivoCompleto = archivoCompleto.replaceAll("&oacute;", "ó");
+        archivoCompleto = archivoCompleto.replaceAll("&uacute;", "ú");
+        archivoCompleto = archivoCompleto.replaceAll("&uuml;", "ü");
+        archivoCompleto = archivoCompleto.replaceAll("&nacute;", "ñ");
+
+        //Reemplaza mayusculas acentuadas y ñ's
+        archivoCompleto = archivoCompleto.replaceAll("&Aacute;", "Á");
+        archivoCompleto = archivoCompleto.replaceAll("&Eacute;", "É");
+        archivoCompleto = archivoCompleto.replaceAll("&Iacute;", "Í");
+        archivoCompleto = archivoCompleto.replaceAll("&Oacute;", "Ó");
+        archivoCompleto = archivoCompleto.replaceAll("&Uacute;", "Ú");
+        archivoCompleto = archivoCompleto.replaceAll("&Uuml;", "Ü");
+        archivoCompleto = archivoCompleto.replaceAll("&Nacute;", "Ñ");
+
+        //Reemplaza referencias a ASCII por nada
+        archivoCompleto = archivoCompleto.replaceAll("&#[0-9]+;", "");
+        return archivoCompleto;
     }
 
     //Abre con el buscador predeterminado la página con el link que recibe de parametro

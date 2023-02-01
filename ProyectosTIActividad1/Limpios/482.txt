@@ -7,14 +7,14 @@ Directores y Funcionarios
 
 
 
-&#160;
-&#160; 
+
+ 
 
     
         
         Agustin Blanco**
         
-        H&eacute;ctor A.Domeniconi
+        Héctor A.Domeniconi
         
         Carlos de la Vega
         
@@ -32,7 +32,7 @@ Directores y Funcionarios
         
         Roberto J.A.Dormal Bosch*
         
-        Mario E.V&aacute;zquez*
+        Mario E.Vázquez*
         
         Bayless A.Manning
         
@@ -52,7 +52,7 @@ Directores y Funcionarios
     
 
 Directorio
-* Comisi&oacute;n Fiscalizadora
+* Comisión Fiscalizadora
 ** Director Suplente
  
 

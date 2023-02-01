@@ -2,16 +2,16 @@
 
 
 
-Anexo (continuaci&oacute;n)
+Anexo (continuación)
 
 
 
 
-&#160;
+
 
     
         
-        P&aacute;gina
+        Página
         Anterior
     
 
@@ -32,7 +32,7 @@ ANEXO E
         Rubro
         Saldo al inicio del ejercicio
         Aumento
-        Disminuci&oacute;n
+        Disminución
         Transferencias
         Saldo al cierre del ejercicio
         Saldo al cierre del ejercicio
@@ -52,8 +52,8 @@ ANEXO E
         151
     
     
-        Para valuar cr&eacute;ditos con el sector
-        p&uacute;blico a su probable valor de realizaci&oacute;n
+        Para valuar créditos con el sector
+        público a su probable valor de realización
         114
         14
         42
@@ -63,7 +63,7 @@ ANEXO E
         117
     
     
-        Para otros cr&eacute;ditos de cobro dudoso
+        Para otros créditos de cobro dudoso
         60
         38
         1
@@ -96,8 +96,8 @@ ANEXO E
         Deducidas del activo no corriente:
     
     
-        Para valuar cr&eacute;ditos con el sector
-        p&uacute;blico a su probable valor de realizaci
+        Para valuar créditos con el sector
+        público a su probable valor de realizaci
         4
         -
         -
@@ -107,7 +107,7 @@ ANEXO E
         5
     
     
-        Para valuar otros cr&eacute;ditos a su valor
+        Para valuar otros créditos a su valor
         recuperable
         -
         -
@@ -118,7 +118,7 @@ ANEXO E
         -
     
     
-        Para desvalorizaci&oacute;n de las participaciones en
+        Para desvalorización de las participaciones en
         sociedades art. 33-Ley N&THORN; 19.5
         2
         -
@@ -202,7 +202,7 @@ ANEXO E
         Incluidas en el pasivo corriente:
     
     
-        Para p&eacute;rdidas futuras por contratos a largo
+        Para pérdidas futuras por contratos a largo
         plazo (Nota
         13) 
         69
@@ -247,7 +247,7 @@ ANEXO E
         Incluidas en el pasivo no corriente:
     
     
-        Para p&eacute;rdidas futuras por contratos a largo
+        Para pérdidas futuras por contratos a largo
         plazo (Nota
         13)
         31
@@ -315,13 +315,13 @@ ANEXO E
 
 (1) Constituida para cubrir importes probables de juicios
 pendientes y otros riesgos. Los mismos se han estimado en base a
-los elementos de juicio disponibles, consider&aacute;ndose
-adem&aacute;s la probabilidad de ocurrencia.
+los elementos de juicio disponibles, considerándose
+además la probabilidad de ocurrencia.
 
     
          
         Roberto J.A. Dormal Bosch
-        Por Comisi&oacute;n Fiscalizadora 
+        Por Comisión Fiscalizadora 
         
          
         Nells Leon
@@ -355,7 +355,7 @@ ANEXO F
         662
     
     
-        Costos de producci&oacute;n (Anexo
+        Costos de producción (Anexo
         H)
         2,208
         2,205
@@ -368,7 +368,7 @@ ANEXO F
         2
     
     
-        Variaci&oacute;n previsi&oacute;n para obsolescencia
+        Variación previsión para obsolescencia
         de bienes de cambio
         -
         (92)
@@ -390,13 +390,13 @@ ANEXO F
 
 (1) Incluido en los estados de resultados dentro del rubro
 &quot;Resultados financieros y por tenencia generados por
-activos&#148; (Nota
+activos (Nota
 3.j).
 
     
          
         Roberto J.A. Dormal Bosch
-        Por Comisi&oacute;n Fiscalizadora 
+        Por Comisión Fiscalizadora 
         
          
         Nells Leon
@@ -452,7 +452,7 @@ ANEXO G
         1
     
     
-        Cr&eacute;ditos por ventas
+        Créditos por ventas
     
     
         Deudores comunes
@@ -475,9 +475,9 @@ ANEXO G
         187
     
     
-        Otros cr&eacute;ditos
+        Otros créditos
         U$S 61
-        U$S&#160;17
+        U$S17
         U$S 73
         1.00(1)
         73
@@ -491,20 +491,20 @@ ANEXO G
         Activo No Corriente 
     
     
-        Cr&eacute;ditos por ventas
+        Créditos por ventas
     
     
         Documentos a cobrar
         U$S 227
-        U$S&#160;206
+        U$S206
         U$S 65
         1.00(1)
         65
     
     
-        Otros cr&eacute;ditos
+        Otros créditos
         U$S 162
-        U$S&#160;107
+        U$S107
         U$S 145
         1.00(1)
         145
@@ -524,14 +524,14 @@ ANEXO G
     
     
         Cuentas por pagar 
-        U$S&#160;414
+        U$S414
         U$S 399
         U$S 454
         1.00(2)
         454
     
     
-        Pr&eacute;stamos
+        Préstamos
     
     
         Sociedades controladas y vinculadas
@@ -543,8 +543,8 @@ ANEXO G
     
     
         Otras deudas bancarias y
-        prefinanciaci&oacute;n de exportaciones
-        U$S&#160;135
+        prefinanciación de exportaciones
+        U$S135
         U$S 397
         U$S 868
         1.00(2)
@@ -560,7 +560,7 @@ ANEXO G
     
     
         Deuda financiera externa
-        U$S&#160;266
+        U$S266
         U$S 30
         U$S 4
         1.00(2)
@@ -568,8 +568,8 @@ ANEXO G
     
     
         
-        Yen&#160;6,067
-        Yen&#160;4,500
+        Yen6,067
+        Yen4,500
         Yen 4,371
         0.00974(2)
         43
@@ -595,11 +595,11 @@ ANEXO G
         -
     
     
-        Pr&eacute;stamos
+        Préstamos
     
     
         Deuda financiera externa
-        U$S&#160;157
+        U$S157
         U$S 10
         U$S 8
         1.00(2)
@@ -607,7 +607,7 @@ ANEXO G
     
     
         
-        Fr.Frs.&#160;6
+        Fr.Frs.6
         Fr.Frs. 5
         Fr.Frs. 6
         0.20414(2)
@@ -623,7 +623,7 @@ ANEXO G
     
     
         Otras deudas bancarias y
-        prefinanciaci&oacute;n de exportaciones
+        prefinanciación de exportaciones
         --
         --
         U$S 40
@@ -660,7 +660,7 @@ ANEXO G
     
          
         Roberto J.A. Dormal Bosch
-        Por Comisi&oacute;n Fiscalizadora 
+        Por Comisión Fiscalizadora 
         
          
         Nells Leon
@@ -670,7 +670,7 @@ ANEXO G
 
 INFORMACION
 REQUERIDA POR EL ARTICULO 64 APARTADO I INCISO B) DE LA LEY
-N&#176; 19.550
+N 19.550
 (expresados en millones de pesos - Nota
 1)
 ANEXO H
@@ -685,12 +685,12 @@ ANEXO H
     
     
         
-        Costos de producci&oacute;n
+        Costos de producción
         Gastos de
-        administraci&oacute;n
+        administración
         Gastos de
-        comercializaci&oacute;n
-        Gastos de exploraci&oacute;n
+        comercialización
+        Gastos de exploración
         Total
         Total
         Total
@@ -736,7 +736,7 @@ ANEXO H
         20
     
     
-        Regal&iacute;as, servidumbres y c&aacute;nones
+        Regalías, servidumbres y cánones
         304
         -
         -
@@ -776,7 +776,7 @@ ANEXO H
         24
     
     
-        Depreciaci&oacute;n de bienes de uso
+        Depreciación de bienes de uso
         749
         5
         40
@@ -786,7 +786,7 @@ ANEXO H
         599
     
     
-        Materiales y &uacute;tiles de consumo
+        Materiales y útiles de consumo
         171
         3
         8
@@ -806,7 +806,7 @@ ANEXO H
         298
     
     
-        Conservaci&oacute;n, reparaci&oacute;n y
+        Conservación, reparación y
         mantenimiento
         211
         2
@@ -817,7 +817,7 @@ ANEXO H
         133
     
     
-        Contratos de explotaci&oacute;n de &aacute;reas
+        Contratos de explotación de áreas
         productivas
         35
         -
@@ -848,7 +848,7 @@ ANEXO H
         253
     
     
-        Previsi&oacute;n para deudores por ventas de cobro
+        Previsión para deudores por ventas de cobro
         dudoso
         -
         -
@@ -869,7 +869,7 @@ ANEXO H
         49
     
     
-        Combustibles, gas, energ&iacute;a y otros
+        Combustibles, gas, energía y otros
         142
         22
         5
@@ -910,13 +910,13 @@ ANEXO H
     
 
 
-(1) Incluye 3 de Provisi&oacute;n por Honorarios a
-Directores y S&iacute;ndicos.
+(1) Incluye 3 de Provisión por Honorarios a
+Directores y Síndicos.
 
     
          
         Roberto J.A. Dormal Bosch
-        Por Comisi&oacute;n Fiscalizadora 
+        Por Comisión Fiscalizadora 
         
          
         Nells Leon
@@ -924,7 +924,7 @@ Directores y S&iacute;ndicos.
         
     
 
-&#160;&#160;
+
 
 
 

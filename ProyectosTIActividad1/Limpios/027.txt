@@ -432,7 +432,7 @@ focus of the case -- from the perspective of not only the
 court, but the parties as well -- was the feasibility of the
 CDA's defenses and the Act's patent overbreadth.  To the
 extent any one provision received attention, it was the
-&quot;display&quot; provision, 47 U.S.C. &#167; 223(d)(1)(B).  That
+&quot;display&quot; provision, 47 U.S.C.  223(d)(1)(B).  That
 provision criminalizes the online display of patently
 offensive material &quot;in a manner available&quot; to minors.  The
 vast majority of the speech criminalized by the CDA, perhaps
@@ -530,7 +530,7 @@ intended &quot;content regulation of both commercial and non-
 commercial providers.&quot;  H.R. Conf. Rep. No. 458, 104th Cong.,
 2d Sess. 191 (1996).  Indeed, the Act is expressly made
 applicable to &quot;libraries and educational institutions.&quot;  47
-U.S.C. &#167; 230(e)(2).  And Senator Exon, the main sponsor of
+U.S.C.  230(e)(2).  And Senator Exon, the main sponsor of
 the Act, referred to newsgroups (which contain primarily non-
 commercial speech) as the principal target of the
 legislation.  See 141 Cong. Rec. S8089 (daily ed. June 9,
@@ -855,7 +855,7 @@ is not surprising that the district court applied the same
 First Amendment analysis to the non-display provisions, and
 unanimously concluded that the &quot;[p]laintiffs have established
 a reasonable probability of eventual success in the
-litigation by demonstrating that &#167;&#167; 223(a)(1)(B) and
+litigation by demonstrating that  223(a)(1)(B) and
 223(a)(2) of the CDA are unconstitutional on their face to
 the extent that they reach indecency.&quot;  J.S. App. 62a. 
 Although the government now asserts that the display
@@ -863,7 +863,7 @@ provision and the other provisions &quot;require[] separate
 analysis,&quot; J.S. 19, it did not urge any separate analysis
 below.  See note 12, supra.  Based on the arguments that were
 made to the district court, its conclusion regarding
-&#167; 223(a) was clearly correct.
+ 223(a) was clearly correct.
 
           The government also now, for the first time,
 interprets Section 223(d)(1)(A) as applying only to
@@ -940,8 +940,8 @@ October 1996
 
 
 1. The CDA was enacted as Title V of the Telecommunications
-Act of 1996, Pub. L. No. 104-104, &#167; 502, 110 Stat. 56, 133-
-35, and will be codified at 47 U.S.C. &#167;&#167; 223(a)-(h).
+Act of 1996, Pub. L. No. 104-104,  502, 110 Stat. 56, 133-
+35, and will be codified at 47 U.S.C.  223(a)-(h).
 
 2. Appellees did not challenge the application of the CDA to
 obscenity, child pornography, and unlawful child
@@ -1049,15 +1049,15 @@ imposing restrictions.  J.S. App. 42a.
 11. See note 18, infra, and accompanying text.
 
 12. Below, the government's only specific argument regarding
-47 U.S.C. &#167; 223(a) was relegated to a footnote:  &quot;The
+47 U.S.C.  223(a) was relegated to a footnote:  &quot;The
 specific basis for plaintiffs' challenge to section 223(a) is
 unclear.  In the absence of a specific showing as to how this
 provision is applicable and might be in violation of the
 Constitution, it should not be enjoined.&quot;  Defendant's
 Opposition to Plaintiffs' Motion for a Temporary Restraining
 Order (Feb. 14, 1996) at 13 n.8.  The government made no
-specific arguments below regarding 47 U.S.C. &#167; 223(d)(1)(A),
-and otherwise referred to 47 U.S.C. &#167;&#167; 223(a) and 223(d)
+specific arguments below regarding 47 U.S.C.  223(d)(1)(A),
+and otherwise referred to 47 U.S.C.  223(a) and 223(d)
 together throughout its papers.
 
 13. The government tacitly acknowledges the weakness of its

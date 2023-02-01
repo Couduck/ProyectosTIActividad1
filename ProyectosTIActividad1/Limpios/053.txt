@@ -45,7 +45,7 @@ language offered with Workspace &reg; release 4.0
 Workspace and Robotrak are registered trademarks of Robot Simulations Ltd. 
 UK Patent Application Number 952006.4 
 US Patent Application Number 952006.4 (Applied for) 
-Copyright &#169; 1996 Robot Simulations Ltd
+Copyright  1996 Robot Simulations Ltd
 Last revision August 1996
 
 

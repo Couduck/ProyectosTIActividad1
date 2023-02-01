@@ -7,7 +7,7 @@ Operaciones
 
 
 
-&#160; 
+ 
 
 
     
@@ -15,8 +15,8 @@ Operaciones
         D Bridger
         Vicepresidente de Finanzas y
         Desarrollo Corporativo
-        Mart&iacute;n
-        P&aacute;ez Allende
+        Martín
+        Páez Allende
         Vicepresidente de
         Relaciones Institucionales
         Antonio
@@ -26,19 +26,19 @@ Operaciones
         Carlos
         Olivieri
         Vicepresidente de
-        Contralor&iacute;a General
+        Contraloría General
         Juan
         J. Garacija
         Vicepresidente de
-        Compras, Contratos y Protecci&oacute;n Ambiental
-        Ra&uacute;l
+        Compras, Contratos y Protección Ambiental
+        Raúl
         Oreste
         Vicepresidente de
         Recursos Humanos
         Juan
         A. Rodriguez
         Vicepresidente de
-        Ingenier&iacute;a y Tecnolog&iacute;a
+        Ingeniería y Tecnología
     
 
 
@@ -48,7 +48,7 @@ Operaciones
         Enrique
         Pourteau
         Vicepresidente de
-        Industrializaci&oacute;n y Comercializaci&oacute;n
+        Industrialización y Comercialización
         Roberto
         Monti
         Presidente Maxus
@@ -59,7 +59,7 @@ Operaciones
         Marcelo
         D. Guiscardo
         Vicepresidente de
-        Exploraci&oacute;n y Producci&oacute;n
+        Exploración y Producción
         Miguel
         Madanes
         Vicepresidente
@@ -75,12 +75,12 @@ Vicepresidente
 
 
     Operaciones Locales de
-    Exploraci&oacute;n y Producci&oacute;n 
+    Exploración y Producción 
     Operaciones Internacionales YPF/Maxus 
     Operaciones de
-    Industrializaci&oacute;n y Comercializaci&oacute;n 
+    Industrialización y Comercialización 
     Finanzas - Sintesis 
-    Informaci&oacute;n Estad&iacute;stica
+    Información Estadística
 
 
 
