@@ -3,6 +3,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 {
@@ -244,7 +246,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         {
             if(!palabra.isBlank())
             {
-                if(!Character.isDigit(palabra.charAt(0)))
+                if(filtradoPalabras(palabra))
                 {
                     if(!listaFiltrada.isEmpty())
                     {
@@ -577,5 +579,34 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         }
 
         return listaStrings;
+    }
+
+    public boolean filtradoPalabras(String palabra)
+    {
+        boolean pasaFiltro = true;
+
+        /**
+         * 1° Tiene letras
+         * 2° No tiene numeros
+         * 3° Empieza con una letra
+         * 4° todo: ¿Hay que añadir mas filtros?
+         */
+
+        String[] regexes = {"[a-zA-Z]", "[0-9]", "^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ]"};
+        boolean[] resultadosEsperados = {true, false, true};
+
+        for(int i = 0; i < regexes.length; i++)
+        {
+            Pattern strPat = Pattern.compile(regexes[i]);
+            Matcher m = strPat.matcher(palabra);
+
+            if(m.find() != resultadosEsperados[i])
+            {
+                pasaFiltro = false;
+                break;
+            }
+        }
+
+        return  pasaFiltro;
     }
 }
