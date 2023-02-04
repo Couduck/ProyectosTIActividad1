@@ -8,25 +8,26 @@ import java.util.regex.Pattern;
 
 public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 {
-    private ArrayList<String> DiccionarioLista = new ArrayList<String>();
-    public void generarDiccionario() throws IOException {
+    private ArrayList<String> DiccionarioLista = new ArrayList<String>();   //Lista donde se colocarán todas las palabras del proyecto completo
 
-
+    //Genera el diccionario en base a todos los archivos existentes
+    public void generarDiccionario() throws IOException
+    {
         long inicioPrograma = System.currentTimeMillis();
 
         FileWriter salida = new FileWriter("Salidas\\Salida3.txt"), diccionario = new FileWriter("Diccionario.txt");       //Se crea el archivo de salida de la información
 
         boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
 
-        long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en cargar todas las páginas
+        long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
         for(int i = 2; i < 504; i++)
         {
-            //Se genera el link del archivo cuyas etiquetas sevan a remover en la iteración
+            //Se genera el link del archivo del cual se van a obtener las palabras
             String linkActual = "Limpios\\" + this.numeroAString(i) + ".txt";
 
-            //Empieza el conteo del tiempo que se tarda en remover las etiquetas, se hace, se genera el archivo puro y se termina el conteo
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
             long inicioLeerPagina = System.currentTimeMillis();
             extraerPalabrasArchivo(linkActual,i);
             long finLeerPagina = System.currentTimeMillis();
@@ -52,6 +53,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         }
 
+        //Toda la lista de palabras se escribe dentro del
         diccionario.write(listaAString(DiccionarioLista));
 
         //Termina el proceso de borrado de etiquetas
@@ -74,8 +76,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
         diccionario.close();
     }
-
-
 
     //Quita todas als etiquetas de la actividaad
     public void removerTodasLasEtiquetas() throws IOException
@@ -201,9 +201,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
-    public void extraerPalabrasArchivo(String link, int num) throws IOException {
-        /**
-         * 1° Abrir N archivo
+    //Método encargado de generar una lista de palabras irrepetibles por cada archivo de texto para colocarlo dentro del diccionario
+    public void extraerPalabrasArchivo(String link, int num) throws IOException
+    {
+        /*
+         * Lo que ocurre dentro de este método es lo siguiente:
+         *
+         *
+         * 1° Abrir N archivo (obtenerlo y convertirlo en una sola String)
          * 2° Pasa filtro de solo cosas que pueda haber en palabras: [^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ'0-9-]
          * 3° Quitar lineas nuevas por espacios
          * 4° Substrings del archivo completo por espacios
@@ -235,20 +240,21 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
 
+        //Todos los caracteres que no sean letras (del abecedario inglés, acentuadas y Ñ's), números, guiones o saltos de lineas son eliminados de la string del archivo completo
         archivoCompleto = temporal.toString().replaceAll("[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ'0-9-\n ]", "");
-        archivoCompleto = archivoCompleto.replaceAll("\n"," ");
-        String[] palabras = archivoCompleto.split(" ");
-        List<String> arrayAlista = Arrays.asList(palabras);
-        ArrayList<String> listapalabras = new ArrayList<>(arrayAlista), listaFiltrada = new ArrayList<String>();
+        archivoCompleto = archivoCompleto.replaceAll("\n"," "); //Todos los saltos de linea son reemplazados por espacios
+        String[] palabras = archivoCompleto.split(" "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+        List<String> arrayAlista = Arrays.asList(palabras); //El arreglo se vuelve una lista y luego pasa a un arraylist
+        ArrayList<String> listapalabras = new ArrayList<>(arrayAlista), listaFiltrada = new ArrayList<String>();    //Se copia la lista de palabras encontradas a un arraylist, además se genera un arraylist en el que se colocarán las palabras del archivo qu epasen los filtros impuestos
 
         //Ciclo para sacar palabras del archivo
         for (String palabra:listapalabras)
         {
-            if(!palabra.isBlank())
+            if(!palabra.isBlank())  //¿La palabra actual es un campo vacío? Rechazada
             {
-                if(filtradoPalabras(palabra))
+                if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada
                 {
-                    if(!listaFiltrada.isEmpty())
+                    if(!listaFiltrada.isEmpty())    //Si la lista está vacía, se añade como la primera de la misma, caso contrario, se busca para ver que no sea una palabra ya existente, en caso de que no se encuentre, se añade a la lista
                     {
                         if(!palabraEnLista(palabra, listaFiltrada))
                         {
@@ -267,7 +273,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Ciclo para meter palabras de lista filtrada a diccionario
         for(String palabra : listaFiltrada)
         {
-            if(!DiccionarioLista.isEmpty())
+            if(!DiccionarioLista.isEmpty()) //Si el diccionario está vacío, se añade al diccionario, caso contrario, se busca ordenar la palabra de forma ortográfica
             {
                 if(!palabraEnLista(palabra, DiccionarioLista))
                 {
@@ -282,11 +288,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         }
     }
 
+    //Metodo que comprueba si una palabra en particular ya se encuentra dentro de la lista de palabras de un solo archivo a modo de evitar repeticiones
     public boolean palabraEnLista(String palabraNueva, ArrayList<String> lista)
     {
-        boolean palabraEnLista = false;
+        boolean palabraEnLista = false; //Desde el principio, se asume que la palabra es nueva
 
-        for(String palabra : lista)
+        for(String palabra : lista)    //Por cada palabra de la lista ya existente se comprueba con la palabra nueva, si al compararla detecta una igualdad (no se toman en cuenta diferencias entre mayúsculas ni minúsculas) se rompe el ciclo y se cambia el valor del boolean a regresar, indicando que la palabra no ha sido aceptada
         {
             if(palabraNueva.equalsIgnoreCase(palabra))
             {
@@ -295,11 +302,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
 
-        return palabraEnLista;
+        return palabraEnLista;      //Se regresa el boolean
     }
 
     //Quita las etiquetas de la página del link correspondiente
-    public void quitarEtiquetas(String link, int num) throws IOException {
+    public void quitarEtiquetas(String link, int num) throws IOException
+    {
         FileWriter fileEscritura = new FileWriter("Limpios\\" + this.numeroAString(num) + ".txt");  //Se crea el archivo de salida del texto filtrado
         FileReader fileLectura = new FileReader(link);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
@@ -336,6 +344,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     }
 
+    //Reemplaza caracteres especiales de páginas HTML para que sean legibles en los documentos de texto
     public String reemplazarCaracteresEspeciales(String archivoCompleto)
     {
         //Reemplaza minusculas acentuadas y ñ's
@@ -368,7 +377,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         Desktop.getDesktop().browse(file.toURI());
     }
 
-    public String numeroAString(int numero)     //Se usa para crear la String que cambie el numero de la iteración por el nombre real de la página de HTML
+    //Se usa para crear la String que cambie el numero de la iteración por el nombre real de la página de HTML
+    public String numeroAString(int numero)
     {
         String regresar="";
 
@@ -395,7 +405,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         return regresar;
     }
 
-    public void ordenarPalabra(String palabraNueva)    //Inserta la palabra en la lista que accede al archivo, está basado en el método de busqueda binaria
+    //(MÉTODO RECUPERADO Y MODIFICADO DE UNA ENTREGA DE UNA MATERIA ANTERIOR) Inserta la palabra en la lista del diccionario completo, está basado en el método de busqueda binaria
+    public void ordenarPalabra(String palabraNueva)
     {
         boolean colocada = false;   //Evalua si la palabra ya encontró su sitio
         int limInf = 0, limSup = DiccionarioLista.size()-1;  //Se generan los limites inferiores y superiores, empezando siempre con el primer valor de la lista y con el último asignados respectivamente
@@ -406,9 +417,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             puntoMedio = (limInf + limSup)/2;   //Se define el punto medio
 
             String aComparar = DiccionarioLista.get(puntoMedio); //Se obtiene el elemento del punto medio en base a los límites,
-            int decision = palabraNueva.compareToIgnoreCase(aComparar);   //La palabra del nodo obtenido se compara con la palabra a meter, para comprobar si la nueva va antes o despues que la del punto medio en un sentido alfabético
+            int decision = palabraNueva.compareToIgnoreCase(aComparar);   //La palabra del punto medio se compara con la palabra a meter para comprobar si la nueva va antes o despues que la del punto medio en un sentido alfabético
 
-            if(puntoMedio-1 < limInf || puntoMedio+1 > limSup)  //En caso de que el punto medio no se encuentre entre 2 valores (Ya sea el borde derecho o izquiero o incluso, el único valor en la lista)
+            if(puntoMedio-1 < limInf || puntoMedio+1 > limSup)  //En caso de que el punto medio no se encuentre entre 2 valores (Ya sea el borde derecho o izquiero o incluso, el único valor en la lista. Esto es para casos en los que la lista se ha reducido tanto que ya solo queda un valor a evaluar)
             {
                 if(puntoMedio-1 < limInf && puntoMedio+1 > limSup)  //Si el punto medio no esta rodeado de nada
                 {
@@ -467,7 +478,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
                         else    //Va despues del punto medio, sin embargo, se compara también la palabra que le sigue. Puede que encontremos el lugar final de la nueva palabra
                         {
-                            aComparar = DiccionarioLista.get(puntoMedio+1); //Se compara la nueva con la palabra siguiente al punto medio
+                            aComparar = DiccionarioLista.get(puntoMedio+1); //Se compara la nueva palabra con la palabra siguiente al punto medio
 
                             //¿Va despues del punto medio, pero antes de la palabra siguiente? Hemos encontrado su lugar
                             if(palabraNueva.compareToIgnoreCase(aComparar) < 0)
@@ -488,7 +499,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     {
                         if(decision < 0)    //Va antes del punto medio, sin embargo, se compara también la palabra que le antecede. Puede que encontremos el lugar final de la nueva palabra
                         {
-                            aComparar = DiccionarioLista.get(puntoMedio-1); //Se compara la nueva con la palabra siguiente al punto medio
+                            aComparar = DiccionarioLista.get(puntoMedio-1); //Se compara la nueva palabra con la palabra siguiente al punto medio
 
                             //¿Va antes del punto medio, pero despues de la palabra anterior? Hemos encontrado su lugar
                             if(palabraNueva.compareToIgnoreCase(aComparar) > 0)
@@ -569,6 +580,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         }
     }
 
+    //Transforma todos los valores de una ArrayList de Strings a una sola cadena, los valores se encuentran separados por un caracter de linea nueva
     String listaAString(ArrayList<String> lista)
     {
         String listaStrings="";
@@ -581,20 +593,25 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         return listaStrings;
     }
 
+    //Se encarga de evaluar una palabra en base a una serie de filtros
     public boolean filtradoPalabras(String palabra)
     {
-        boolean pasaFiltro = true;
+        boolean pasaFiltro = true;      //Boolean con el resultado de si la palabra es válida o no
 
-        /**
-         * 1° Tiene letras
+        /*
+         * Para quw una palabra sea aceptada, debe cumplir con los siguientes filtros
+         *
+         * 1° Tiene letras, por lo menos una
          * 2° No tiene numeros
-         * 3° Empieza con una letra
-         * 4° todo: ¿Hay que añadir mas filtros?
+         * 3° Empieza con una letra (Abecedario Inglés, letras acentuadas y ñ's)
+         * todo: ¿Hay que añadir mas filtros?
          */
 
+        //Las reglas y los resultados que deben tener para ser aceptados como una palabra válida para el diccionario
         String[] regexes = {"[a-zA-Z]", "[0-9]", "^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ]"};
         boolean[] resultadosEsperados = {true, false, true};
 
+        //Se evalua la palabra por cada regex. En caso de haber alguna diferencia en cualquiera de los resultados esperados y los resultados reales, el boolean pasa a false y se termina la evaluación, indicando que la palabra ha sido rechazada
         for(int i = 0; i < regexes.length; i++)
         {
             Pattern strPat = Pattern.compile(regexes[i]);
@@ -607,6 +624,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
 
-        return  pasaFiltro;
+        return  pasaFiltro;     //Se devuelve el boolean
     }
 }
