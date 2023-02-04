@@ -222,6 +222,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
          * 8° FIN
          */
 
+        FileWriter fileEscritura = new FileWriter("Palabras\\" + this.numeroAString(num) + ".txt");  //Se crea el archivo de salida del texto filtrado
         FileReader fileLectura = new FileReader(link);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
         StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
@@ -270,14 +271,37 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
 
-        //Ciclo para meter palabras de lista filtrada a diccionario
+        //Ciclo para meter palabras de ordenar lista filtrada
+
+        ArrayList<String> listaFiltradaArreglada = new ArrayList<>();
+
         for(String palabra : listaFiltrada)
+        {
+            if(!listaFiltradaArreglada.isEmpty()) //Si el diccionario está vacío, se añade al diccionario, caso contrario, se busca ordenar la palabra de forma ortográfica
+            {
+                if(!palabraEnLista(palabra, listaFiltradaArreglada))
+                {
+                    ordenarPalabra(palabra, listaFiltradaArreglada);
+                }
+            }
+
+            else
+            {
+                listaFiltradaArreglada.add(palabra);
+            }
+        }
+
+        fileEscritura.write(listaAString(listaFiltradaArreglada));
+        fileEscritura.close();
+
+        //Ciclo para meter palabras de lista filtrada a diccionario
+        for(String palabra : listaFiltradaArreglada)
         {
             if(!DiccionarioLista.isEmpty()) //Si el diccionario está vacío, se añade al diccionario, caso contrario, se busca ordenar la palabra de forma ortográfica
             {
                 if(!palabraEnLista(palabra, DiccionarioLista))
                 {
-                    ordenarPalabra(palabra);
+                    ordenarPalabra(palabra, DiccionarioLista);
                 }
             }
 
@@ -406,17 +430,17 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     }
 
     //(MÉTODO RECUPERADO Y MODIFICADO DE UNA ENTREGA DE UNA MATERIA ANTERIOR) Inserta la palabra en la lista del diccionario completo, está basado en el método de busqueda binaria
-    public void ordenarPalabra(String palabraNueva)
+    public void ordenarPalabra(String palabraNueva, ArrayList<String> lista)
     {
         boolean colocada = false;   //Evalua si la palabra ya encontró su sitio
-        int limInf = 0, limSup = DiccionarioLista.size()-1;  //Se generan los limites inferiores y superiores, empezando siempre con el primer valor de la lista y con el último asignados respectivamente
+        int limInf = 0, limSup = lista.size()-1;  //Se generan los limites inferiores y superiores, empezando siempre con el primer valor de la lista y con el último asignados respectivamente
         int puntoMedio = 0;     //El punto medio sobre el cual partir
 
         while(!colocada)    //Mientras el programa no haya notificado que la palabra no fue insertada en la lista
         {
             puntoMedio = (limInf + limSup)/2;   //Se define el punto medio
 
-            String aComparar = DiccionarioLista.get(puntoMedio); //Se obtiene el elemento del punto medio en base a los límites,
+            String aComparar = lista.get(puntoMedio); //Se obtiene el elemento del punto medio en base a los límites,
             int decision = palabraNueva.compareToIgnoreCase(aComparar);   //La palabra del punto medio se compara con la palabra a meter para comprobar si la nueva va antes o despues que la del punto medio en un sentido alfabético
 
             if(puntoMedio-1 < limInf || puntoMedio+1 > limSup)  //En caso de que el punto medio no se encuentre entre 2 valores (Ya sea el borde derecho o izquiero o incluso, el único valor en la lista. Esto es para casos en los que la lista se ha reducido tanto que ya solo queda un valor a evaluar)
@@ -428,12 +452,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                         //Un if hecho para manejar el comportamiento del add dependiendo del valor del punto medio
                         if(puntoMedio == 0)
                         {
-                            DiccionarioLista.add(0, palabraNueva);
+                            lista.add(0, palabraNueva);
                         }
 
                         else
                         {
-                            DiccionarioLista.add(puntoMedio, palabraNueva);
+                            lista.add(puntoMedio, palabraNueva);
                         }
 
                         colocada = true;    //La palabra se ha colocado, de modo que el ciclo no vuelve a repetirse
@@ -442,14 +466,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     else    //Si la palabra nueva va despues del punto medio, se coloca delante sin preguntar mas
                     {
                         //Un if hecho para manejar el comportamiento del add dependiendo del valor del punto medio
-                        if(puntoMedio == DiccionarioLista.size()-1)
+                        if(puntoMedio == lista.size()-1)
                         {
-                            DiccionarioLista.add(palabraNueva);
+                            lista.add(palabraNueva);
                         }
 
                         else
                         {
-                            DiccionarioLista.add(puntoMedio+1, palabraNueva);
+                            lista.add(puntoMedio+1, palabraNueva);
                         }
 
                         colocada = true;//La palabra se ha colocado, de modo que el ciclo no vuelve a repetirse
@@ -465,12 +489,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                             //Procedimiento de inserción visto arriba
                             if(puntoMedio == 0)
                             {
-                                DiccionarioLista.add(0, palabraNueva);
+                                lista.add(0, palabraNueva);
                             }
 
                             else
                             {
-                                DiccionarioLista.add(puntoMedio, palabraNueva);
+                                lista.add(puntoMedio, palabraNueva);
                             }
 
                             colocada = true;
@@ -478,12 +502,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
                         else    //Va despues del punto medio, sin embargo, se compara también la palabra que le sigue. Puede que encontremos el lugar final de la nueva palabra
                         {
-                            aComparar = DiccionarioLista.get(puntoMedio+1); //Se compara la nueva palabra con la palabra siguiente al punto medio
+                            aComparar = lista.get(puntoMedio+1); //Se compara la nueva palabra con la palabra siguiente al punto medio
 
                             //¿Va despues del punto medio, pero antes de la palabra siguiente? Hemos encontrado su lugar
                             if(palabraNueva.compareToIgnoreCase(aComparar) < 0)
                             {
-                                DiccionarioLista.add(puntoMedio+1, palabraNueva);
+                                lista.add(puntoMedio+1, palabraNueva);
                                 colocada = true;
                             }
 
@@ -499,12 +523,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     {
                         if(decision < 0)    //Va antes del punto medio, sin embargo, se compara también la palabra que le antecede. Puede que encontremos el lugar final de la nueva palabra
                         {
-                            aComparar = DiccionarioLista.get(puntoMedio-1); //Se compara la nueva palabra con la palabra siguiente al punto medio
+                            aComparar = lista.get(puntoMedio-1); //Se compara la nueva palabra con la palabra siguiente al punto medio
 
                             //¿Va antes del punto medio, pero despues de la palabra anterior? Hemos encontrado su lugar
                             if(palabraNueva.compareToIgnoreCase(aComparar) > 0)
                             {
-                                DiccionarioLista.add(puntoMedio, palabraNueva);
+                                lista.add(puntoMedio, palabraNueva);
                                 colocada = true;
                             }
 
@@ -518,14 +542,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                         else    //Debido a que no hay nada después del punto medio, si la palabra nueva va despues, se coloca sin preguntar
                         {
                             //Procedimiento de inserción visto arriba
-                            if(puntoMedio == DiccionarioLista.size()-1)
+                            if(puntoMedio == lista.size()-1)
                             {
-                                DiccionarioLista.add(palabraNueva);
+                                lista.add(palabraNueva);
                             }
 
                             else
                             {
-                                DiccionarioLista.add(puntoMedio+1, palabraNueva);
+                                lista.add(puntoMedio+1, palabraNueva);
                             }
 
                             colocada = true;
@@ -539,7 +563,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 if(decision < 0)    //Si la palabra nueva va antes del punto medio
                 {
                     //La palabra nueva se compara con la palabra anterior al punto medio
-                    aComparar = DiccionarioLista.get(puntoMedio-1);
+                    aComparar = lista.get(puntoMedio-1);
                     decision = palabraNueva.compareToIgnoreCase(aComparar);
 
                     //¿Va antes del punto medio y tambien antes de la palabra anterior? Repitamos de nuevo con un nuevo límite superior (y por obviedad, un nuevo punto medio)
@@ -551,7 +575,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     //¿Va antes del punto medio, pero despues de la palabra anterior? Hemos encontrado su lugar
                     if(decision > 0)
                     {
-                        DiccionarioLista.add(puntoMedio, palabraNueva);
+                        lista.add(puntoMedio, palabraNueva);
                         colocada = true;
                         decision = 0;
                     }
@@ -560,13 +584,13 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 else    //Si la palabra nueva va despues del punto medio
                 {
                     //La palabra nueva se compara con la palabra siguiente al punto medio
-                    aComparar = DiccionarioLista.get(puntoMedio+1);
+                    aComparar = lista.get(puntoMedio+1);
                     decision = palabraNueva.compareToIgnoreCase(aComparar);
 
                     //¿Va despues del punto medio, pero antes de la palabra siguiente? Hemos encontrado su lugar
                     if(decision < 0)
                     {
-                        DiccionarioLista.add(puntoMedio+1, palabraNueva);
+                        lista.add(puntoMedio+1, palabraNueva);
                         colocada = true;
                     }
 
