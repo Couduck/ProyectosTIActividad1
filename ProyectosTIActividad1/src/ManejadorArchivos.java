@@ -9,12 +9,11 @@ import java.util.regex.Pattern;
 public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 {
     private ArrayList<String> DiccionarioLista = new ArrayList<String>();   //Lista donde se colocarán todas las palabras del proyecto completo
+    public long tiempoInicio;
 
     //Genera el diccionario en base a todos los archivos existentes
     public void generarDiccionario() throws IOException
     {
-        long inicioPrograma = System.currentTimeMillis();
-
         FileWriter salida = new FileWriter("Salidas\\Salida3.txt"), diccionario = new FileWriter("Diccionario.txt");       //Se crea el archivo de salida de la información
 
         boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
@@ -68,7 +67,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Mismo proceso de arriba pero con la duración total del programa
         long finPrograma = System.currentTimeMillis();
 
-        long duracionPrograma = finPrograma - inicioPrograma;
+        long duracionPrograma = finPrograma - tiempoInicio;
 
         salida.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
 
@@ -80,8 +79,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     //Quita todas als etiquetas de la actividaad
     public void removerTodasLasEtiquetas() throws IOException
     {
-        long inicioPrograma = System.currentTimeMillis();
-
         FileWriter salida = new FileWriter("Salidas\\Salida2.txt");       //Se crea el archivo de salida de la información
 
         boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
@@ -130,7 +127,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Mismo proceso de arriba pero con la duración total del programa
         long finPrograma = System.currentTimeMillis();
 
-        long duracionPrograma = finPrograma - inicioPrograma;
+        long duracionPrograma = finPrograma - tiempoInicio;
 
         salida.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
 
@@ -141,8 +138,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     //Abre todas las páginas de la actividad
     public void abrirTodaslasPaginas() throws IOException
     {
-        //Empieza el conteo de los milisegundos que pasan en el programa completo
-        long inicioPrograma = System.currentTimeMillis();
 
         FileWriter salida = new FileWriter("Salidas\\Salida1.txt");       //Se crea el archivo de salida de la información
 
@@ -193,7 +188,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Mismo proceso de arriba pero con la duración total del programa
         long finPrograma = System.currentTimeMillis();
 
-        long duracionPrograma = finPrograma - inicioPrograma;
+        long duracionPrograma = finPrograma - tiempoInicio;
 
         salida.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
 
