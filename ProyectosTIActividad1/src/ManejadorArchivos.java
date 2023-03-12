@@ -11,10 +11,97 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     private ArrayList<String> DiccionarioLista = new ArrayList<String>();   //Lista donde se colocarán todas las palabras del proyecto completo
     public long tiempoInicio;
 
-    //Genera el diccionario en base a todos los archivos existentes
-    public void generarDiccionario() throws IOException
+    public void generarDiccionarioCentral() throws  IOException
     {
-        FileWriter salida = new FileWriter("Salidas\\Salida3.txt"), diccionario = new FileWriter("Diccionario.txt");       //Se crea el archivo de salida de la información
+        Sorter sort = new Sorter();
+//        File file = new File("Diccionario.txt");
+//
+//        if(file.exists())
+//        {
+//            file.delete();
+//        }
+
+        FileWriter salida = new FileWriter("Salidas\\Salida4.txt"), diccionario = new FileWriter("DiccionarioCompleto.txt");
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        //Desde el archivo 002 hasta el 503 realiza este ciclo
+        for(int i = 2; i < 504; i++)
+        {
+            String num_str = this.numeroAString(i);
+
+            //Se genera el link del archivo del cual se van a obtener las palabras
+            String linkActual = "Palabras\\" + num_str + ".txt";
+
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
+            long inicioLeerPagina = System.currentTimeMillis();
+
+            if(i==2)
+            {
+                combinarDiccionarios(linkActual, true);
+            }
+
+            else
+            {
+                combinarDiccionarios(linkActual, false);
+            }
+
+
+            long finLeerPagina = System.currentTimeMillis();
+
+            //Se obtiene el tiempo total de duración del conteo
+            long duracionLeerPagina = finLeerPagina - inicioLeerPagina;
+
+            //Se añade al archivo de salida el nombre de la página junto con su duración en segundos
+            String entradaPagina = linkActual + "\t" + duracionLeerPagina/1000.0;
+
+            //Dependiendo de si es la primera escritura, se escrbe o se anexa en el documento de texto
+            if(primeraVez)
+            {
+                salida.write(entradaPagina + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida.append(entradaPagina + "\n");
+            }
+
+            System.out.println("Las palabras del archivo " + num_str + " fueron procesadas.");
+        }
+
+        sort.quickSort(DiccionarioLista,0,DiccionarioLista.size()-1);
+
+        //Toda la lista de palabras se escribe dentro del
+        diccionario.write(listaAString(DiccionarioLista));
+
+        //Termina el proceso de borrado de etiquetas
+        long finCreacionDiccionario = System.currentTimeMillis();
+
+        //Se obtiene la duración total del borrado de todas las etiquetas
+        long duracionCreacionDiccionario = finCreacionDiccionario - inicioCreacionDiccionario;
+
+        //Se añade el tiempo al documento de salida
+        salida.append("\nEl tiempo requerido para elaborar el diccionario central de todos los documentos fue de: " + duracionCreacionDiccionario/1000.0 + " segundos");
+
+        //Mismo proceso de arriba pero con la duración total del programa
+        long finPrograma = System.currentTimeMillis();
+
+        long duracionPrograma = finPrograma - tiempoInicio;
+
+        salida.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
+
+        //Se cierra el documento
+        salida.close();
+        diccionario.close();
+    }
+
+    //Genera los diccionarios de cada archivo existente
+    public void generarDiccionarios() throws IOException
+    {
+        FileWriter salida = new FileWriter("Salidas\\Salida3.txt");      //Se crea el archivo de salida de la información
 
         boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
 
@@ -53,7 +140,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         }
 
         //Toda la lista de palabras se escribe dentro del
-        diccionario.write(listaAString(DiccionarioLista));
+        //diccionario.write(listaAString(DiccionarioLista));
 
         //Termina el proceso de borrado de etiquetas
         long finCreacionDiccionario = System.currentTimeMillis();
@@ -62,7 +149,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long duracionCreacionDiccionario = finCreacionDiccionario - inicioCreacionDiccionario;
 
         //Se añade el tiempo al documento de salida
-        salida.append("\nEl tiempo requerido para elaborar el diccionario completo fue de " + duracionCreacionDiccionario/1000.0 + " segundos");
+        salida.append("\nEl tiempo requerido para elaborar el diccionario de cada documento fue de " + duracionCreacionDiccionario/1000.0 + " segundos");
 
         //Mismo proceso de arriba pero con la duración total del programa
         long finPrograma = System.currentTimeMillis();
@@ -73,7 +160,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         //Se cierra el documento
         salida.close();
-        diccionario.close();
+        //diccionario.close();
     }
 
     //Quita todas als etiquetas de la actividaad
@@ -196,6 +283,57 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
+    public void combinarDiccionarios(String diccionarioActual, boolean primeraVez) throws IOException
+    {
+        //File archivo = new File("Diccionario.txt");
+        FileReader fileLectura = new FileReader(diccionarioActual);  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+        StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
+        String linea;  //Almacenará el archivo completo con el texto completo
+        ArrayList<String> listaAmeter = new ArrayList<>();
+
+        while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
+        {
+            listaAmeter.add(linea);
+        }
+
+//        if(archivo.exists())
+//        {
+//            archivo.delete();
+//        }
+
+        FileWriter fileEscritura = new FileWriter("Diccionario.txt");  //Se crea el archivo de salida del texto filtrado
+
+        boolean primeraPalabra = true;
+
+        if(primeraVez)
+        {
+            DiccionarioLista = new ArrayList<String>(listaAmeter);
+        }
+
+        else
+        {
+//            FileReader diccionarioGlobalActual = new FileReader("Diccionario.txt");
+//            bufred = new BufferedReader(diccionarioGlobalActual); // BufferedReader para el análisis de linea
+//            DiccionarioLista = new ArrayList<>();
+//
+//            while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
+//            {
+//                DiccionarioLista.add(linea);
+//            }
+
+            for (String palabra: listaAmeter)
+            {
+                palabra = palabra.toLowerCase();
+                DiccionarioLista.add(palabra);
+            }
+
+//            Sorter sort = new Sorter();
+//            sort.quickSort(DiccionarioLista,0,DiccionarioLista.size()-1);
+        }
+
+    }
+
     //Método encargado de generar una lista de palabras irrepetibles por cada archivo de texto para colocarlo dentro del diccionario
     public void extraerPalabrasArchivo(String link, int num) throws IOException
     {
@@ -290,21 +428,21 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         fileEscritura.close();
 
         //Ciclo para meter palabras de lista filtrada a diccionario
-        for(String palabra : listaFiltradaArreglada)
-        {
-            if(!DiccionarioLista.isEmpty()) //Si el diccionario está vacío, se añade al diccionario, caso contrario, se busca ordenar la palabra de forma ortográfica
-            {
-                if(!palabraEnLista(palabra, DiccionarioLista))
-                {
-                    ordenarPalabra(palabra, DiccionarioLista);
-                }
-            }
-
-            else
-            {
-                DiccionarioLista.add(palabra);
-            }
-        }
+//        for(String palabra : listaFiltradaArreglada)
+//        {
+//            if(!DiccionarioLista.isEmpty()) //Si el diccionario está vacío, se añade al diccionario, caso contrario, se busca ordenar la palabra de forma ortográfica
+//            {
+//                if(!palabraEnLista(palabra, DiccionarioLista))
+//                {
+//                    ordenarPalabra(palabra, DiccionarioLista);
+//                }
+//            }
+//
+//            else
+//            {
+//                DiccionarioLista.add(palabra);
+//            }
+//        }
     }
 
     //Metodo que comprueba si una palabra en particular ya se encuentra dentro de la lista de palabras de un solo archivo a modo de evitar repeticiones
