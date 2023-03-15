@@ -8,8 +8,23 @@ import java.util.regex.Pattern;
 
 public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 {
+
     private ArrayList<String> DiccionarioLista = new ArrayList<String>();   //Lista donde se colocarán todas las palabras del proyecto completo
     public long tiempoInicio;
+
+    private String[] files = new String[505];
+
+    public ManejadorArchivos()
+    {
+        for(int i = 0; i < 502; i++)
+        {
+            files[i] = numeroAString(i+2);
+        }
+
+        files[502] = "hard";
+        files[503] = "medium";
+        files[504] = "simple";
+    }
 
     public void generarDiccionarioCentral() throws  IOException
     {
@@ -28,17 +43,17 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 504; i++)
+        for(String pagina : files)
         {
-            String num_str = this.numeroAString(i);
+            //String num_str = this.numeroAString(i);
 
             //Se genera el link del archivo del cual se van a obtener las palabras
-            String linkActual = "Palabras\\" + num_str + ".txt";
+            String linkActual = "Palabras\\" + pagina + ".txt";
 
             //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
             long inicioLeerPagina = System.currentTimeMillis();
 
-            if(i==2)
+            if(pagina.equals("002"))
             {
                 combinarDiccionarios(linkActual, true);
             }
@@ -69,10 +84,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 salida.append(entradaPagina + "\n");
             }
 
-            System.out.println("Las palabras del archivo " + num_str + " fueron procesadas.");
+            System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
         }
 
+        System.out.print("Generando diccionario central");
+
         sort.quickSort(DiccionarioLista,0,DiccionarioLista.size()-1);
+
+        System.out.println();
 
         //Toda la lista de palabras se escribe dentro del
         diccionario.write(listaAString(DiccionarioLista));
@@ -108,14 +127,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 504; i++)
+        for(String pagina : files)
         {
             //Se genera el link del archivo del cual se van a obtener las palabras
-            String linkActual = "Limpios\\" + this.numeroAString(i) + ".txt";
+            String linkActual = "Limpios\\" + pagina + ".txt";
 
             //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
             long inicioLeerPagina = System.currentTimeMillis();
-            extraerPalabrasArchivo(linkActual,i);
+            extraerPalabrasArchivo(linkActual,pagina);
             long finLeerPagina = System.currentTimeMillis();
 
             //Se obtiene el tiempo total de duración del conteo
@@ -173,14 +192,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioBorradoEtiquetas = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en cargar todas las páginas
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 504; i++)
+        for(String pagina : files)
         {
             //Se genera el link del archivo cuyas etiquetas sevan a remover en la iteración
-            String linkActual = "Files\\" + this.numeroAString(i) + ".html";
+            String linkActual = "Files\\" + pagina + ".html";
 
             //Empieza el conteo del tiempo que se tarda en remover las etiquetas, se hace, se genera el archivo puro y se termina el conteo
             long inicioLeerPagina = System.currentTimeMillis();
-            this.quitarEtiquetas(linkActual,i);
+            this.quitarEtiquetas(linkActual,pagina);
             long finLeerPagina = System.currentTimeMillis();
 
             //Se obtiene el tiempo total de duración del conteo
@@ -233,10 +252,10 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         long inicioCargaPaginas = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en cargar todas las páginas
 
         //Desde el archivo 002 hasta el 503 realiza este ciclo
-        for(int i = 2; i < 504; i++)
+        for(String pagina : files)
         {
             //Se genera el link del archivo a leer en la iteración
-            String linkActual = "Files\\" + this.numeroAString(i) + ".html";
+            String linkActual = "Files\\" + pagina + ".html";
 
             //Empieza el conteo del tiempo que se tarda en abrir la pagina, se realiza la apertura y se termina el conteo
             long inicioLeerPagina = System.currentTimeMillis();
@@ -288,7 +307,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //File archivo = new File("Diccionario.txt");
         FileReader fileLectura = new FileReader(diccionarioActual);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
-        StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
         String linea;  //Almacenará el archivo completo con el texto completo
         ArrayList<String> listaAmeter = new ArrayList<>();
 
@@ -302,9 +320,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 //            archivo.delete();
 //        }
 
-        FileWriter fileEscritura = new FileWriter("Diccionario.txt");  //Se crea el archivo de salida del texto filtrado
-
-        boolean primeraPalabra = true;
+//        FileWriter fileEscritura = new FileWriter("Diccionario.txt");  //Se crea el archivo de salida del texto filtrado
+//
+//        boolean primeraPalabra = true;
 
         if(primeraVez)
         {
@@ -335,7 +353,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     }
 
     //Método encargado de generar una lista de palabras irrepetibles por cada archivo de texto para colocarlo dentro del diccionario
-    public void extraerPalabrasArchivo(String link, int num) throws IOException
+    public void extraerPalabrasArchivo(String link, String pagina) throws IOException
     {
         /*
          * Lo que ocurre dentro de este método es lo siguiente:
@@ -355,7 +373,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
          * 8° FIN
          */
 
-        FileWriter fileEscritura = new FileWriter("Palabras\\" + this.numeroAString(num) + ".txt");  //Se crea el archivo de salida del texto filtrado
+        FileWriter fileEscritura = new FileWriter("Palabras\\" + pagina + ".txt");  //Se crea el archivo de salida del texto filtrado
         FileReader fileLectura = new FileReader(link);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
         StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
@@ -463,9 +481,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     }
 
     //Quita las etiquetas de la página del link correspondiente
-    public void quitarEtiquetas(String link, int num) throws IOException
+    public void quitarEtiquetas(String link, String pagina) throws IOException
     {
-        FileWriter fileEscritura = new FileWriter("Limpios\\" + this.numeroAString(num) + ".txt");  //Se crea el archivo de salida del texto filtrado
+        FileWriter fileEscritura = new FileWriter("Limpios\\" + pagina + ".txt");  //Se crea el archivo de salida del texto filtrado
         FileReader fileLectura = new FileReader(link);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
         StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
