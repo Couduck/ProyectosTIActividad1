@@ -27,11 +27,73 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         files[504] = "simple";
     }
 
+    public void tokenizarTodosArchivos() throws IOException
+    {
+        hashcentral = new HashMap<>();
+
+        Sorter sort = new Sorter();
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        //Realiza con todos los archivos el siguiente ciclo
+        for(String pagina : files)
+        {
+            //Se genera el link del archivo del cual se van a obtener las palabras
+            String linkActual = "Palabras\\" + pagina + ".txt";
+
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
+            long inicioLeerPagina = System.currentTimeMillis();
+
+            HashMap<String, Palabra> coleccionPalabrasArchivo = contarPalabrasXArchivo(pagina);
+
+            AniadirAHashCentral(coleccionPalabrasArchivo);
+
+            long finLeerPagina = System.currentTimeMillis();
+
+            //Se obtiene el tiempo total de duración del conteo
+            long duracionLeerPagina = finLeerPagina - inicioLeerPagina;
+
+            //Se añade al archivo de salida el nombre de la página junto con su duración en segundos
+            String entradaPagina = linkActual + "\t" + duracionLeerPagina/1000.0;
+
+            System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
+        }
+
+        FileWriter salida = new FileWriter("Salidas\\Tokenized.txt");
+
+        Collection<Palabra> listaObjetos = hashcentral.values();
+
+        ArrayList<Palabra> PalabrasComoLista = new ArrayList<>(listaObjetos);
+
+        System.out.print("\n----------\nGenerando archivo...");
+
+        for(Palabra palabraCompleta : PalabrasComoLista)
+        {
+
+            if(primeraVez)
+            {
+                salida.write(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida.append(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+            }
+
+        }
+
+        System.out.println("\n----------");
+
+        //Se cierra el documento
+        salida.close();
+    }
+
     public void tokenizarArchivosActividad5() throws  IOException
     {
         String[] archivos = {"simple", "medium", "hard", "049"};
-
-        HashMap<String, Palabra> coleccionPalabrasTodas = new HashMap<String, Palabra>();
 
         Sorter sort = new Sorter();
 
@@ -45,7 +107,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         for(String pagina : archivos)
         {
             //Se genera el link del archivo del cual se van a obtener las palabras
-            String linkActual = "Palabras\\" + pagina + ".txt";
+            String linkActual = "Limpios\\" + pagina + ".txt";
 
             //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
             long inicioLeerPagina = System.currentTimeMillis();
@@ -402,7 +464,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
                 else
                 {
-                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia()+1);
+                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia() + palabrasArchivoActual.get(palabra).getFrecuencia());
+                    palabraExiste.setArchivos(palabraExiste.getArchivos()+1);
                     hashcentral.put(palabra, palabraExiste);
                 }
             }
@@ -420,7 +483,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     {
         HashMap<String, Palabra> coleccion = new HashMap<String, Palabra>();
 
-        FileReader fileLectura = new FileReader("Palabras\\" + pagina + ".txt");  //Se guarda el lector del archivo en cuestión
+        FileReader fileLectura = new FileReader("Limpios\\" + pagina + ".txt");  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
         StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
         String archivoCompleto, linea;  //Almacenará el archivo completo con el texto completo
@@ -442,8 +505,29 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         List<String> arrayAlista = Arrays.asList(palabras); //El arreglo se vuelve una lista y luego pasa a un arraylist
         ArrayList<String> listapalabras = new ArrayList<>(arrayAlista), listaFiltrada = new ArrayList<String>();    //Se copia la lista de palabras encontradas a un arraylist, además se genera un arraylist en el que se colocarán las palabras del archivo qu epasen los filtros impuestos
 
+        for (String palabra:listapalabras)
+        {
+            if(!palabra.isBlank())  //¿La palabra actual es un campo vacío? Rechazada
+            {
+                if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada
+                {
+                    if(!listaFiltrada.isEmpty())    //Si la lista está vacía, se añade como la primera de la misma, caso contrario, se busca para ver que no sea una palabra ya existente, en caso de que no se encuentre, se añade a la lista
+                    {
+                        listaFiltrada.add(palabra);
+                    }
+
+                    else
+                    {
+                        listaFiltrada.add(palabra);
+                    }
+                }
+            }
+        }
+
+        boolean encontradoEnArchivo = false;
+
         //Ciclo para sacar palabras del archivo
-        for (String palabra : listapalabras)
+        for (String palabra : listaFiltrada)
         {
             Palabra nuevaPalabra = new Palabra();
 
@@ -455,6 +539,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 {
                     nuevaPalabra.setPalabra(palabra);
                     coleccion.put(palabra, nuevaPalabra);
+
+                    if(!encontradoEnArchivo)
+                    {
+                        nuevaPalabra.setArchivos(nuevaPalabra.getArchivos()+1);
+                        encontradoEnArchivo = true;
+                    }
                 }
 
                 else
@@ -462,6 +552,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     palabraExiste.setFrecuencia(palabraExiste.getFrecuencia()+1);
                     coleccion.put(palabra, palabraExiste);
                 }
+
+
             }
 
             else
