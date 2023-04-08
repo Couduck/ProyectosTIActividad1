@@ -138,7 +138,7 @@ public class Sorter {
         }
     }
 
-    public ArrayList<String> quickSort(ArrayList<String> enProceso, int limite1, int limite2)   ///Metodo para ordenar el arreglo con el metodo Quick, recibe la lista actual a ordenar al igual que los limites finales de la misma (donde empieza y donde termina)
+    public ArrayList<String> quickSortPalabrasABC(ArrayList<String> enProceso, int limite1, int limite2)   ///Metodo para ordenar el arreglo con el metodo Quick, recibe la lista actual a ordenar al igual que los limites finales de la misma (donde empieza y donde termina)
     {
         ArrayList<String> resultado = new ArrayList<String>();    //Lista a devolver
 
@@ -193,18 +193,92 @@ public class Sorter {
 
             if (i - 1 < limite1)   //En caso de que el pivote no tenga nada a la izquierda, se recursea solamente usando el lado derecho del arreglo
             {
-                resultado = quickSort(enProceso, i + 1, limite2);
+                resultado = quickSortPalabrasABC(enProceso, i + 1, limite2);
             }
 
             else
             {
                 if (i + 1 > limite2)   //En caso de que el pivote no tenga nada a la derecha, se recursea solamente usando el lado izquierdo del arreglo
                 {
-                    resultado = quickSort(enProceso, limite1, i - 1);
+                    resultado = quickSortPalabrasABC(enProceso, limite1, i - 1);
                 } else    //Si el pivote tiene valores tanto a la izquierda como a la derecha, se recursan ambos lados
                 {
-                    resultado = quickSort(enProceso, limite1, i - 1);
-                    resultado = quickSort(enProceso, i + 1, limite2);
+                    resultado = quickSortPalabrasABC(enProceso, limite1, i - 1);
+                    resultado = quickSortPalabrasABC(enProceso, i + 1, limite2);
+                }
+            }
+        }
+
+        return resultado;
+    }
+
+    public ArrayList<Palabra> quickSortPalabrasFrec(ArrayList<Palabra> enProceso, int limite1, int limite2)   ///Metodo para ordenar el arreglo con el metodo Quick, recibe la lista actual a ordenar al igual que los limites finales de la misma (donde empieza y donde termina)
+    {
+        ArrayList<Palabra> resultado = new ArrayList<Palabra>();    //Lista a devolver
+
+        int i = limite1, j = limite2;   //Los límites auxiliares, estos cambiaran y utilizaran los limites de la lista a modo de referencia para su comportamiento
+
+        if (limite1 == limite2)  //Caso base: Si los limites de inicio son iguales
+        {
+            resultado = enProceso;
+        }
+
+        else    //Caso recursivo, los limites iniciales son diferentes
+        {
+            Palabra pivote = enProceso.get(limite1);    //Se genera el pivote, siempre empezando con el valor que se encuentra en la primer casilla
+
+            while (i != j)   //Mientras ambos limites auxiliares no se alinen, significa que el pivote aun no ha encontrado su lugar final en el arreglo
+            {
+                while (j > limite1 && i != j)    //Comprueba que el limite auxiliar a la derecha del pivote no haya recorrido el arreglo completo, al igual que se comprueba que ambos limites auxiliares no sean iguales (Lo que significa que el pivote ya tiene una posición asignada)
+                {
+                    if (enProceso.get(j).getFrecuencia() >= pivote.getFrecuencia())   //Si el elemento a analizar es menor al pivote, estos intercambian posiciones, de lo contrario, el auxiliar j avanza a la izquierda
+                    {
+                        Palabra aux = enProceso.get(j);
+                        enProceso.set(j, pivote);
+                        enProceso.set(i, aux);
+                        break;
+                    }
+
+                    else
+                    {
+                        j--;
+                    }
+                }
+
+                while (i < limite2 && i != j)    //Comprueba que el limite auxiliar a la izquierda del pivote no haya recorrido el arreglo completo, al igual que se comprueba que ambos limites auxiliares no sean iguales (Lo que significa que el pivote ya tiene una posición asignada)
+                {
+
+                    if (enProceso.get(i).getFrecuencia() < pivote.getFrecuencia())   //Si el elemento a analizar es mayor al pivote, estos intercambian posiciones, de lo contrario, el auxiliar i avanza a la derecha
+                    {
+                        Palabra aux = enProceso.get(i);
+                        enProceso.set(i, pivote);
+                        enProceso.set(j, aux);
+                        break;
+                    }
+
+                    else
+                    {
+                        i++;
+                    }
+                }
+            }
+
+            //Una vez el`pivote tenga un lugar final, se pueden dar 3 casos:
+
+            if (i - 1 < limite1)   //En caso de que el pivote no tenga nada a la izquierda, se recursea solamente usando el lado derecho del arreglo
+            {
+                resultado = quickSortPalabrasFrec(enProceso, i + 1, limite2);
+            }
+
+            else
+            {
+                if (i + 1 > limite2)   //En caso de que el pivote no tenga nada a la derecha, se recursea solamente usando el lado izquierdo del arreglo
+                {
+                    resultado = quickSortPalabrasFrec(enProceso, limite1, i - 1);
+                } else    //Si el pivote tiene valores tanto a la izquierda como a la derecha, se recursan ambos lados
+                {
+                    resultado = quickSortPalabrasFrec(enProceso, limite1, i - 1);
+                    resultado = quickSortPalabrasFrec(enProceso, i + 1, limite2);
                 }
             }
         }

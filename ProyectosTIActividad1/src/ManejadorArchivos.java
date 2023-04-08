@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,6 +12,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     public long tiempoInicio;
 
     private String[] files = new String[505];
+
+    private HashMap<String, Palabra> hashcentral = new HashMap<>();
 
     public ManejadorArchivos()
     {
@@ -26,15 +27,105 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         files[504] = "simple";
     }
 
+    public void tokenizarArchivosActividad5() throws  IOException
+    {
+        String[] archivos = {"simple", "medium", "hard", "049"};
+
+        HashMap<String, Palabra> coleccionPalabrasTodas = new HashMap<String, Palabra>();
+
+        Sorter sort = new Sorter();
+
+        FileWriter salida1 = new FileWriter("Salidas\\Salida5_ABC.txt"), salida2 = new FileWriter("Salidas\\Salida5_FREC.txt");
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        //Realiza con todos los archivos el siguiente ciclo
+        for(String pagina : archivos)
+        {
+            //Se genera el link del archivo del cual se van a obtener las palabras
+            String linkActual = "Palabras\\" + pagina + ".txt";
+
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
+            long inicioLeerPagina = System.currentTimeMillis();
+
+            HashMap<String, Palabra> coleccionPalabrasArchivo = contarPalabrasXArchivo(pagina);
+
+            AniadirAHashCentral(coleccionPalabrasArchivo);
+
+            long finLeerPagina = System.currentTimeMillis();
+
+            //Se obtiene el tiempo total de duración del conteo
+            long duracionLeerPagina = finLeerPagina - inicioLeerPagina;
+
+            //Se añade al archivo de salida el nombre de la página junto con su duración en segundos
+            String entradaPagina = linkActual + "\t" + duracionLeerPagina/1000.0;
+
+            System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
+        }
+
+        Set<String> listaPalabras =hashcentral.keySet();
+        Collection<Palabra> listaObjetos = hashcentral.values();
+
+        ArrayList<String> PalabrasOrdenadasABC = new ArrayList<>(listaPalabras);
+        ArrayList<Palabra> PalabrasOrdenadasFrec = new ArrayList<>(listaObjetos);
+//
+        sort.quickSortPalabrasABC(PalabrasOrdenadasABC, 0, PalabrasOrdenadasABC.size()-1);
+        sort.quickSortPalabrasFrec(PalabrasOrdenadasFrec, 0, PalabrasOrdenadasFrec.size()-1);
+
+        FileWriter ordenABC = new FileWriter("Salidas\\Salida5_ABC.txt"), ordenFREC = new FileWriter("Salidas\\Salida5_FREC.txt");
+
+        System.out.print("\n----------\nGenerando ordenamiento alfabetico...");
+
+        for(String palabra : PalabrasOrdenadasABC)
+        {
+            Palabra palabraCompleta = hashcentral.get(palabra);
+
+            if(primeraVez)
+            {
+                ordenABC.write(palabraCompleta.getPalabra() + " " + palabraCompleta.getFrecuencia() + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                ordenABC.append(palabraCompleta.getPalabra() + " " + palabraCompleta.getFrecuencia() + "\n");
+            }
+
+        }
+
+        System.out.println("\n----------");
+
+
+        System.out.print("\n----------\nGenerando ordenamiento por frecuencia...");
+        primeraVez = true;
+
+        for(Palabra palabraCompleta : PalabrasOrdenadasFrec)
+        {
+            if(primeraVez)
+            {
+                ordenFREC.write(palabraCompleta.getPalabra() + " " + palabraCompleta.getFrecuencia() + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                ordenFREC.append(palabraCompleta.getPalabra() + " " + palabraCompleta.getFrecuencia() + "\n");
+            }
+
+        }
+
+        System.out.println("\n----------");
+
+        //Se cierra el documento
+        ordenABC.close();
+        ordenFREC.close();
+    }
+
     public void generarDiccionarioCentral() throws  IOException
     {
         Sorter sort = new Sorter();
-//        File file = new File("Diccionario.txt");
-//
-//        if(file.exists())
-//        {
-//            file.delete();
-//        }
 
         FileWriter salida = new FileWriter("Salidas\\Salida4.txt"), diccionario = new FileWriter("DiccionarioCompleto.txt");
 
@@ -42,27 +133,16 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         long inicioCreacionDiccionario = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
 
-        //Desde el archivo 002 hasta el 503 realiza este ciclo
+        //Realiza con todos los archivos el siguiente ciclo
         for(String pagina : files)
         {
-            //String num_str = this.numeroAString(i);
-
             //Se genera el link del archivo del cual se van a obtener las palabras
             String linkActual = "Palabras\\" + pagina + ".txt";
 
             //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
             long inicioLeerPagina = System.currentTimeMillis();
 
-            if(pagina.equals("002"))
-            {
-                combinarDiccionarios(linkActual, true);
-            }
-
-            else
-            {
-                combinarDiccionarios(linkActual, false);
-            }
-
+            combinarDiccionarios(linkActual);
 
             long finLeerPagina = System.currentTimeMillis();
 
@@ -87,11 +167,11 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
         }
 
-        System.out.print("Generando diccionario central");
+        System.out.print("\n----------\nGenerando diccionario central...");
 
-        sort.quickSort(DiccionarioLista,0,DiccionarioLista.size()-1);
+        sort.quickSortPalabrasABC(DiccionarioLista,0,DiccionarioLista.size()-1);
 
-        System.out.println();
+        System.out.println("\n----------");
 
         //Toda la lista de palabras se escribe dentro del
         diccionario.write(listaAString(DiccionarioLista));
@@ -302,52 +382,117 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
-    public void combinarDiccionarios(String diccionarioActual, boolean primeraVez) throws IOException
+    public void AniadirAHashCentral(HashMap<String, Palabra> palabrasArchivoActual) throws IOException
     {
-        //File archivo = new File("Diccionario.txt");
+        Set<String> listaPalabras =palabrasArchivoActual.keySet();
+
+        for (String palabra : listaPalabras)
+        {
+            Palabra nuevaPalabra = new Palabra();
+
+            if(!hashcentral.isEmpty())
+            {
+                Palabra palabraExiste = hashcentral.get(palabra);
+
+                if(palabraExiste == null)
+                {
+                    nuevaPalabra.setPalabra(palabra);
+                    hashcentral.put(palabra, nuevaPalabra);
+                }
+
+                else
+                {
+                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia()+1);
+                    hashcentral.put(palabra, palabraExiste);
+                }
+            }
+
+            else
+            {
+                nuevaPalabra.setPalabra(palabra);
+                hashcentral.put(palabra, nuevaPalabra);
+            }
+        }
+    }
+
+
+    public HashMap<String, Palabra> contarPalabrasXArchivo(String pagina) throws IOException
+    {
+        HashMap<String, Palabra> coleccion = new HashMap<String, Palabra>();
+
+        FileReader fileLectura = new FileReader("Palabras\\" + pagina + ".txt");  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+        StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
+        String archivoCompleto, linea;  //Almacenará el archivo completo con el texto completo
+
+        while ((linea = bufred.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            if (linea.equals(""))    //Si la linea está vacía, se deja un salto de linea, si no lo está, se pone la linea en cuestión y se deja un salto de linea
+            {
+                temporal.append('\n');
+            } else {
+                temporal.append(linea + '\n');
+            }
+        }
+
+        //Todos los caracteres que no sean letras (del abecedario inglés, acentuadas y Ñ's), números, guiones o saltos de lineas son eliminados de la string del archivo completo
+        archivoCompleto = temporal.toString().replaceAll("[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ'0-9-\n ]", "");
+        archivoCompleto = archivoCompleto.replaceAll("\n", " "); //Todos los saltos de linea son reemplazados por espacios
+        String[] palabras = archivoCompleto.split(" "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+        List<String> arrayAlista = Arrays.asList(palabras); //El arreglo se vuelve una lista y luego pasa a un arraylist
+        ArrayList<String> listapalabras = new ArrayList<>(arrayAlista), listaFiltrada = new ArrayList<String>();    //Se copia la lista de palabras encontradas a un arraylist, además se genera un arraylist en el que se colocarán las palabras del archivo qu epasen los filtros impuestos
+
+        //Ciclo para sacar palabras del archivo
+        for (String palabra : listapalabras)
+        {
+            Palabra nuevaPalabra = new Palabra();
+
+            if(!coleccion.isEmpty())
+            {
+                Palabra palabraExiste = coleccion.get(palabra);
+
+                if(palabraExiste == null)
+                {
+                    nuevaPalabra.setPalabra(palabra);
+                    coleccion.put(palabra, nuevaPalabra);
+                }
+
+                else
+                {
+                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia()+1);
+                    coleccion.put(palabra, palabraExiste);
+                }
+            }
+
+            else
+            {
+                nuevaPalabra.setPalabra(palabra);
+                coleccion.put(palabra, nuevaPalabra);
+            }
+
+
+
+        }
+
+        return coleccion;
+    }
+
+    public void combinarDiccionarios(String diccionarioActual) throws IOException
+    {
         FileReader fileLectura = new FileReader(diccionarioActual);  //Se guarda el lector del archivo en cuestión
         BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
         String linea;  //Almacenará el archivo completo con el texto completo
         ArrayList<String> listaAmeter = new ArrayList<>();
 
-        while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
+        while((linea = bufred.readLine())!= null)       //Mientras no se haya llegado al final del archivo
         {
             listaAmeter.add(linea);
         }
 
-//        if(archivo.exists())
-//        {
-//            archivo.delete();
-//        }
-
-//        FileWriter fileEscritura = new FileWriter("Diccionario.txt");  //Se crea el archivo de salida del texto filtrado
-//
-//        boolean primeraPalabra = true;
-
-        if(primeraVez)
+        for (String palabra: listaAmeter)       //Cada palabra se introduce en la lista de diccionario
         {
-            DiccionarioLista = new ArrayList<String>(listaAmeter);
-        }
-
-        else
-        {
-//            FileReader diccionarioGlobalActual = new FileReader("Diccionario.txt");
-//            bufred = new BufferedReader(diccionarioGlobalActual); // BufferedReader para el análisis de linea
-//            DiccionarioLista = new ArrayList<>();
-//
-//            while((linea = bufred.readLine())!= null)                               //Mientras no se haya llegado al final del archivo
-//            {
-//                DiccionarioLista.add(linea);
-//            }
-
-            for (String palabra: listaAmeter)
-            {
-                palabra = palabra.toLowerCase();
-                DiccionarioLista.add(palabra);
-            }
-
-//            Sorter sort = new Sorter();
-//            sort.quickSort(DiccionarioLista,0,DiccionarioLista.size()-1);
+            palabra = palabra.toLowerCase();
+            DiccionarioLista.add(palabra);
         }
 
     }
