@@ -586,12 +586,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     nuevaPalabra.setFrecuencia(palabrasArchivoActual.get(palabra).getFrecuencia());
                     nuevaPalabra.getArchivosAparece().add(pagina);
                     nuevaPalabra.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
-
-                    if(nuevaPalabra.getPalabra().equals("Reserve"))
-                    {
-                        int i = 1;
-                    }
-
                     hashcentral.put(palabra, nuevaPalabra);
                 }
 
@@ -601,12 +595,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     palabraExiste.setArchivos(palabraExiste.getArchivos()+1);
                     palabraExiste.getArchivosAparece().add(pagina);
                     palabraExiste.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
-
-                    if(palabraExiste.getPalabra().equals("Reserve"))
-                    {
-                        int i = 1;
-                    }
-
                     hashcentral.put(palabra, palabraExiste);
                 }
             }
