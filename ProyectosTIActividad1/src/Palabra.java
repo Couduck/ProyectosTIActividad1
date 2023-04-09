@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Palabra
 {
     String palabra;
@@ -5,11 +8,33 @@ public class Palabra
 
     int archivos;
 
+    List<String> archivosAparece;
+
+    List<Integer> frecuenciaArchivos;
+
     public Palabra()
     {
         palabra = "";
         frecuencia = 1;
         archivos = 1;
+        archivosAparece = new ArrayList<>();
+        frecuenciaArchivos = new ArrayList<>();
+    }
+
+    public List<String> getArchivosAparece() {
+        return archivosAparece;
+    }
+
+    public void setArchivosAparece(List<String> archivosAparece) {
+        this.archivosAparece = archivosAparece;
+    }
+
+    public List<Integer> getFrecuenciaArchivos() {
+        return frecuenciaArchivos;
+    }
+
+    public void setFrecuenciaArchivos(List<Integer> frecuenciaArchivos) {
+        this.frecuenciaArchivos = frecuenciaArchivos;
     }
 
     public int getArchivos() {
