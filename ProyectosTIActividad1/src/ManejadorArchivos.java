@@ -29,7 +29,97 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     public void generarPosting() throws IOException
     {
+        hashcentral = new HashMap<>();
 
+        Sorter sort = new Sorter();
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioTokenizacionCompleta = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        FileWriter salida = new FileWriter("Salidas\\Posting.txt"), salida2 = new FileWriter("Salidas\\Salida7.txt");
+
+        //Realiza con todos los archivos el siguiente ciclo
+        for(String pagina : files)
+        {
+            //Se genera el link del archivo del cual se van a obtener las palabras
+            String linkActual = "Limpios\\" + pagina + ".txt";
+
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
+            long inicioLeerPagina = System.currentTimeMillis();
+
+            HashMap<String, Palabra> coleccionPalabrasArchivo = contarPalabrasXArchivo(pagina);
+            AniadirAHashCentral(coleccionPalabrasArchivo, pagina);
+
+            long finLeerPagina = System.currentTimeMillis();
+
+            //Se obtiene el tiempo total de duración del conteo
+            long duracionLeerPagina = finLeerPagina - inicioLeerPagina;
+
+            //Se añade al archivo de salida el nombre de la página junto con su duración en segundos
+            String entradaPagina = linkActual + "\t" + duracionLeerPagina/1000.0;
+
+            if(primeraVez)
+            {
+                salida2.write(entradaPagina + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida2.append(entradaPagina + "\n");
+            }
+
+            System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
+        }
+
+        Collection<Palabra> listaObjetos = hashcentral.values();
+
+        ArrayList<Palabra> PalabrasComoLista = new ArrayList<>(listaObjetos);
+
+        primeraVez = true;
+
+        System.out.print("\n----------\nGenerando archivo...");
+
+        for(Palabra palabraCompleta : PalabrasComoLista)
+        {
+            int i = 0;
+
+            for (String pagina : palabraCompleta.getArchivosAparece())
+            {
+                if(primeraVez)
+                {
+                    salida.write(pagina + ".html, " + palabraCompleta.getFrecuenciaArchivos().get(i) + "\n");
+                    primeraVez = false;
+                }
+
+                else
+                {
+                    salida.append(pagina + ".html, " + palabraCompleta.getFrecuenciaArchivos().get(i) + "\n");
+                }
+
+                i++;
+            }
+        }
+
+        long finTokenizacionCompleta = System.currentTimeMillis();
+
+        long duracionTokenizacionCompleta = finTokenizacionCompleta - inicioTokenizacionCompleta;
+
+        System.out.println("\n----------");
+
+        salida2.append("\nEl tiempo requerido para crear el archivo de Posting fue de " + duracionTokenizacionCompleta/1000.0 + " segundos");
+
+        //Mismo proceso de arriba pero con la duración total del programa
+        long finPrograma = System.currentTimeMillis();
+
+        long duracionPrograma = finPrograma - tiempoInicio;
+
+        salida2.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
+
+        //Se cierra el documento
+        salida.close();
+        salida2.close();
     }
 
     public void tokenizarTodosArchivos() throws IOException
@@ -475,6 +565,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
+
+
+
     public void AniadirAHashCentral(HashMap<String, Palabra> palabrasArchivoActual, String pagina) throws IOException
     {
         Set<String> listaPalabras =palabrasArchivoActual.keySet();
@@ -490,8 +583,15 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 if(palabraExiste == null)
                 {
                     nuevaPalabra.setPalabra(palabra);
+                    nuevaPalabra.setFrecuencia(palabrasArchivoActual.get(palabra).getFrecuencia());
                     nuevaPalabra.getArchivosAparece().add(pagina);
                     nuevaPalabra.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
+
+                    if(nuevaPalabra.getPalabra().equals("Reserve"))
+                    {
+                        int i = 1;
+                    }
+
                     hashcentral.put(palabra, nuevaPalabra);
                 }
 
@@ -501,6 +601,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                     palabraExiste.setArchivos(palabraExiste.getArchivos()+1);
                     palabraExiste.getArchivosAparece().add(pagina);
                     palabraExiste.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
+
+                    if(palabraExiste.getPalabra().equals("Reserve"))
+                    {
+                        int i = 1;
+                    }
+
                     hashcentral.put(palabra, palabraExiste);
                 }
             }
@@ -512,7 +618,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
     }
-
 
     public HashMap<String, Palabra> contarPalabrasXArchivo(String pagina) throws IOException
     {
