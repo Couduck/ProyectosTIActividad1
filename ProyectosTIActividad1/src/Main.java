@@ -10,7 +10,8 @@ public class Main
 //        manejadorArchivos.removerTodasLasEtiquetas();
 //        manejadorArchivos.generarDiccionarios();
         //manejadorArchivos.generarDiccionarioCentral();
-        manejadorArchivos.tokenizarArchivosActividad5();
+        //manejadorArchivos.tokenizarArchivosActividad5();
         manejadorArchivos.tokenizarTodosArchivos();
+        manejadorArchivos.generarPosting();
     }
 }
