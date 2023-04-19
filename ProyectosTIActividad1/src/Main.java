@@ -11,7 +11,9 @@ public class Main
 //        manejadorArchivos.generarDiccionarios();
         //manejadorArchivos.generarDiccionarioCentral();
         //manejadorArchivos.tokenizarArchivosActividad5();
-        manejadorArchivos.tokenizarTodosArchivos();
-        manejadorArchivos.generarPosting();
+        //manejadorArchivos.tokenizarTodosArchivos();
+        //manejadorArchivos.generarPosting();
+        manejadorArchivos.almacenamientoHashTable();
+        int i=1;
     }
 }
