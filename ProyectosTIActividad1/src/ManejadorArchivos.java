@@ -17,8 +17,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     private Hashtable<String, Palabra> hashTablecentral = new Hashtable<>(10, 0.5f);
 
-    public ManejadorArchivos()
-    {
+    private HashMap<String, Palabra> stopList = generarStopList();
+
+    public ManejadorArchivos() throws IOException {
         for(int i = 0; i < 502; i++)
         {
             files[i] = numeroAString(i+2);
@@ -29,7 +30,118 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         files[504] = "simple";
     }
 
-    public void almacenamientoHashTable() throws IOException
+
+    public HashMap<String, Palabra> generarStopList() throws IOException
+    {
+        FileReader fileLectura = new FileReader("Files\\StopList.txt");  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+        HashMap<String, Palabra> hashdevolver = new HashMap<>();
+        String linea;  //Almacenará el archivo completo con el texto completo
+
+        while ((linea = bufred.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            Palabra palabraProhib = new Palabra();
+            palabraProhib.setPalabra(linea);
+            hashdevolver.put(linea, palabraProhib);
+        }
+
+        return hashdevolver;
+    }
+
+
+    public void tokenizarTodosArchivosStopList() throws IOException     //Actividad 6
+    {
+        hashcentral = new HashMap<>();
+
+        Sorter sort = new Sorter();
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioTokenizacionCompleta = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        FileWriter salida = new FileWriter("Salidas\\TokenizedStopList.txt"), salida2 = new FileWriter("Salidas\\Salida9.txt");
+
+        //Realiza con todos los archivos el siguiente ciclo
+        for(String pagina : files)
+        {
+            //Se genera el link del archivo del cual se van a obtener las palabras
+            String linkActual = "Limpios\\" + pagina + ".txt";
+
+            //Empieza el conteo del tiempo que se tarda en identificar las palabras del archivo actual
+            long inicioLeerPagina = System.currentTimeMillis();
+
+            HashMap<String, Palabra> coleccionPalabrasArchivo = contarPalabrasXArchivo_CNStopList(pagina);
+            AniadirAHashCentral(coleccionPalabrasArchivo, pagina);
+
+            long finLeerPagina = System.currentTimeMillis();
+
+            //Se obtiene el tiempo total de duración del conteo
+            long duracionLeerPagina = finLeerPagina - inicioLeerPagina;
+
+            //Se añade al archivo de salida el nombre de la página junto con su duración en segundos
+            String entradaPagina = linkActual + "\t" + duracionLeerPagina/1000.0;
+
+            if(primeraVez)
+            {
+                salida2.write(entradaPagina + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida2.append(entradaPagina + "\n");
+            }
+
+            System.out.println("Las palabras del archivo " + pagina + " fueron procesadas.");
+        }
+
+        Collection<Palabra> listaObjetos = hashcentral.values();
+
+        ArrayList<Palabra> PalabrasComoLista = new ArrayList<>(listaObjetos);
+
+        primeraVez = true;
+
+        System.out.print("\n----------\nGenerando archivo...");
+
+        for(Palabra palabraCompleta : PalabrasComoLista)
+        {
+
+            if(palabraCompleta.getFrecuencia() > 1 && palabraCompleta.getPalabra().length() > 1)
+            {
+                if(primeraVez)
+                {
+                    salida.write(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+                    primeraVez = false;
+                }
+
+                else
+                {
+                    salida.append(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+                }
+            }
+        }
+
+        long finTokenizacionCompleta = System.currentTimeMillis();
+
+        long duracionTokenizacionCompleta = finTokenizacionCompleta - inicioTokenizacionCompleta;
+
+        System.out.println("\n----------");
+
+        salida2.append("\nEl tiempo requerido para tokenizar las palabras de todos los archivos (contemplando la Stop List) fue de " + duracionTokenizacionCompleta/1000.0 + " segundos");
+
+        //Mismo proceso de arriba pero con la duración total del programa
+        long finPrograma = System.currentTimeMillis();
+
+        long duracionPrograma = finPrograma - tiempoInicio;
+
+        salida2.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
+
+        //Se cierra el documento
+        salida.close();
+        salida2.close();
+    }
+
+    public void almacenamientoHashTable() throws IOException    //Actividad 8 (NO COMENTADA)
     {
         Sorter sort = new Sorter();
 
@@ -238,7 +350,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida2.close();
     }
 
-    public void tokenizarTodosArchivos() throws IOException
+    public void tokenizarTodosArchivos() throws IOException     //Actividad 6
     {
         hashcentral = new HashMap<>();
 
@@ -328,7 +440,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida2.close();
     }
 
-    public void tokenizarArchivosActividad5() throws  IOException
+    public void tokenizarArchivosActividad5() throws  IOException   //Actividad 5
     {
         String[] archivos = {"simple", "medium", "hard", "049"};
 
@@ -682,6 +794,101 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     }
 
 
+    public HashMap<String, Palabra> contarPalabrasXArchivo_CNStopList(String pagina) throws IOException
+    {
+        HashMap<String, Palabra> coleccion = new HashMap<String, Palabra>();
+
+        FileReader fileLectura = new FileReader("Limpios\\" + pagina + ".txt");  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+        StringBuilder temporal = new StringBuilder(); // En esta se almacenará poco a poco el texto del archivo
+        String archivoCompleto, linea;  //Almacenará el archivo completo con el texto completo
+
+        while ((linea = bufred.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            if (linea.equals(""))    //Si la linea está vacía, se deja un salto de linea, si no lo está, se pone la linea en cuestión y se deja un salto de linea
+            {
+                temporal.append('\n');
+            } else {
+                temporal.append(linea + '\n');
+            }
+        }
+
+        //Todos los caracteres que no sean letras (del abecedario inglés, acentuadas y Ñ's), números, guiones o saltos de lineas son eliminados de la string del archivo completo
+        archivoCompleto = temporal.toString().replaceAll("[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ'0-9-\n ]", "");
+        archivoCompleto = archivoCompleto.replaceAll("\n", " "); //Todos los saltos de linea son reemplazados por espacios
+        String[] palabras = archivoCompleto.split(" "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+        List<String> arrayAlista = Arrays.asList(palabras); //El arreglo se vuelve una lista y luego pasa a un arraylist
+        ArrayList<String> listapalabras = new ArrayList<>(arrayAlista), listaFiltrada = new ArrayList<String>();    //Se copia la lista de palabras encontradas a un arraylist, además se genera un arraylist en el que se colocarán las palabras del archivo qu epasen los filtros impuestos
+
+        for (String palabra:listapalabras)
+        {
+            if(!palabra.isBlank())  //¿La palabra actual es un campo vacío? Rechazada
+            {
+                if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada
+                {
+                    if(filtradoStopList(palabra))   //¿La palabra se encuentra en el stoplist? Rechazada
+                    {
+                        palabra = palabra.toLowerCase();
+
+                        if(!listaFiltrada.isEmpty())    //Si la lista está vacía, se añade como la primera de la misma, caso contrario, se busca para ver que no sea una palabra ya existente, en caso de que no se encuentre, se añade a la lista
+                        {
+                            listaFiltrada.add(palabra);
+                        }
+
+                        else
+                        {
+                            listaFiltrada.add(palabra);
+                        }
+                    }
+                }
+            }
+        }
+
+        boolean encontradoEnArchivo = false;
+
+        //Ciclo para sacar palabras del archivo
+        for (String palabra : listaFiltrada)
+        {
+            Palabra nuevaPalabra = new Palabra();
+
+            if(!coleccion.isEmpty())
+            {
+                Palabra palabraExiste = coleccion.get(palabra);
+
+                if(palabraExiste == null)
+                {
+                    nuevaPalabra.setPalabra(palabra);
+                    coleccion.put(palabra, nuevaPalabra);
+
+                    if(!encontradoEnArchivo)
+                    {
+                        nuevaPalabra.setArchivos(nuevaPalabra.getArchivos()+1);
+                        encontradoEnArchivo = true;
+                    }
+                }
+
+                else
+                {
+                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia()+1);
+                    coleccion.put(palabra, palabraExiste);
+                }
+
+
+            }
+
+            else
+            {
+                nuevaPalabra.setPalabra(palabra);
+                coleccion.put(palabra, nuevaPalabra);
+            }
+
+
+
+        }
+
+        return coleccion;
+    }
+
     public void AniadirHashTableCentral(HashMap<String, Palabra> palabrasArchivoActual, String pagina)
     {
         Set<String> listaPalabras =palabrasArchivoActual.keySet();
@@ -792,6 +999,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             {
                 if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada
                 {
+                    palabra = palabra.toLowerCase();
+
                     if(!listaFiltrada.isEmpty())    //Si la lista está vacía, se añade como la primera de la misma, caso contrario, se busca para ver que no sea una palabra ya existente, en caso de que no se encuentre, se añade a la lista
                     {
                         listaFiltrada.add(palabra);
@@ -1318,5 +1527,22 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         }
 
         return  pasaFiltro;     //Se devuelve el boolean
+    }
+
+    public boolean filtradoStopList(String palabra)
+    {
+        boolean pasa;
+
+        if(stopList.get(palabra) == null)
+        {
+            pasa = true;
+        }
+
+        else
+        {
+            pasa = false;
+        }
+
+        return pasa;
     }
 }

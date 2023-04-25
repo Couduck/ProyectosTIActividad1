@@ -10,10 +10,11 @@ public class Main
 //        manejadorArchivos.removerTodasLasEtiquetas();
 //        manejadorArchivos.generarDiccionarios();
         //manejadorArchivos.generarDiccionarioCentral();
-        //manejadorArchivos.tokenizarArchivosActividad5();
-        //manejadorArchivos.tokenizarTodosArchivos();
-        //manejadorArchivos.generarPosting();
+        manejadorArchivos.tokenizarArchivosActividad5();
+        manejadorArchivos.tokenizarTodosArchivos();
+        manejadorArchivos.generarPosting();
         manejadorArchivos.almacenamientoHashTable();
+        manejadorArchivos.tokenizarTodosArchivosStopList();
         int i=1;
     }
 }
