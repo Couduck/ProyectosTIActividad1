@@ -446,13 +446,10 @@ ai, 3, 3
 aj, 2, 2
 al, 232, 37
 am, 139, 55
-an, 1112, 153
 ap, 5, 3
 ar, 8, 8
 fold, 13, 7
-as, 191, 87
 fole, 5, 5
-at, 100, 70
 au, 5, 5
 aw, 4, 3
 folk, 12, 6
@@ -461,7 +458,6 @@ ba, 26, 9
 bb, 7, 6
 bc, 13, 9
 bd, 2, 1
-be, 42, 31
 bg, 4, 2
 bh, 7, 6
 bm, 14, 12
@@ -473,7 +469,6 @@ refinery, 2, 2
 bs, 8, 4
 bt, 25, 1
 fool, 4, 2
-by, 109, 76
 anyagi, 34, 21
 eduumrmgtsys, 2, 2
 panel, 4, 4
@@ -490,7 +485,6 @@ e-, 4, 2
 cl, 6, 6
 cm, 23, 11
 cn, 5, 5
-co, 25, 17
 comsnowhill, 4, 4
 food, 109, 50
 cq, 2, 2
@@ -514,7 +508,6 @@ dh, 16, 7
 di, 2, 2
 dk, 5, 5
 dm, 2, 1
-do, 13, 10
 ford, 58, 39
 fore, 10, 6
 edusiuaixdialin, 5, 5
@@ -570,7 +563,6 @@ ge, 3, 3
 gi, 3, 3
 gk, 4, 3
 gm, 4, 2
-go, 28, 9
 gp, 77, 1
 gr, 5, 5
 gt, 4, 2
@@ -585,7 +577,6 @@ forr, 3, 2
 cylinder, 4, 2
 fort, 11, 7
 hd, 3, 3
-he, 227, 59
 hh, 5, 3
 hj, 3, 3
 triggered, 8, 8
@@ -599,25 +590,20 @@ hu, 12, 11
 hv, 3, 2
 intricate, 2, 2
 hz, 2, 1
-four, 30, 22
 sehfb, 3, 3
 genemax, 3, 2
 ia, 4, 1
 collaborators, 2, 2
 id, 63, 15
 believable, 2, 2
-if, 250, 69
 ig, 4, 3
 ii, 144, 63
 violently, 2, 2
 il, 200, 26
 im, 4, 3
-in, 714, 177
 ip, 3, 1
 iq, 2, 2
 ir, 29, 19
-is, 98, 54
-it, 293, 107
 iv, 22, 12
 foto, 3, 3
 beeunetliege, 3, 3
@@ -675,7 +661,6 @@ ma, 193, 46
 mc, 2, 2
 md, 13, 3
 usvafairfaxcodit, 2, 2
-me, 4, 4
 o', 3, 1
 mf, 2, 2
 mg, 7, 4
@@ -687,7 +672,6 @@ ml, 2, 2
 mm, 79, 39
 mn, 115, 29
 mo, 68, 33
-mr, 172, 26
 alabama, 32, 32
 ms, 30, 9
 mt, 8, 7
@@ -696,7 +680,6 @@ greenhouse, 8, 7
 mw, 3, 1
 torvenytelen, 6, 4
 mx, 5, 5
-my, 21, 15
 na, 67, 24
 nc, 4, 1
 ne, 151, 41
@@ -707,7 +690,6 @@ nl, 5, 5
 orgimf, 4, 4
 nm, 2, 2
 nn, 39, 39
-no, 142, 57
 np, 4, 2
 vilagosabban, 2, 2
 nt, 3, 2
@@ -716,15 +698,12 @@ jó, 10, 3
 ny, 33, 22
 nz, 5, 5
 ob, 2, 2
-of, 298, 101
 oh, 7, 5
 vizsgaljak, 8, 7
 ok, 83, 30
 om, 2, 1
-on, 212, 94
 latnia, 2, 2
 op, 5, 1
-or, 28, 13
 ot, 53, 27
 ou, 2, 2
 ov, 2, 2
@@ -772,7 +751,6 @@ sj, 9, 3
 sk, 6, 5
 equivalentes, 2, 2
 lecture, 3, 2
-so, 20, 17
 sp, 5, 5
 sq, 2, 1
 sr, 5, 4
@@ -794,7 +772,6 @@ tl, 5, 2
 tm, 4, 4
 tn, 195, 39
 comniagara, 5, 5
-to, 401, 200
 tp, 13, 4
 tq, 3, 1
 tr, 6, 6
@@ -816,10 +793,8 @@ ul, 3, 2
 um, 58, 26
 comashland, 2, 2
 un, 223, 52
-up, 31, 22
 fpcd, 2, 1
 ur, 36, 20
-us, 757, 147
 áreas, 29, 11
 ut, 20, 16
 szabadságvesztéssel, 2, 2
@@ -843,7 +818,6 @@ segit, 5, 5
 wa, 5, 4
 wc, 3, 3
 wd, 10, 2
-we, 142, 57
 wo, 6, 5
 wp, 3, 2
 sí, 2, 1
@@ -948,7 +922,6 @@ eduindianaipfw, 3, 3
 másod-, 2, 1
 educsuhayward, 4, 4
 olvastam, 7, 6
-hundred, 3, 3
 diagnosing, 2, 2
 magnificent, 2, 2
 chronicle, 4, 4
@@ -1111,7 +1084,6 @@ kevesebb, 24, 18
 massacre, 9, 7
 runner, 2, 2
 czech, 85, 38
-herein, 4, 4
 betortek, 2, 2
 wortley, 7, 7
 hatarahoz, 2, 2
@@ -1181,7 +1153,6 @@ stand-by, 5, 4
 comhitachihalsp, 4, 4
 nephew, 2, 2
 seitz, 3, 3
-from, 106, 69
 seitv, 4, 4
 eduapsu, 3, 3
 seleznev, 7, 4
@@ -1249,7 +1220,6 @@ yavapai, 2, 2
 megbékélési, 2, 2
 edusdsu, 5, 5
 subconscious, 4, 3
-number, 146, 109
 ujjaepitesi, 2, 2
 obedience, 2, 1
 kitsch, 2, 1
@@ -1409,7 +1379,6 @@ dolgozot, 3, 3
 defenses, 26, 12
 hirlapaz, 2, 2
 educolumbiarhnoschap, 2, 2
-parts, 11, 5
 dolgozok, 19, 8
 party, 240, 66
 dolgozoi, 2, 1
@@ -1497,7 +1466,6 @@ eszmeihez, 2, 1
 unusual, 11, 9
 új, 22, 3
 ún, 5, 2
-once, 33, 26
 úr, 2, 2
 comatmnet, 2, 2
 netdatastream, 2, 2
@@ -1524,7 +1492,6 @@ elkerulni, 3, 3
 ciganyok, 7, 3
 netc-zone, 2, 2
 parks, 2, 2
-only, 30, 26
 netherlands, 8, 8
 planet's, 2, 1
 parma, 2, 1
@@ -1809,7 +1776,6 @@ gyozne, 3, 2
 gyozni, 2, 1
 opel, 2, 1
 egyszazalekos, 3, 2
-open, 46, 30
 justifying, 2, 2
 orgosf, 4, 4
 titkolni, 2, 2
@@ -1976,7 +1942,6 @@ schmidtthis, 2, 2
 baucus, 11, 11
 usflccgc, 3, 3
 full-, 5, 5
-whatever, 5, 5
 consolidadas, 7, 4
 wartime, 5, 4
 haraszti, 3, 3
@@ -2157,7 +2122,6 @@ wrongdoer, 5, 2
 politiker, 2, 1
 ecosystem, 4, 4
 netmindlink, 3, 3
-problem, 35, 24
 tulzott, 3, 3
 streams, 2, 2
 frederik, 3, 3
@@ -2289,7 +2253,6 @@ inalienable, 4, 3
 sesev, 2, 2
 escape, 9, 7
 funny, 2, 2
-latest, 2, 1
 correspondence, 4, 4
 marion, 4, 4
 czarist, 2, 2
@@ -2690,7 +2653,6 @@ emlékmucircre, 2, 1
 alapszerzodeshez, 2, 2
 lepesnek, 2, 2
 unfair, 8, 8
-over, 29, 20
 ballot, 10, 7
 saedukfshrc, 2, 2
 oven, 3, 1
@@ -2999,7 +2961,6 @@ meridian, 4, 3
 wireless, 39, 1
 pettis, 6, 6
 nato-fotitkar, 2, 1
-areas, 13, 10
 preached, 2, 2
 examining, 29, 21
 announcement, 7, 6
@@ -3009,7 +2970,6 @@ netmcicampusfau, 2, 2
 edumoraviancs, 4, 4
 kuldottek, 4, 2
 eduuiowaccad, 3, 3
-under, 71, 40
 interconnected, 2, 2
 becsületes, 2, 1
 bulgaria, 13, 6
@@ -3056,7 +3016,6 @@ comvitro, 4, 4
 comtascrestoffice, 2, 2
 szovetsegese, 2, 2
 infrastrukturalis, 3, 3
-nonetheless, 6, 5
 eduudelmath, 2, 2
 combatnet, 2, 2
 megfogalmazast, 2, 2
@@ -3094,7 +3053,6 @@ mermas, 2, 2
 comwebex, 5, 5
 cia's, 5, 3
 rapid, 18, 15
-seven, 5, 5
 subchapter, 5, 1
 cominterrampnyislip, 3, 3
 serán, 3, 3
@@ -3172,7 +3130,6 @@ ethics, 42, 18
 champaign-urbana, 2, 1
 jelentkezok, 2, 2
 futja, 2, 1
-often, 15, 10
 megszavazott, 3, 2
 slaughter-house, 2, 2
 ertetlenul, 2, 2
@@ -3709,11 +3666,9 @@ caonrohcg, 4, 4
 eduemoryphysio, 2, 2
 usillibrbls, 2, 2
 erenyek, 2, 1
-something, 5, 4
 jporkyoto-inet, 4, 4
 holifield, 3, 3
 ratko, 3, 3
-nevertheless, 5, 4
 grandparents, 2, 2
 ecuadorian, 2, 1
 felteteleket, 12, 9
@@ -3862,7 +3817,6 @@ containing, 19, 15
 completed, 27, 21
 figyelemmel, 5, 3
 weldpos, 2, 1
-taken, 3, 3
 takes, 48, 35
 tarsadalmat, 11, 9
 armed, 20, 17
@@ -3889,7 +3843,6 @@ inaction, 2, 2
 eloiranyzott, 5, 4
 estimated, 45, 26
 anomalies, 4, 3
-i'll, 3, 3
 caualbertahfs, 3, 3
 compensated, 4, 3
 kezelese, 5, 4
@@ -3925,14 +3878,12 @@ comsequent, 5, 5
 investigations, 20, 18
 caracterizado, 2, 1
 ukcotaynet, 3, 3
-gets, 3, 3
 afternoon, 6, 6
 elhallgattatott, 2, 1
 deuni-halleurz, 3, 3
 feladni, 2, 2
 tanacsado, 10, 4
 comtransport, 5, 5
-i've, 8, 4
 subsequent, 40, 29
 auozadfacc, 4, 4
 rendimiento, 4, 3
@@ -4221,7 +4172,6 @@ nagyok, 2, 1
 peldat, 5, 4
 vertically, 13, 8
 edumtholyokelibscibench, 2, 2
-part, 72, 23
 brecht, 5, 5
 para, 234, 34
 jailing, 2, 2
@@ -4533,7 +4483,6 @@ gita, 3, 2
 edurhodes, 4, 4
 bédié, 3, 1
 struggling, 5, 5
-give, 3, 3
 hergeli, 2, 2
 stations, 15, 10
 marhasag, 2, 1
@@ -4779,7 +4728,6 @@ govornlorp, 4, 4
 abrutto, 2, 2
 kituntetes, 2, 2
 pragmatism, 7, 5
-working, 20, 13
 myanmar, 6, 3
 kicked, 2, 2
 netmcinewyork, 5, 5
@@ -4998,7 +4946,6 @@ temples, 2, 2
 kiterjeszti, 2, 2
 latunk, 3, 2
 recibimos, 2, 1
-anyone, 25, 16
 recurrente, 2, 1
 substitute, 10, 8
 vadim, 5, 3
@@ -5078,7 +5025,6 @@ milafafit, 4, 4
 reservoir, 3, 3
 aesthetic, 9, 7
 chronicles, 11, 9
-years, 23, 16
 comiohk, 5, 5
 jukosz, 17, 2
 eduyalelaw, 2, 2
@@ -5102,7 +5048,6 @@ bitburg, 2, 1
 celokat, 3, 3
 pull-out, 3, 1
 laetrile, 2, 2
-until, 5, 5
 caistinc, 2, 2
 taste, 6, 5
 eduukyas, 2, 2
@@ -5211,7 +5156,6 @@ phil, 10, 7
 edupittnetrmt, 5, 5
 eduemoryepd, 4, 4
 educolostatelance, 4, 4
-begin, 7, 6
 gypsies, 3, 3
 szociologiai, 2, 2
 columnist, 2, 2
@@ -5315,7 +5259,6 @@ educmuandrew, 4, 4
 floating, 10, 7
 büntetni, 4, 2
 one-year, 5, 5
-wells, 4, 4
 frakcioulesen, 4, 3
 targyalta, 2, 2
 piac, 11, 9
@@ -5349,7 +5292,6 @@ nagykovacsi, 2, 1
 artistic, 8, 8
 dulski, 3, 3
 powered, 2, 2
-good, 24, 16
 pigs, 2, 1
 milnavyspawar, 4, 4
 egyeztetotargyalasok, 2, 1
@@ -5444,7 +5386,6 @@ ezekbe, 2, 2
 recupero, 2, 2
 finance, 50, 29
 stepfather, 2, 2
-ninety, 5, 2
 messzire, 2, 2
 deeunetm, 2, 2
 hostage, 10, 9
@@ -5513,7 +5454,6 @@ weakening, 3, 3
 exceeded, 4, 3
 hangjat, 2, 2
 felett, 9, 8
-being, 4, 3
 comawod, 5, 5
 mussten, 2, 1
 mahatma, 2, 1
@@ -5614,7 +5554,6 @@ eltekintve, 2, 2
 econometric, 5, 2
 edualbany, 4, 4
 habitat, 5, 4
-year, 31, 21
 brlncc, 3, 3
 continuará, 2, 2
 yeah, 2, 1
@@ -5677,7 +5616,6 @@ auozadfamil, 3, 3
 doctrines, 8, 7
 pre-sentence, 2, 1
 idosebb, 2, 2
-below, 7, 5
 mutattak, 5, 4
 estate, 131, 18
 tamogatasaban, 2, 2
@@ -5764,7 +5702,6 @@ anatolii, 14, 11
 szakralis, 2, 1
 estado, 26, 8
 kozeledtevel, 2, 2
-presented, 3, 3
 osszefonodasokat, 2, 2
 harcra, 3, 3
 licence, 2, 1
@@ -5981,7 +5918,6 @@ millios, 15, 13
 vanik, 8, 8
 milliot, 7, 6
 milliok, 3, 1
-million, 6, 5
 contingencia, 3, 1
 millioi, 2, 2
 relación, 18, 5
@@ -6149,7 +6085,6 @@ csoportvezeto, 2, 1
 atervezetet, 2, 1
 forradalmi, 9, 8
 aueduuow, 5, 5
-eight, 9, 6
 motorola's, 2, 1
 abstracts, 3, 3
 eduwabashlab, 4, 4
@@ -6352,7 +6287,6 @@ megyei, 41, 16
 powerful, 22, 19
 comapci, 4, 4
 megyes, 2, 2
-points, 5, 5
 edutowson, 3, 3
 qualify, 23, 12
 constructing, 2, 2
@@ -6717,7 +6651,6 @@ roberts, 19, 17
 kildare, 3, 3
 armenians, 6, 2
 repulo, 3, 3
-overall, 2, 2
 penzebol, 3, 3
 dontoben, 2, 2
 iranyitani, 4, 4
@@ -7041,7 +6974,6 @@ mustard, 2, 1
 aunetsatech, 2, 2
 eduuscolo, 3, 3
 veszelyt, 10, 9
-otherwise, 2, 2
 egymilliard, 15, 9
 ptua, 2, 2
 filtration, 4, 4
@@ -7231,7 +7163,6 @@ bordering, 2, 2
 york, 195, 106
 palmer, 4, 3
 palota, 2, 1
-your, 32, 25
 dekas, 2, 1
 elkotyavetyeltek, 3, 3
 essentials, 5, 4
@@ -7243,7 +7174,6 @@ auozuqccslip, 5, 5
 grachev's, 3, 2
 commodity, 9, 5
 yellow, 8, 8
-you've, 3, 3
 listing, 7, 7
 marrieds, 2, 2
 szeptemberben, 14, 6
@@ -7466,7 +7396,6 @@ leplezte, 3, 3
 bath's, 2, 2
 korbol, 3, 3
 czeizel, 8, 2
-you'll, 2, 2
 borosspeter, 3, 3
 golding, 4, 1
 nemzetkozileg, 7, 3
@@ -7742,7 +7671,6 @@ napjan, 11, 9
 istanbul, 2, 2
 lukic, 2, 1
 alfred, 20, 14
-higher, 14, 7
 básicamente, 7, 4
 compressroom, 2, 2
 at-will, 2, 1
@@ -7862,7 +7790,6 @@ derwinski, 10, 10
 comhoneywellazbcasd, 2, 2
 illustrated, 11, 10
 allaspontjat, 6, 6
-have, 10, 10
 havi, 22, 17
 morrison, 27, 13
 haul, 5, 3
@@ -8186,7 +8113,6 @@ non-smokers, 2, 1
 mariana, 5, 5
 mariann, 3, 1
 titkosszolgalati, 3, 3
-asked, 6, 5
 elegans, 2, 2
 hiv-positive, 3, 1
 disminuciones, 2, 1
@@ -8220,7 +8146,6 @@ garaudy, 2, 1
 continent, 24, 8
 feels, 8, 8
 simultaneous, 14, 9
-another, 30, 23
 miguel, 5, 5
 presencia, 4, 4
 nepeert, 2, 1
@@ -8263,7 +8188,6 @@ comprimenetelp, 2, 2
 demonstrators, 5, 2
 licensees, 3, 1
 futuras, 9, 4
-great, 95, 38
 usilcckish, 3, 3
 govusdanal, 2, 2
 megyeirendorfokapitanysag, 2, 2
@@ -8428,7 +8352,6 @@ kiteve, 3, 3
 shumway, 9, 9
 hens, 3, 1
 expenses, 41, 22
-here, 11, 7
 hero, 27, 13
 eduamherst, 4, 4
 ukcoscotent, 2, 2
@@ -8909,7 +8832,6 @@ england, 68, 30
 addiction, 12, 3
 parizsi, 17, 9
 allamokat, 2, 2
-billion, 2, 2
 goldsmith, 3, 2
 eduuslacim, 2, 2
 caonxcelco, 5, 5
@@ -8986,7 +8908,6 @@ ertel, 5, 5
 ertem, 9, 7
 nlnki, 4, 4
 plaza, 10, 8
-high, 48, 28
 administrators, 11, 7
 tamast, 2, 2
 netbctel, 2, 2
@@ -9006,7 +8927,6 @@ comsusq, 3, 3
 sistemas, 9, 7
 tauzin, 8, 8
 reszesulnek, 2, 2
-what's, 6, 6
 andrews, 33, 24
 baldus, 5, 5
 deuda, 18, 4
@@ -9075,7 +8995,6 @@ estobb, 2, 2
 seeing, 16, 11
 abolishment, 3, 2
 kitart, 6, 3
-place, 14, 11
 informed, 24, 14
 hits, 4, 4
 assess, 12, 12
@@ -9688,7 +9607,6 @@ netsequelmnl, 2, 2
 lászló, 6, 3
 vertical, 12, 8
 territory's, 3, 1
-cases, 14, 6
 zala, 3, 3
 regime, 18, 13
 casey, 4, 4
@@ -9817,7 +9735,6 @@ hajlando, 12, 11
 kaluga, 2, 1
 beszelek, 3, 2
 demonstrating, 5, 4
-gives, 19, 15
 edulamar, 4, 4
 consulting, 8, 6
 manhattan, 7, 4
@@ -9826,7 +9743,6 @@ varnak, 6, 5
 hailed, 6, 6
 disappointed, 2, 2
 tekintsunk, 2, 1
-given, 12, 9
 eredmenyet, 6, 6
 eredmenyek, 3, 3
 eredmenyei, 8, 7
@@ -9879,7 +9795,6 @@ cucumber, 2, 1
 replace, 26, 15
 worldwide, 31, 21
 eduucibiomol, 2, 2
-group, 72, 37
 hock, 2, 1
 beszelni, 7, 7
 gross, 19, 14
@@ -10272,7 +10187,6 @@ bedjaoui, 2, 1
 szerzodesen, 4, 2
 edudepaulcs, 2, 2
 trabajo, 7, 6
-several, 12, 11
 national-regional, 3, 2
 comlglobal, 3, 3
 miniszteriumi, 3, 3
@@ -10383,7 +10297,6 @@ akaka, 12, 12
 uprising, 8, 5
 reproduce, 5, 5
 magyaroknaka, 2, 2
-besides, 3, 3
 kiado, 21, 14
 lapjanak, 2, 2
 commacromedia, 3, 3
@@ -10572,7 +10485,6 @@ belfoldi, 4, 3
 alkalmazasara, 2, 1
 virtual, 13, 7
 ferre, 2, 1
-states, 290, 95
 szemelyesen, 7, 7
 petitioning, 4, 4
 ferry, 3, 2
@@ -11123,7 +11035,6 @@ chunibe, 5, 5
 weapon, 19, 10
 cocktail, 2, 2
 internacionalista, 5, 4
-early, 37, 34
 ervenyesuleset, 3, 2
 plwrocpwrim, 4, 4
 talalkoztunk, 2, 2
@@ -11516,7 +11427,6 @@ eduhawaiidialup, 5, 5
 hello, 2, 2
 hirdetesi, 2, 2
 gaffs, 2, 1
-works, 51, 20
 drawbacks, 15, 10
 alakul, 10, 8
 world, 536, 130
@@ -11534,7 +11444,6 @@ split, 13, 13
 adequacy, 4, 4
 hirdetett, 4, 4
 eseten, 23, 16
-different, 9, 8
 esetek, 5, 3
 combtco, 3, 3
 edumsstatecbi, 2, 2
@@ -11646,7 +11555,6 @@ apolasara, 2, 2
 asserts, 3, 1
 approved, 56, 26
 comolivettiico, 2, 2
-would, 6, 4
 ellenkezoleg, 3, 3
 uzletembere, 2, 1
 antigone, 22, 3
@@ -11799,7 +11707,6 @@ labor-management, 2, 2
 matsui, 9, 9
 tapasztaltam, 2, 2
 idején, 3, 2
-interests, 4, 4
 businessperson, 3, 3
 zona, 3, 2
 zone, 37, 15
@@ -11914,7 +11821,6 @@ authentic, 4, 4
 usnjlibprinceton, 2, 2
 kapukat, 2, 1
 penzek, 10, 7
-about, 33, 28
 penzen, 2, 2
 penzes, 2, 2
 netramlink, 5, 5
@@ -11972,7 +11878,6 @@ motivalja, 2, 2
 regiokban, 3, 3
 calonet, 4, 4
 kedvezobbek, 2, 2
-toward, 29, 21
 books, 91, 40
 govlanl, 5, 5
 rferl's, 2, 2
@@ -12754,7 +12659,6 @@ bowen, 9, 9
 mikhailov, 4, 4
 delegates, 6, 6
 rachel, 2, 2
-through, 24, 21
 netwinnet, 4, 4
 strength, 23, 16
 beacrug, 4, 4
@@ -12948,7 +12852,6 @@ edueast-tenn-st, 5, 5
 racist, 8, 6
 elkell, 2, 2
 valaszolt, 6, 6
-don't, 2, 2
 idok, 12, 10
 idon, 8, 7
 rpl-file, 2, 1
@@ -13500,7 +13403,6 @@ emigracio, 16, 7
 szolgalta, 3, 3
 populace, 2, 2
 semmint, 2, 2
-that's, 4, 4
 field-scale, 2, 1
 megprobalnak, 3, 3
 comtrytel, 2, 2
@@ -13554,7 +13456,6 @@ perturbation, 3, 2
 maradek, 6, 5
 bukott, 7, 4
 escafeinternet, 4, 4
-yours, 2, 1
 adopted, 19, 14
 standard, 88, 49
 jukosztol, 2, 2
@@ -13566,7 +13467,6 @@ anti-discrimination, 2, 2
 eleanor, 10, 6
 seliuctrl-c, 2, 2
 cleared, 5, 4
-young, 86, 40
 obsolete, 6, 5
 youths, 2, 1
 paintings, 2, 1
@@ -13723,7 +13623,6 @@ merteku, 3, 3
 nyilvanvalova, 2, 2
 merteke, 9, 9
 romlasat, 4, 3
-beginning, 2, 2
 elismerese, 2, 2
 soften, 2, 2
 netgulfatmore, 4, 4
@@ -13800,7 +13699,6 @@ broccoli, 2, 2
 fitampere, 2, 2
 decrees, 7, 5
 turbocompressors, 3, 1
-indeed, 10, 5
 sorozatos, 2, 2
 chequing, 3, 3
 kozmunkak, 2, 1
@@ -13824,7 +13722,6 @@ comprogress, 2, 2
 ertesulese, 5, 5
 ertesulesek, 2, 2
 ertesulesei, 6, 4
-clearly, 4, 4
 negociaciones, 3, 3
 abusers, 5, 3
 incrementado, 2, 2
@@ -14358,7 +14255,6 @@ behavior-based, 2, 1
 regarding, 121, 62
 inel, 7, 1
 szabadkomuves, 5, 1
-rather, 5, 5
 huznak, 2, 1
 jogszabalyaikkal, 2, 1
 looting, 4, 3
@@ -14417,7 +14313,6 @@ compwrnet, 4, 4
 milne, 2, 1
 fogva, 9, 8
 eszkz, 2, 1
-into, 13, 9
 zaconbs, 3, 3
 inti, 2, 2
 eszik, 2, 2
@@ -14813,7 +14708,6 @@ ilachujislip, 5, 5
 zarkozunk, 2, 1
 confidence, 21, 18
 azugyben, 2, 2
-groups, 26, 22
 productora, 4, 3
 compliance, 25, 14
 krull, 2, 1
@@ -14980,7 +14874,6 @@ abolitionism, 4, 2
 prescribe, 3, 3
 peter's, 2, 2
 imports, 21, 5
-it's, 20, 11
 importe, 3, 3
 sailors, 6, 6
 comrohmhaassh, 4, 4
@@ -15247,8 +15140,6 @@ smirnov, 2, 1
 pravda's, 2, 1
 edunwunuts, 5, 5
 ali, 12, 5
-all, 240, 171
-already, 3, 3
 hirdetik, 4, 3
 als, 2, 1
 kulturajanak, 3, 2
@@ -15266,7 +15157,6 @@ futuristic, 2, 2
 szavazo, 3, 2
 comsikorskysea, 2, 2
 ana, 4, 1
-and, 208, 71
 comabbott, 5, 5
 anf, 2, 2
 eduohio-stateeng, 5, 5
@@ -15274,14 +15164,12 @@ ratios, 7, 4
 ann, 13, 10
 akozponti, 2, 2
 vizsgalo, 9, 8
-any, 27, 16
 tranche, 2, 2
 comharrisdts, 3, 3
 edunwciowa, 5, 5
 seguhgus, 4, 4
 aol, 21, 2
 foods, 10, 5
-thought, 22, 14
 prostitution, 7, 4
 apa, 8, 6
 kelemen, 8, 4
@@ -15307,7 +15195,6 @@ ara, 24, 16
 itteni, 15, 7
 arc, 13, 9
 bizottsag, 41, 19
-are, 24, 16
 arm, 45, 5
 art, 252, 126
 csatorna, 3, 3
@@ -15321,7 +15208,6 @@ polgarmestere, 3, 2
 asi, 4, 2
 tumor, 7, 3
 ash, 5, 3
-ask, 4, 3
 polgarmesteri, 2, 2
 asm, 104, 104
 intellectuals, 6, 6
@@ -15446,7 +15332,6 @@ bib, 2, 1
 bid, 8, 7
 comprehensive, 67, 43
 orszagnak, 8, 8
-big, 17, 14
 frustrated, 3, 3
 comrohmhaasho, 3, 3
 x-band, 11, 5
@@ -15526,7 +15411,6 @@ cominnovgrp, 2, 2
 juttattak, 5, 4
 bun, 6, 5
 egymillio, 9, 6
-but, 93, 40
 bus, 16, 10
 bux, 3, 1
 edulouisville, 5, 5
@@ -15597,7 +15481,6 @@ cad, 16, 3
 nelligan, 2, 2
 listyev's, 3, 1
 comcreafct, 4, 4
-can, 11, 10
 cap, 5, 3
 szamito, 4, 4
 car, 86, 29
@@ -15675,12 +15558,10 @@ root, 7, 6
 roof, 8, 4
 bekovetkezett, 4, 4
 dkmousehouse, 2, 2
-room, 20, 15
 usilccparkland, 3, 3
 napirendrol, 2, 2
 netsynergyppp, 4, 4
 microcomputer, 3, 3
-order, 39, 16
 comsunriver, 2, 2
 co-, 2, 1
 roth, 27, 27
@@ -15791,7 +15672,6 @@ comhunter, 3, 3
 dal, 2, 2
 dan, 24, 16
 dam, 8, 4
-shows, 12, 9
 shown, 55, 29
 netptdwil, 2, 2
 das, 10, 4
@@ -15835,7 +15715,6 @@ shoes, 3, 2
 jpacdoshisha, 3, 3
 caonintranet, 3, 3
 maximum, 40, 24
-did, 11, 7
 haladja, 2, 2
 die, 63, 17
 dig, 3, 3
@@ -16043,7 +15922,6 @@ precisely, 8, 5
 constituent, 2, 2
 eduberkeleydofm, 2, 2
 hoffa, 3, 1
-end, 26, 22
 strang, 2, 2
 felallitando, 2, 2
 eng, 2, 2
@@ -16149,7 +16027,6 @@ habrán, 3, 3
 statehood, 3, 2
 eduthecoo, 4, 4
 hknetschool, 2, 2
-let's, 4, 3
 commeidiageng, 3, 3
 kulturalis, 43, 13
 ahogyan, 25, 16
@@ -16173,7 +16050,6 @@ packets, 2, 1
 faj, 6, 4
 csalodott, 6, 5
 fan, 2, 2
-far, 12, 8
 faq, 14, 8
 chernomyrdin's, 5, 5
 comcompuvar, 4, 4
@@ -16204,7 +16080,6 @@ fel, 261, 41
 drpokol, 2, 1
 bár, 8, 3
 három, 5, 3
-few, 4, 4
 rt-t, 2, 2
 quoting, 3, 3
 strain, 4, 4
@@ -16258,7 +16133,6 @@ comucarbsct, 3, 3
 egyaltalannem, 2, 2
 needy, 2, 2
 hirszerzesi, 2, 1
-needs, 6, 5
 atlatszo, 2, 2
 fnm, 5, 2
 fegyveret, 4, 3
@@ -16274,7 +16148,6 @@ fog, 61, 25
 fol, 25, 18
 fok, 2, 2
 fom, 2, 1
-for, 403, 161
 fot, 3, 2
 loneliness, 4, 3
 fos, 7, 6
@@ -16391,15 +16264,12 @@ unemployment, 62, 14
 force, 85, 46
 preschool, 3, 2
 nedzi, 8, 8
-i'd, 6, 5
 jovoje, 2, 1
-i'm, 11, 6
 utilitarianism, 6, 3
 geo, 2, 2
 gen, 18, 12
 gep, 6, 4
 felesleges, 7, 6
-get, 8, 8
 biofeedback, 2, 1
 korlatoz, 2, 1
 denetsurfbonn, 2, 2
@@ -16512,7 +16382,6 @@ orgun, 4, 4
 lapokat, 5, 4
 seteliadialup, 2, 2
 netgalileo, 2, 2
-found, 4, 3
 szavazati, 5, 3
 cruelty, 2, 2
 beating, 3, 3
@@ -16523,7 +16392,6 @@ aarp, 2, 1
 chopin's, 3, 2
 szavazast, 4, 3
 preface, 9, 5
-had, 3, 3
 bennuenket, 2, 1
 align, 2, 2
 guided, 7, 6
@@ -16534,7 +16402,6 @@ han, 15, 6
 school, 261, 62
 adicionales, 7, 5
 hat, 85, 34
-has, 7, 6
 orgxc, 3, 3
 haz, 29, 15
 hay, 5, 5
@@ -16554,7 +16421,6 @@ alike, 3, 3
 kanji, 2, 1
 alice, 4, 3
 hen, 2, 1
-her, 15, 12
 het, 35, 16
 abszurd, 3, 3
 hew, 2, 2
@@ -16577,12 +16443,10 @@ ukaccoventry, 4, 4
 vagyunk, 45, 24
 hid, 7, 4
 regisztralt, 6, 6
-him, 2, 2
 hip, 7, 4
 hir, 14, 11
 hit, 22, 11
 tovabba, 22, 13
-his, 73, 44
 hiv, 15, 6
 burton, 29, 16
 letre, 37, 21
@@ -16630,7 +16494,6 @@ hot, 16, 12
 hos, 3, 3
 characteristic, 5, 5
 hou, 2, 2
-how, 225, 98
 hoz, 8, 8
 palyazati, 4, 3
 lubricate, 6, 1
@@ -16806,7 +16669,6 @@ economicbudget, 2, 1
 rust, 4, 4
 atmospheric, 44, 10
 program-management, 2, 1
-inc, 225, 153
 centennial, 3, 2
 ing, 3, 1
 erotildekre, 2, 2
@@ -16857,7 +16719,6 @@ megfogalmazott, 4, 3
 kepviseloje, 28, 17
 gusztustalan, 3, 2
 itt, 163, 45
-its, 70, 57
 beatles, 3, 2
 productivas, 4, 3
 kepviseloit, 7, 6
@@ -17169,7 +17030,6 @@ kin, 3, 1
 emberseg, 2, 2
 kis, 60, 29
 kit, 28, 15
-throughout, 6, 6
 netspeed, 5, 5
 croatian, 6, 3
 combat-readiness, 2, 2
@@ -17226,7 +17086,6 @@ rabbit, 4, 1
 ktd, 2, 1
 successfully, 23, 16
 kiadasa, 2, 2
-meanwhile, 44, 26
 narrative, 17, 10
 circular, 4, 3
 erdekeket, 12, 11
@@ -17248,7 +17107,6 @@ nyavalya, 2, 1
 bondage, 4, 4
 implement, 12, 11
 export, 39, 16
-others, 6, 6
 lasalle, 4, 2
 sparta, 2, 2
 legkomolyabb, 2, 2
@@ -17322,7 +17180,6 @@ leg, 13, 9
 lei, 6, 4
 lep, 8, 7
 leo, 6, 6
-let, 7, 5
 telepult, 2, 1
 lev, 3, 3
 lex, 2, 2
@@ -17419,7 +17276,6 @@ ilyushin, 3, 2
 mafia, 6, 4
 expediting, 2, 2
 teodor, 6, 5
-ltd, 37, 18
 usallibbham, 3, 3
 nells, 12, 6
 kijelenteset, 4, 3
@@ -17490,14 +17346,12 @@ mac, 4, 4
 mad, 2, 2
 mai, 76, 34
 mao, 10, 6
-man, 84, 35
 map, 25, 14
 mas, 126, 41
 mar, 592, 45
 deprisma, 4, 4
 mat, 5, 4
 mav, 4, 4
-may, 141, 55
 max, 12, 7
 ckonyvebol, 2, 2
 zero-point, 2, 1
@@ -17527,7 +17381,6 @@ meg, 1190, 42
 meh, 13, 11
 kaliningrad, 4, 2
 mem, 2, 2
-men, 7, 7
 mer, 3, 2
 contrasts, 46, 30
 met, 67, 43
@@ -17628,7 +17481,6 @@ eduvirginiabootp, 5, 5
 aged, 12, 6
 mrp, 2, 2
 agee, 2, 2
-mrs, 15, 10
 ages, 25, 19
 gyorben, 2, 2
 kiveszik, 2, 2
@@ -17741,7 +17593,6 @@ nep, 70, 25
 bureau, 23, 17
 net, 42, 23
 nev, 9, 8
-new, 508, 166
 nez, 4, 4
 comnokiance, 2, 2
 heater, 3, 1
@@ -17798,13 +17649,10 @@ involving, 44, 30
 string, 4, 4
 noi, 13, 7
 nok, 12, 6
-nor, 6, 4
 hatara, 6, 4
-not, 60, 45
 kisebbsegnek, 7, 4
 nos, 27, 13
 nov, 54, 11
-now, 14, 13
 usgalibpublicmorgan, 2, 2
 aboszniai, 2, 2
 mosollyal, 2, 1
@@ -17856,7 +17704,6 @@ jól, 7, 3
 reagan, 36, 12
 mertek, 9, 5
 merten, 4, 3
-along, 4, 4
 models', 3, 1
 dilemmas, 6, 4
 denetsurffrankfurt, 2, 2
@@ -17946,7 +17793,6 @@ barbara, 18, 13
 cakpmg, 3, 3
 vaclav, 11, 6
 jobboldali, 14, 10
-off, 5, 2
 alkalom, 2, 2
 oldalhoz, 3, 1
 ofm, 3, 1
@@ -17976,7 +17822,6 @@ promised, 19, 13
 fixtures, 5, 3
 egyoldalu, 2, 2
 promises, 15, 13
-old, 24, 17
 hirlik, 3, 3
 portenschlager, 2, 1
 olr, 4, 1
@@ -17991,7 +17836,6 @@ sorsdonto, 2, 2
 targyalasairol, 2, 2
 bloque, 22, 8
 aiaa, 2, 1
-one, 97, 56
 sportba, 2, 1
 ont, 4, 4
 ons, 3, 2
@@ -18039,9 +17883,7 @@ batoritjak, 8, 1
 magda, 8, 6
 comclubnetct, 3, 3
 conscription, 2, 2
-our, 60, 41
 isten, 21, 13
-out, 17, 13
 comatext, 5, 5
 netindyslip, 5, 5
 honap, 14, 13
@@ -18051,7 +17893,6 @@ educcsn, 5, 5
 tombol, 3, 3
 kurzhin, 2, 1
 magic, 13, 10
-own, 5, 5
 bottoms, 2, 2
 consequences, 54, 33
 comnucleus, 4, 4
@@ -18143,7 +17984,6 @@ vezetojevel, 3, 3
 tizszer, 2, 2
 egyedül, 4, 2
 pen, 8, 8
-per, 13, 4
 netislandnorth, 2, 2
 jpcosharp, 2, 2
 forints, 38, 7
@@ -18228,7 +18068,6 @@ psc, 2, 1
 psi, 2, 2
 eroding, 2, 2
 usgastatedhr, 4, 4
-anything, 2, 2
 eduhawaiistjohn, 2, 2
 hogymost, 2, 2
 psz, 5, 2
@@ -18240,7 +18079,6 @@ eduhowardaccs, 2, 2
 netnewcomm, 5, 5
 listan, 2, 1
 comcplc, 4, 4
-put, 3, 2
 not-for-profit, 3, 2
 listas, 2, 2
 szavazassal, 4, 4
@@ -18479,7 +18317,6 @@ rey, 2, 2
 lamblia, 2, 1
 automotores, 4, 2
 valotlan, 4, 4
-therefore, 11, 7
 contratos, 38, 11
 nourishment, 4, 3
 texaco, 2, 1
@@ -18554,7 +18391,6 @@ rsl, 3, 3
 malin, 2, 1
 netasianet, 2, 2
 philosopher's, 2, 2
-where, 10, 10
 iskolarendszert, 2, 2
 jporso-net, 2, 2
 sajtobeszelgetesen, 5, 5
@@ -18646,8 +18482,6 @@ eduohio-statewca, 2, 2
 sat, 6, 5
 malta, 5, 5
 sav, 2, 1
-also, 98, 58
-say, 2, 2
 valjon, 5, 3
 educated, 4, 4
 novelni, 2, 2
@@ -18679,7 +18513,6 @@ sea, 114, 38
 proves, 5, 5
 sec, 11, 7
 proved, 9, 9
-see, 42, 10
 alroy, 3, 3
 wheat, 17, 10
 sem, 546, 42
@@ -18703,7 +18536,6 @@ marriages, 16, 6
 powerpoint, 5, 2
 othmar, 6, 1
 sha, 3, 2
-she, 50, 16
 shv, 2, 1
 divorcing, 2, 2
 serelmere, 2, 2
@@ -18717,7 +18549,6 @@ sis, 2, 2
 sir, 21, 9
 sit, 6, 6
 eduncsunrrc, 4, 4
-six, 10, 9
 undermined, 4, 3
 programjat, 7, 6
 nethenry, 2, 2
@@ -18831,7 +18662,6 @@ majors, 3, 2
 zavartalan, 3, 2
 megbizolevelet, 2, 1
 amig, 40, 23
-makes, 8, 4
 maker, 10, 7
 amid, 6, 6
 magát, 4, 2
@@ -18909,14 +18739,12 @@ formacio, 2, 1
 terminates, 2, 2
 bizonyitotta, 5, 5
 februari, 3, 2
-said, 4, 1
 saic, 14, 5
 terminated, 11, 10
 smooth, 12, 10
 tcp, 5, 2
 seexmandato, 2, 2
 february, 46, 20
-really, 2, 2
 tartozkodni, 2, 2
 tdd, 23, 8
 refreshing, 4, 2
@@ -18932,7 +18760,6 @@ tec, 3, 1
 comprende, 3, 3
 tel, 47, 12
 pál, 2, 1
-ten, 2, 2
 sake, 2, 2
 ter, 6, 6
 pár, 2, 2
@@ -18947,14 +18774,12 @@ csoumlkkennek, 2, 1
 nyulni, 3, 2
 albosta, 6, 6
 tge, 3, 2
-same, 3, 3
 sami, 2, 2
 edudrewat, 3, 3
 salt, 9, 7
 govfdanctr, 3, 3
 thc, 2, 2
 tobbitol, 2, 1
-the, 4841, 335
 sale, 29, 18
 sali, 3, 3
 thu, 4, 1
@@ -19020,7 +18845,6 @@ try, 33, 28
 exterior, 5, 5
 tse, 2, 2
 tsp, 19, 2
-says, 8, 5
 ttg, 14, 1
 pusztuljanak, 2, 1
 eduncssm, 4, 4
@@ -19050,7 +18874,6 @@ offering, 28, 23
 reacted, 3, 3
 netmv, 4, 4
 twa, 2, 2
-two, 96, 59
 milosdacq, 5, 5
 calmly, 2, 1
 comdirectcom, 4, 4
@@ -19246,7 +19069,6 @@ usa, 97, 48
 repealing, 2, 2
 usc, 8, 3
 usb, 4, 1
-use, 65, 42
 usd, 5, 3
 netkc, 2, 2
 rockets, 3, 3
@@ -19358,7 +19180,6 @@ karaira, 2, 1
 megnyilvanulasait, 2, 2
 edumcg, 4, 4
 megbizhato, 6, 5
-via, 14, 4
 kollegiumanak, 3, 3
 vid, 2, 1
 vic, 2, 2
@@ -19490,9 +19311,7 @@ wah, 3, 2
 griffin, 9, 9
 wan, 3, 1
 deruhr, 2, 2
-was, 7, 6
 war, 420, 78
-way, 22, 12
 hivatalt, 5, 5
 ukaculstinfj, 5, 5
 usksstateksleg, 3, 3
@@ -19531,8 +19350,6 @@ atvilagito, 2, 1
 megkaptak, 2, 2
 eduorstucs, 5, 5
 solo-surgery, 12, 1
-who, 42, 30
-why, 49, 33
 azonos, 23, 14
 win, 32, 22
 kilatasba, 8, 3
@@ -19559,7 +19376,6 @@ sdrp, 2, 1
 caualbertapd, 3, 3
 excessively, 2, 2
 won, 27, 17
-which, 13, 10
 szilagyiromanian, 2, 2
 szembetuno, 2, 2
 eduhscsyrcs, 4, 4
@@ -19616,7 +19432,6 @@ erkezik, 3, 3
 eduhamiltonstudents, 2, 2
 guttler, 2, 1
 caualbertaee, 2, 2
-while, 52, 34
 picked, 6, 4
 www, 14, 8
 documented, 9, 8
@@ -19742,7 +19557,6 @@ harmadgenerációs, 2, 1
 arch, 4, 3
 objetivos, 3, 3
 compensación, 3, 1
-area, 32, 14
 tíz, 8, 2
 kepviselet, 3, 2
 netopppp, 4, 4
@@ -19847,7 +19661,6 @@ edufit, 2, 2
 edufiu, 5, 5
 bruspif, 2, 2
 vinnikov, 2, 1
-things, 3, 3
 atvenni, 2, 2
 island's, 5, 2
 gentleman's, 2, 2
@@ -19865,8 +19678,6 @@ idoszaklara, 2, 1
 illetoen, 13, 10
 bekeszerzodest, 2, 2
 yen, 9, 4
-yes, 16, 1
-yet, 8, 7
 adasa, 2, 2
 orgsedl, 2, 2
 coloring, 4, 2
@@ -19914,7 +19725,6 @@ marca, 2, 1
 six-year-old, 2, 2
 undorito, 2, 2
 mesterseges, 4, 4
-you, 81, 50
 edulsulib, 5, 5
 marad, 28, 21
 ypf, 278, 31
@@ -19931,7 +19741,6 @@ march, 124, 47
 atactu-graz, 4, 4
 milafwpafb, 5, 5
 megbenult, 2, 2
-sometimes, 19, 14
 questions, 128, 79
 corpus, 4, 2
 robotic, 70, 12
@@ -20198,7 +20007,6 @@ marciusban, 6, 6
 shop, 31, 17
 europahoz, 2, 1
 volúmenes, 38, 6
-show, 11, 7
 alkotmány, 2, 1
 shot, 25, 12
 hazankban, 22, 14
@@ -20466,7 +20274,6 @@ sociology, 114, 105
 workcells, 5, 3
 hozva, 2, 2
 ready, 27, 22
-who's, 4, 2
 hianyt, 2, 2
 folyik, 30, 14
 match, 3, 3
@@ -20500,7 +20307,6 @@ ensayo, 2, 2
 cosmetic, 7, 6
 edukutztowncsv, 2, 2
 elebe, 3, 3
-making, 25, 17
 scapigliatura, 2, 2
 comwidomakerwmbg, 4, 4
 supposed, 4, 4
@@ -20554,7 +20360,6 @@ hozott, 16, 13
 albanians, 4, 4
 decision-making, 12, 11
 items, 22, 17
-thirty, 6, 5
 complies, 2, 2
 perfectly, 6, 4
 dominates, 3, 2
@@ -20781,7 +20586,6 @@ legkonnyebben, 2, 2
 axes, 10, 5
 educgs, 3, 3
 assocation, 2, 1
-whole, 4, 3
 uzletet, 4, 4
 netplano, 5, 5
 comabcle, 5, 5
@@ -20821,7 +20625,6 @@ elgin, 2, 2
 wavelengths, 5, 3
 politically, 8, 8
 heathrow, 4, 2
-because, 44, 26
 vicepresidente, 15, 4
 comprairieweb, 5, 5
 tulajdonviszonyok, 4, 3
@@ -20918,7 +20721,6 @@ eduptsem, 2, 2
 netadicon, 2, 2
 slow, 28, 15
 orgworldbank, 5, 5
-maybe, 2, 2
 eudora, 3, 2
 hatron, 2, 1
 mantras, 2, 1
@@ -21302,7 +21104,6 @@ soap, 3, 3
 eliot, 18, 7
 rocking, 3, 1
 banking, 40, 19
-general, 161, 79
 folott, 15, 10
 szabadságharcos, 2, 1
 veszik, 14, 12
@@ -21346,7 +21147,6 @@ neppart, 10, 5
 eduuwlaxcowley, 2, 2
 bertolt, 2, 2
 granting, 8, 7
-some, 93, 60
 primarily, 38, 33
 látja, 3, 2
 elhet, 2, 1
@@ -21354,7 +21154,6 @@ petit, 3, 1
 eduumnopenpnmmf, 2, 2
 decedent's, 14, 1
 cominfi-net, 3, 3
-just, 12, 11
 sole, 24, 8
 sold, 24, 16
 netcarte, 3, 3
@@ -21416,7 +21215,6 @@ sorn, 2, 1
 conrad's, 9, 2
 handelsblatt, 3, 2
 sora, 3, 3
-since, 31, 26
 albright, 6, 2
 nibelungenlied, 2, 2
 megyeben, 5, 5
@@ -21441,7 +21239,6 @@ petry, 2, 2
 govnasanas, 4, 4
 boritekolt, 4, 2
 kepviseljuk, 2, 1
-downing, 4, 4
 kilepok, 2, 1
 mazar, 3, 1
 líquidos, 2, 2
@@ -21490,7 +21287,6 @@ focusing, 87, 52
 fascination, 4, 4
 csoportosulasok, 4, 2
 kovac's, 3, 3
-itself, 2, 2
 favorite, 8, 6
 szerencsere, 3, 3
 civilized, 2, 2
@@ -22012,7 +21808,6 @@ idestova, 2, 2
 hitlert, 3, 3
 edusmumediasvcs, 2, 2
 pumped, 4, 1
-back, 101, 33
 zsuzsa, 2, 2
 relax, 2, 2
 phillippines, 2, 1
@@ -22110,7 +21905,6 @@ stab, 2, 2
 stan, 7, 6
 suddeutsche, 4, 3
 uninsured, 4, 2
-numbers, 13, 9
 baro, 2, 2
 barn, 5, 2
 rohamosan, 7, 5
@@ -22192,7 +21986,6 @@ stpb, 2, 1
 comphibred, 4, 4
 rasszizmus, 8, 3
 beruhazok, 2, 2
-stop, 8, 6
 osztoznak, 2, 2
 tiltakozasul, 2, 2
 comdmveaston, 4, 4
@@ -22272,7 +22065,6 @@ edulewis, 2, 2
 fogyasztok, 2, 2
 fogyasztoi, 12, 9
 eduarizonapharm, 5, 5
-such, 14, 14
 tokefelhalmozas, 2, 1
 velemenyuket, 2, 2
 semmikeppen, 2, 1
@@ -22699,7 +22491,6 @@ interviewed, 7, 6
 juggling, 2, 1
 jellege, 4, 4
 settlements, 5, 4
-been, 4, 3
 govohiowoco, 2, 2
 tarsasagnak, 2, 2
 diverse, 11, 9
@@ -22783,7 +22574,6 @@ international, 405, 113
 nettap, 4, 4
 edupdxcc, 2, 2
 borders, 7, 7
-best, 119, 112
 north-, 2, 1
 edupanamtr-labs, 2, 2
 beth, 2, 1
@@ -23495,7 +23285,6 @@ linking, 8, 8
 elunk, 5, 4
 tegye, 3, 3
 intercomparisons, 2, 2
-among, 29, 25
 comn-link, 4, 4
 algeria, 12, 4
 netxtc, 4, 4
@@ -23843,7 +23632,6 @@ fraser, 6, 6
 plutonium, 2, 1
 bloc, 17, 12
 netacnet, 3, 3
-ending, 2, 2
 horn-villat, 3, 2
 visitor, 8, 3
 gossett, 4, 2
@@ -24062,7 +23850,6 @@ telex, 2, 2
 ezredik, 2, 2
 homologated, 3, 2
 eduindianacollins, 3, 3
-take, 9, 7
 pueden, 4, 4
 erdelyi, 17, 11
 standings, 2, 2
@@ -24087,7 +23874,6 @@ constitutionality, 4, 4
 cimmel, 21, 14
 tetelesen, 3, 3
 tasa, 17, 6
-member, 11, 6
 tart, 48, 29
 netislandqb, 4, 4
 allege, 3, 2
@@ -24309,7 +24095,6 @@ king, 88, 32
 kind, 49, 33
 leghangosabb, 2, 1
 poe's, 12, 1
-both, 36, 25
 alakitja, 2, 2
 kis-, 3, 3
 bowl, 4, 2
@@ -24652,7 +24437,6 @@ tero, 2, 1
 term, 291, 143
 teri, 4, 4
 posters, 5, 4
-possible, 13, 9
 harmadszor, 2, 2
 cutoff, 2, 2
 adicionalmente, 16, 6
@@ -24823,7 +24607,6 @@ eduyaletd, 3, 3
 empleado, 2, 1
 oilinvest, 4, 1
 netgulf, 2, 2
-instead, 17, 13
 poder, 3, 2
 mindenfele, 11, 10
 letrehozasat, 6, 6
@@ -25006,7 +24789,6 @@ hkeduhkis, 2, 2
 cominterrampdcwashington, 5, 5
 watching, 3, 3
 netabs, 5, 5
-perhaps, 4, 4
 edugatech, 5, 5
 nikolai, 11, 9
 sehisite, 4, 4
@@ -25029,7 +24811,6 @@ ordinarias, 19, 4
 caminerva, 2, 2
 trinity, 3, 3
 comepri, 3, 3
-that, 68, 40
 árulnak, 2, 1
 necesidad, 2, 1
 possessed, 6, 4
@@ -25052,14 +24833,11 @@ atjatszasa, 2, 2
 ukcobbc, 5, 5
 teren, 26, 18
 brand, 5, 3
-they, 130, 66
 seit-gen, 2, 2
 kolcsonok, 2, 2
 comgentire, 2, 2
 netapk, 5, 5
 frustration, 10, 9
-them, 2, 2
-then, 10, 10
 kolcsonos, 16, 5
 netapc, 3, 3
 netapa, 2, 2
@@ -25082,7 +24860,6 @@ comservtechtor, 3, 3
 nlshell, 2, 2
 deformities, 3, 3
 combslnet, 4, 4
-this, 417, 150
 felelem, 3, 3
 automóviles, 3, 3
 thin, 9, 7
@@ -25113,7 +24890,6 @@ szabadkan, 3, 1
 munkatarsa, 2, 2
 courts, 63, 24
 holott, 16, 12
-beyond, 8, 6
 terms, 120, 68
 ukacnapier, 2, 2
 felelik, 2, 2
@@ -25134,7 +24910,6 @@ brain, 23, 10
 forcing, 6, 5
 bigot, 2, 2
 esemenyeirol, 2, 2
-thru, 13, 12
 salem, 2, 2
 eduumasssom, 2, 2
 sales, 79, 24
@@ -25161,12 +24936,10 @@ cominteraccessloop, 4, 4
 orgaxsamer, 2, 2
 illustrating, 3, 3
 alelnoki, 2, 2
-without, 17, 15
 buen, 3, 2
 sovereignty, 13, 12
 netatnet, 5, 5
 alelnoke, 32, 20
-thus, 39, 18
 caabgovaecd, 4, 4
 combbt, 3, 3
 combbn, 4, 4
@@ -25374,7 +25147,6 @@ koze, 33, 22
 comapl, 3, 3
 netoxford, 5, 5
 reveals, 21, 16
-point, 8, 6
 comalterity, 2, 2
 helyzetuk, 2, 2
 hubbard, 13, 13
@@ -25529,7 +25301,6 @@ eduuwrfacc, 4, 4
 iliad, 19, 5
 usmnduluthcp, 5, 5
 comwyoming, 4, 4
-according, 52, 33
 manuel, 2, 2
 factories, 8, 6
 powder, 4, 4
@@ -26259,7 +26030,6 @@ specific, 229, 137
 obtains, 2, 1
 entails, 3, 2
 developments, 52, 29
-where's, 2, 1
 vendió, 3, 2
 rousselot, 10, 10
 elective, 2, 2
@@ -26425,7 +26195,6 @@ aueduswincc, 2, 2
 reagalva, 5, 4
 anyanyelv, 3, 3
 eduindianamcnutt, 3, 3
-generally, 25, 13
 pools, 2, 2
 brotherhood, 4, 3
 maturation, 2, 2
@@ -26736,7 +26505,6 @@ robert, 121, 48
 homeopathic, 2, 1
 netkis, 5, 5
 buntenyek, 2, 1
-within, 22, 18
 milyen, 95, 32
 reszvenyek, 3, 2
 felszolalasokat, 2, 1
@@ -26780,12 +26548,10 @@ egyetemre, 3, 2
 netpacificrim, 5, 5
 nyilvanvalo, 15, 11
 valtoztattak, 4, 3
-every, 15, 12
 maldive, 2, 1
 taxpayer, 108, 5
 commoscow, 5, 5
 eduugaicad, 2, 2
-during, 69, 44
 venezuela, 15, 9
 világszoumlvetség, 2, 2
 eredmenyeket, 6, 6
@@ -26879,7 +26645,6 @@ vetik, 2, 2
 engedelyezte, 2, 2
 eduvtlib, 5, 5
 comiafrica, 5, 5
-other, 70, 44
 rohan, 2, 1
 caumanitobaeduc, 3, 3
 netpinn, 5, 5
@@ -26988,7 +26753,6 @@ broad, 43, 31
 felezer, 3, 3
 comsyntex, 5, 5
 cash, 22, 14
-case, 234, 129
 educn, 4, 4
 irodajat, 3, 3
 elképzelhetotilde, 2, 2
@@ -27247,7 +27011,6 @@ oroszorszagba, 2, 2
 konkretan, 5, 4
 vallalok, 2, 2
 torvenyet, 3, 2
-turn, 13, 7
 szemrebbenes, 2, 1
 turi, 2, 2
 vallalni, 6, 4
@@ -27360,7 +27123,6 @@ erteku, 9, 6
 distribuir, 2, 1
 cameron, 8, 4
 eduokstateed, 2, 2
-grouping, 2, 2
 respectfully, 4, 3
 netspacelab, 3, 3
 érdekeit, 2, 1
@@ -27760,7 +27522,6 @@ gusztav, 3, 2
 szanto, 2, 2
 accruement, 2, 2
 automotrices, 4, 3
-places, 7, 7
 perspectivas, 2, 2
 pszichiatriai, 4, 2
 libanoni, 2, 2
@@ -27783,7 +27544,6 @@ edumonroe, 5, 5
 trombitas, 2, 2
 extremely, 17, 17
 ganancias, 43, 5
-recent, 19, 13
 nyomor, 4, 4
 cadirect, 5, 5
 rockefeller-konzorcium, 2, 1
@@ -27948,7 +27708,6 @@ late, 43, 38
 ceier, 4, 1
 brush, 2, 2
 ukacmanli, 2, 2
-last, 170, 158
 lasd, 7, 6
 lash, 3, 2
 bruta, 5, 3
@@ -27966,7 +27725,6 @@ brumi, 2, 2
 pozos, 50, 14
 havinf, 2, 2
 laws, 195, 58
-having, 4, 4
 mccarthyism, 9, 2
 edumaricopamcinfopin, 2, 2
 emlekeztetot, 3, 2
@@ -27986,7 +27744,6 @@ alliberalis, 6, 4
 chat, 7, 1
 chau, 8, 1
 chan, 4, 3
-before, 26, 20
 russianbsp, 5, 1
 hasznosnak, 2, 2
 pushkin, 3, 1
@@ -28057,7 +27814,6 @@ keretek, 2, 2
 uzletember, 7, 2
 nlvpro, 2, 2
 usflccpjc, 2, 2
-although, 58, 30
 comglaxo, 5, 5
 edulouisvilleit-ncc, 4, 4
 keretet, 2, 2
@@ -28212,7 +27968,6 @@ edugvsuit, 2, 2
 centers, 36, 20
 debris, 2, 2
 szerzodott, 2, 2
-nothing, 7, 3
 fioulu, 5, 5
 bliley, 7, 7
 netecsis, 4, 4
@@ -28238,7 +27993,6 @@ todas, 16, 10
 hkcuhkcs, 4, 4
 panorama, 2, 2
 badly, 4, 4
-today, 26, 20
 thefree, 2, 1
 magyarság, 26, 3
 csaladokat, 2, 2
@@ -28252,7 +28006,6 @@ netskyenet, 5, 5
 demonstrations, 4, 4
 netinfi, 4, 4
 inboardin-outboard, 4, 1
-using, 29, 23
 szemelyisegek, 2, 1
 felreertes, 2, 2
 szemelyiseget, 3, 3
@@ -28329,7 +28082,6 @@ traits, 11, 10
 torvenyellenesnek, 3, 2
 nato's, 9, 6
 uzemben, 2, 2
-rooms, 6, 4
 szabalyaival, 2, 2
 tigris, 2, 2
 netcinenet, 3, 3
@@ -28365,7 +28117,6 @@ roots, 35, 30
 gripper, 4, 1
 recipe, 9, 3
 roost, 2, 1
-backs, 2, 2
 vesztes, 3, 3
 szubjektiv, 2, 2
 accomplishments, 6, 6
@@ -28405,7 +28156,6 @@ detu-berlincs, 4, 4
 edumaineumetel, 3, 3
 mxcomtamnet, 4, 4
 sprouts, 4, 2
-between, 61, 42
 edupdxppp, 4, 4
 overhead, 3, 3
 dilettans, 2, 1
@@ -28527,7 +28277,6 @@ walks, 3, 3
 csalas, 7, 7
 hatalma, 2, 2
 irreversible, 2, 1
-lets, 5, 3
 celestial, 2, 2
 lett, 86, 35
 employee, 160, 24
@@ -28539,7 +28288,6 @@ lete, 3, 3
 employer, 125, 17
 lest, 2, 2
 wales, 5, 3
-less, 2, 2
 dollarral, 9, 7
 érdekucirc, 5, 2
 hatalmi, 22, 11
@@ -28660,7 +28408,6 @@ tagadta, 3, 3
 relief, 8, 8
 radiok, 2, 1
 fiuwasacl, 3, 3
-someone, 4, 3
 interaction, 27, 19
 masfel-ketmilliard, 2, 1
 record, 71, 42
@@ -29146,7 +28893,6 @@ cons, 23, 19
 netmidtown, 5, 5
 como, 77, 18
 comm, 2, 1
-come, 2, 2
 cabcgov, 4, 4
 ugyhogy, 3, 3
 lift, 5, 5
@@ -29172,7 +28918,6 @@ ujsag, 17, 13
 anton, 3, 2
 szakértotildei, 2, 1
 forditva, 5, 5
-like, 19, 13
 proposes, 18, 17
 illusions, 8, 5
 gyakorlatra, 2, 1
@@ -29947,7 +29692,6 @@ idore, 6, 6
 usted, 2, 2
 refrain, 2, 2
 defh-rosenheim, 2, 2
-state, 243, 102
 hopkins, 15, 14
 canstn, 5, 5
 gyotrik, 2, 1
@@ -30171,7 +29915,6 @@ shelter, 11, 9
 remuralma, 2, 2
 itpisoft, 3, 3
 loni, 2, 2
-long, 75, 51
 listings, 2, 2
 mediatartalomra, 2, 1
 identifiable, 6, 1
@@ -30414,7 +30157,6 @@ bankarok, 4, 4
 eduncsucsc, 5, 5
 valahogy, 3, 3
 psychotherapy, 5, 3
-older, 3, 2
 relieved, 2, 2
 alyaksandr, 6, 6
 climate, 95, 35
@@ -30895,7 +30637,6 @@ innate, 2, 2
 gutted, 2, 2
 entregó, 2, 2
 gombar, 3, 3
-first, 109, 58
 ltal, 3, 1
 atkinson, 4, 4
 ukconetkonect, 3, 3
@@ -31045,7 +30786,6 @@ episodes, 2, 2
 neurologiai, 2, 2
 beloluk, 3, 3
 indecency, 3, 2
-important, 5, 5
 disciplinary, 5, 5
 metelda, 2, 2
 aprobación, 4, 3
@@ -31090,7 +30830,6 @@ netsccoast, 2, 2
 jelentosegu, 3, 3
 keresztenyseget, 3, 3
 jelentosege, 3, 3
-however, 107, 50
 judaism, 3, 2
 szabja, 3, 3
 mundt, 2, 2
@@ -31304,7 +31043,6 @@ mamore, 3, 1
 japanban, 3, 2
 aquinas, 8, 4
 capital, 125, 52
-upon, 10, 10
 alkotmanykoncepciot, 3, 3
 comuprromhq, 3, 3
 tower, 16, 16
@@ -31478,14 +31216,12 @@ orokbefogadasra, 3, 1
 waldie, 3, 3
 comsinet, 2, 2
 edurose-hulmanstudent, 4, 4
-recently, 4, 3
 prepaid, 6, 6
 adminisztracio, 3, 3
 netrealm, 3, 3
 profitability, 5, 4
 achievement, 40, 14
 ingersoll, 2, 1
-still, 11, 9
 cauworrictrg, 3, 3
 aranak, 2, 2
 nointernet, 4, 4
@@ -31650,7 +31386,6 @@ cuando, 5, 5
 noteworthy, 3, 3
 volna, 233, 39
 usan, 2, 1
-used, 3, 3
 tajekoztattak, 6, 4
 muses, 2, 1
 pazmany, 4, 2
@@ -31665,7 +31400,6 @@ walesa, 2, 2
 ptutlist, 3, 3
 thanking, 2, 2
 lyle, 6, 1
-uses, 6, 5
 user, 93, 25
 honfoglalo, 3, 1
 comadobeusmv, 5, 5
@@ -31915,7 +31649,6 @@ pompey, 5, 1
 usohlibwpl, 4, 4
 philosophy-, 2, 2
 usmdccpg, 2, 2
-members, 17, 13
 chekhov's, 2, 2
 stock, 82, 25
 uzbekistan, 2, 2
@@ -31944,7 +31677,6 @@ netlogin, 4, 4
 dispersed, 2, 2
 facto, 3, 3
 ahorros, 2, 2
-facts, 9, 7
 milnavynavtap, 2, 2
 szekhelyu, 3, 3
 kenyszerult, 4, 3
@@ -32183,7 +31915,6 @@ fenyegeti, 6, 5
 ertjuk, 3, 2
 fenyegeto, 6, 6
 ennyi, 11, 10
-cannot, 2, 2
 chamber, 11, 7
 comtexoma, 5, 5
 szalay, 6, 4
@@ -32526,7 +32257,6 @@ tallon, 5, 5
 comslbgeco-praklahouston, 2, 2
 zacoedsa, 2, 2
 talalhatok, 4, 4
-after, 84, 48
 vonult, 2, 2
 esintercom, 5, 5
 conrad, 23, 5
@@ -32688,7 +32418,6 @@ méxico, 3, 2
 multi-sensor, 2, 1
 robespierre, 3, 1
 compare, 8, 8
-unlike, 19, 13
 veszelybe, 4, 4
 mondatra, 2, 2
 hirre, 2, 2
@@ -32726,7 +32455,6 @@ szemelyeknek, 4, 1
 horn-petotilde, 4, 1
 szemelyeknel, 2, 1
 brcomhomeshopping, 2, 2
-made, 6, 5
 madd, 2, 1
 kozepe, 2, 2
 edufsubio, 3, 3
@@ -32758,7 +32486,6 @@ mako, 4, 3
 aunetdesign, 4, 4
 comtimeplex, 3, 3
 suppressed, 3, 3
-make, 6, 6
 hiret, 3, 3
 intensity, 34, 7
 veszelyet, 4, 4
@@ -32778,7 +32505,6 @@ szegenyebb, 2, 2
 expression, 32, 26
 mann, 16, 13
 mans, 17, 12
-many, 49, 30
 entrepreneur, 3, 2
 releases, 14, 9
 mana, 4, 1
@@ -32793,7 +32519,6 @@ maps, 15, 7
 garantizado, 2, 2
 usminewaygo, 5, 5
 mast, 10, 7
-needed, 3, 2
 mass, 188, 127
 comprado, 3, 1
 elkepzelheto, 5, 5
@@ -33424,7 +33149,6 @@ comgtegsciipo, 4, 4
 nzacwaikatocs, 3, 3
 érkezik, 2, 1
 mccartney, 4, 2
-actually, 2, 2
 beszamolojat, 2, 2
 karpotlasi, 12, 5
 comcrocker, 5, 5
@@ -33890,7 +33614,6 @@ adataink, 2, 2
 plwrocpwritma, 2, 2
 igenyeinek, 3, 3
 o'konski, 2, 2
-does, 13, 10
 modifying, 3, 2
 clause, 5, 4
 dabas-sari, 3, 2
@@ -33998,7 +33721,6 @@ doug, 7, 4
 mozgalmakat, 3, 3
 gazdalkodo, 2, 2
 recommendations, 44, 28
-down, 11, 9
 faculty, 29, 11
 shifting, 7, 7
 claude, 3, 2
@@ -34014,7 +33736,6 @@ vagyonuk, 2, 2
 adossaganak, 3, 3
 impossibility, 2, 2
 feudalis, 2, 2
-miss, 10, 4
 koztudott, 2, 2
 robinson, 20, 19
 anyanyelvuket, 2, 1
@@ -34083,7 +33804,6 @@ kozponti, 48, 22
 valaszto, 4, 4
 netindplym, 2, 2
 dilorenzo, 3, 1
-though, 4, 4
 transportation, 50, 31
 egyertelmuve, 3, 3
 edupittwpic, 3, 3
@@ -34196,7 +33916,6 @@ produkal, 2, 1
 comskypoint, 2, 2
 comdttus, 5, 5
 distribuidores, 2, 2
-against, 40, 32
 comintergate, 3, 3
 educornelltn, 2, 2
 jelentotildeségucirc, 2, 2
@@ -34261,7 +33980,6 @@ color, 30, 21
 latszik, 28, 18
 hitelei, 2, 2
 lehman, 19, 14
-thoughts, 4, 4
 faroe, 3, 3
 hitelek, 4, 2
 hitelet, 3, 3
@@ -34296,7 +34014,6 @@ enables, 16, 13
 quotharmful, 2, 1
 erickson, 3, 3
 eduiastatevincent, 5, 5
-certain, 13, 11
 amiota, 4, 3
 cycles, 5, 5
 megtakaritas, 2, 2
@@ -34371,10 +34088,8 @@ bajban, 2, 1
 comlamrc, 3, 3
 forraskivonas, 2, 1
 sisigov, 3, 3
-presents, 20, 10
 straightforward, 4, 4
 mediara, 2, 2
-very, 4, 3
 vers, 3, 3
 commonsanto, 5, 5
 canadian, 45, 21
@@ -34754,7 +34469,6 @@ schedules, 6, 4
 comro, 5, 5
 hagan, 2, 2
 surfaced, 3, 3
-again, 8, 6
 szazadi, 4, 3
 commerck, 5, 5
 comko, 3, 3
@@ -34776,7 +34490,6 @@ comml, 2, 2
 commv, 5, 5
 comnb, 2, 2
 gazprom, 3, 2
-moreover, 10, 6
 koromfajas, 3, 2
 comartgraphics, 2, 2
 comlm, 2, 2
@@ -34982,14 +34695,12 @@ criticizes, 8, 7
 koztolvaso, 4, 4
 criticized, 20, 12
 netoneworld, 2, 2
-more, 47, 33
 deeson, 5, 1
 eduandrewsaim, 4, 4
 bidding, 2, 2
 merlegben, 2, 1
 vine, 4, 4
 connections, 8, 7
-most, 114, 63
 moss, 11, 11
 cambodia's, 4, 1
 netinfiroanoke, 5, 5
@@ -35139,7 +34850,6 @@ non-us, 3, 2
 appropriations, 6, 4
 suave, 2, 1
 nyilvanitotta, 3, 2
-towards, 13, 12
 milarmyria, 2, 2
 ismerve, 3, 3
 erofeszitesebe, 2, 2
@@ -35599,7 +35309,6 @@ mtbe, 2, 2
 runways, 2, 1
 hamar, 3, 3
 lakasanak, 2, 1
-former, 15, 11
 inspectors, 2, 1
 formed, 24, 23
 egyesulet, 7, 7
@@ -35775,7 +35484,6 @@ usohclevelandccbmr, 3, 3
 innovations, 10, 9
 veszelyezteti, 4, 3
 caonconfederationc, 3, 3
-much, 7, 4
 omits, 2, 1
 weekly, 23, 14
 resolved, 13, 12
@@ -35829,7 +35537,6 @@ montespertoli, 2, 1
 milnavyusno, 2, 2
 mínimo, 4, 3
 suits, 10, 10
-whether, 7, 7
 gore-chernomyrdin, 2, 1
 voie, 6, 2
 void, 4, 3
@@ -35855,7 +35562,6 @@ events, 172, 61
 input, 12, 9
 serelmet, 2, 2
 volt, 529, 42
-must, 3, 3
 dkdtv, 2, 2
 idezett, 5, 5
 comvalleynet, 5, 5
@@ -35977,7 +35683,6 @@ paskai, 4, 3
 illness, 28, 17
 marginalist, 2, 1
 lengthen, 2, 2
-could, 2, 2
 katonak, 5, 4
 katonai, 48, 18
 corrientes, 6, 2
@@ -35997,7 +35702,6 @@ gyonyoru, 6, 6
 forget, 2, 2
 principles, 49, 26
 commillcommroch, 5, 5
-problems, 56, 32
 nagyszeru, 5, 5
 indicadas, 2, 2
 nettelalink, 5, 5
@@ -36034,7 +35738,6 @@ netilinkgn, 4, 4
 convenio, 6, 4
 fizetnunk, 2, 2
 honors, 40, 10
-whenever, 2, 2
 intezmenyben, 2, 2
 folytatasa, 2, 2
 radar-c, 4, 4
@@ -36444,7 +36147,6 @@ buncselekmenyt, 2, 2
 tekint, 2, 1
 night, 51, 28
 mdf-nek, 5, 5
-each, 44, 34
 compios, 2, 2
 eduarizonamath, 2, 2
 egykori, 32, 16
@@ -37019,7 +36721,6 @@ nyilvánosság, 2, 1
 dignity, 5, 5
 netmcicampusmursuky, 5, 5
 kerni, 4, 2
-these, 113, 68
 comintel, 5, 5
 antildeos, 27, 16
 netintcommcc, 5, 5
@@ -37053,11 +36754,9 @@ roumlvid, 3, 2
 sperber, 2, 2
 comsetarnet, 2, 2
 kerte, 12, 8
-we'll, 4, 1
 slaughterhouse, 3, 2
 taxpayer's, 8, 1
 koumlzvéleményt, 2, 1
-there, 137, 60
 coffee, 13, 6
 kerul, 59, 29
 eduuiucphs, 2, 2
@@ -37096,7 +36795,6 @@ copernican, 2, 2
 jammed, 2, 2
 surge, 59, 5
 felejtette, 2, 2
-we're, 2, 2
 valores, 2, 2
 ovezeti, 2, 1
 eduohioudialnet, 3, 3
@@ -37182,7 +36880,6 @@ aldozatot, 6, 6
 aldozatok, 12, 6
 utilidades, 10, 5
 howard, 26, 23
-their, 45, 38
 compenn, 5, 5
 self-insured, 3, 2
 silone, 2, 1
@@ -37262,7 +36959,6 @@ sumsunpi, 2, 2
 psychotic, 2, 2
 edunevadalv-bhs, 2, 2
 governor's, 2, 2
-unless, 7, 7
 unequaled, 2, 2
 tobbfele, 3, 2
 edutuftsinfonet, 5, 5
@@ -37453,7 +37149,6 @@ jacksonian, 2, 1
 piano, 14, 8
 orgopen, 5, 5
 pledges, 6, 5
-greater, 10, 5
 shareware, 2, 2
 superintendent, 4, 2
 subscriber, 7, 2
@@ -37484,7 +37179,6 @@ szamvevoszek, 4, 4
 inversión, 12, 6
 forbid, 2, 2
 azegyik, 4, 4
-enough, 4, 3
 centuryby, 2, 2
 megvall, 2, 1
 nincs, 224, 42
@@ -37712,7 +37406,6 @@ reformok, 2, 1
 utjaba, 2, 2
 up-to-date, 4, 4
 fihelsinkipc, 5, 5
-taking, 6, 4
 investigators, 11, 6
 mejor, 2, 2
 reformer, 3, 3
@@ -37846,12 +37539,10 @@ concentration, 14, 10
 heavily, 11, 10
 bulgarianak, 2, 1
 third, 89, 49
-further, 26, 14
 mutatkoznak, 2, 2
 presidents, 12, 10
 képzett, 2, 2
 presidente, 18, 7
-going, 17, 9
 kapitulalt, 2, 2
 partly, 10, 7
 judeonaci, 2, 1
@@ -37960,7 +37651,6 @@ también, 47, 26
 commot, 5, 5
 apple, 17, 6
 common, 117, 55
-interest, 22, 16
 ebytem, 4, 3
 comams-corp, 2, 2
 kerina, 5, 2
@@ -38045,7 +37735,6 @@ testuletekkel, 2, 1
 hibasak, 2, 2
 cominterval-intl, 2, 2
 motorcade, 2, 2
-need, 9, 8
 ranquil, 2, 2
 aldous, 7, 3
 nefarious, 2, 1
@@ -38161,7 +37850,6 @@ improving, 25, 19
 recomienda, 2, 2
 neue, 2, 2
 trumpet, 3, 2
-next, 21, 18
 conclusion, 51, 37
 megrendito, 2, 2
 trademark, 4, 3
@@ -38297,7 +37985,6 @@ linkages, 2, 2
 caqcsaglac, 5, 5
 edulclark, 3, 3
 haboruba, 3, 2
-second, 51, 35
 netmcikansascity, 2, 2
 faster, 11, 11
 maternity, 2, 2
@@ -38453,7 +38140,6 @@ ngos, 5, 2
 deviza, 2, 2
 notoriously, 2, 2
 franchise, 11, 3
-almost, 3, 3
 theses, 2, 2
 harmful, 5, 5
 wake, 7, 5
@@ -38512,7 +38198,6 @@ eduwilliamscc, 3, 3
 predominantly, 2, 2
 consortium, 3, 1
 hadsereg, 17, 8
-goods, 12, 9
 secure, 36, 14
 govnoaangs, 2, 2
 elvonasok, 2, 1
@@ -38533,7 +38218,6 @@ wave, 15, 9
 mostantol, 3, 3
 menem, 10, 1
 courageous, 3, 2
-ends, 5, 4
 eduwmtyler, 4, 4
 edunodakndsu, 2, 2
 steady, 3, 3
@@ -38554,13 +38238,11 @@ doubled, 4, 4
 airways, 10, 3
 mailing, 10, 8
 smart, 11, 5
-ways, 3, 3
 comrmc, 4, 4
 comnforce, 2, 2
 electorate, 7, 4
 ilcotrendline, 4, 4
 engr, 3, 1
-small, 33, 9
 sparkman, 7, 7
 double-, 3, 3
 enje, 2, 1
@@ -38658,7 +38340,6 @@ mcfall, 6, 6
 nyomdai, 2, 2
 netnetnet, 5, 5
 eduyaleycia, 2, 2
-present, 28, 20
 harvard, 4, 4
 brasco, 3, 3
 criseyde, 5, 2
@@ -38778,7 +38459,6 @@ founding, 2, 2
 aggressive, 6, 5
 uscasan-bernardinoco, 3, 3
 persuasive, 3, 3
-nine, 5, 5
 unborn, 5, 5
 cartels, 3, 2
 lettunk, 5, 3
@@ -38859,7 +38539,6 @@ edmondson, 2, 2
 leaking, 5, 3
 consumers', 7, 2
 recurrent, 2, 2
-those, 11, 10
 epee, 2, 1
 usnvreno, 4, 4
 kifizetesenek, 2, 2
@@ -39107,7 +38786,6 @@ tarthato-e, 2, 2
 concentrate, 6, 5
 edukentmcs, 2, 2
 weld, 9, 3
-well, 9, 6
 handling, 19, 14
 comfpl, 2, 2
 ragadozo, 2, 1
@@ -39118,7 +38796,6 @@ went, 23, 20
 aunetultra, 4, 4
 milaframstein, 4, 4
 deuni-ulmrz, 2, 2
-orders, 13, 8
 augovqlddpiind, 4, 4
 hirlapmagyar, 2, 2
 attila, 21, 15
@@ -39212,7 +38889,6 @@ erni, 3, 2
 blatnik, 3, 3
 punitive, 10, 7
 erne, 2, 2
-three, 53, 41
 felfedezni, 2, 2
 ordeal, 2, 2
 tudatlan, 4, 3
@@ -39591,10 +39267,8 @@ wisconsin, 35, 35
 pinch, 2, 1
 legfrissebb, 5, 4
 ukacbournemouth, 3, 3
-what, 72, 46
 estabilidad, 2, 1
 comcng, 2, 2
-when, 93, 55
 modest, 5, 5
 megbizatasuk, 2, 2
 gould, 3, 3
@@ -39656,7 +39330,6 @@ hodgkin's, 2, 1
 frinria, 2, 2
 kossuth, 24, 14
 communications, 235, 137
-whom, 3, 2
 commanznet, 2, 2
 comcfw, 4, 4
 eduohio-statehomenet, 3, 3
@@ -39771,7 +39444,6 @@ biblical, 7, 5
 ratchford, 6, 6
 vetozni, 2, 2
 chains, 5, 3
-none, 5, 4
 self-executable, 2, 2
 wife, 23, 16
 years', 4, 4
@@ -39810,7 +39482,6 @@ devine, 9, 9
 note, 43, 26
 researched, 6, 5
 nota, 41, 6
-will, 44, 24
 nosn, 4, 4
 repeatability, 7, 2
 falsifying, 2, 2
@@ -39874,7 +39545,6 @@ ridge, 7, 7
 responded, 11, 10
 kotodes, 2, 1
 fijapopp, 3, 3
-with, 98, 63
 amended, 5, 3
 service, 255, 94
 edurhodespresident, 2, 2
@@ -39891,7 +39561,6 @@ slowly, 8, 8
 monarchies, 3, 1
 eves, 53, 25
 nemeth, 13, 9
-even, 36, 26
 kapcsolodik, 3, 3
 evek, 25, 17
 itpolito, 3, 3
@@ -39925,7 +39594,6 @@ netzapcom, 4, 4
 motores, 7, 4
 burning, 13, 5
 machines, 17, 11
-formerly, 2, 2
 comlicor, 4, 4
 agregado, 4, 3
 comutelflaucfdial, 2, 2
@@ -40128,7 +39796,6 @@ augovtourism, 2, 2
 enthusiastic, 2, 2
 elerni, 10, 10
 mindketten, 5, 3
-except, 2, 2
 vilagallami, 5, 1
 eduumrnetwork, 5, 5
 comicw, 2, 2
@@ -40413,7 +40080,6 @@ advanced, 41, 31
 romaniaval, 2, 2
 advances, 13, 12
 sell-out, 2, 2
-large, 7, 7
 edudrexelmcs, 2, 2
 netouter, 2, 2
 larga, 3, 3
@@ -40438,7 +40104,6 @@ irányuló, 2, 1
 hatarozottan, 10, 8
 bukarest, 6, 3
 govtexastsl, 2, 2
-behind, 4, 4
 comgld, 5, 5
 boewulf, 3, 2
 eyre, 5, 2
@@ -40503,7 +40168,6 @@ tested, 14, 11
 comfta, 3, 3
 elvalasztasa, 2, 2
 vegezzek, 2, 2
-nobody, 2, 2
 edurpslmcis, 2, 2
 actor's, 3, 3
 legkorruptabb, 2, 2
@@ -40710,7 +40374,6 @@ wednesday, 6, 5
 comcwnet, 5, 5
 rigid, 3, 3
 accords, 3, 3
-right, 27, 21
 bronte's, 4, 1
 milliarddollar, 2, 2
 eduuconncag, 2, 2
@@ -40719,7 +40382,6 @@ masterpiece, 7, 5
 comzoom, 4, 4
 lassabban, 2, 2
 vegeztek, 4, 4
-later, 10, 7
 edunemostate, 4, 4
 underdevelopment, 2, 1
 bartok, 5, 4
@@ -40824,7 +40486,6 @@ miniszterelnokenek, 2, 2
 caribbean, 12, 4
 minish, 12, 12
 worn, 8, 4
-work, 44, 29
 leheta, 4, 4
 frhrnet, 3, 3
 leheto, 5, 5
@@ -41374,7 +41035,6 @@ comtellabslisle, 5, 5
 netptialaska, 2, 2
 impulse, 3, 1
 eduusucs, 2, 2
-fact, 9, 6
 ironic, 3, 2
 dictating, 2, 2
 neticanect, 3, 3
@@ -41561,7 +41221,6 @@ newsweek, 2, 2
 crane-lantos, 4, 3
 repeated, 17, 13
 netbinc, 4, 4
-either, 6, 6
 eduuhfh-building, 2, 2
 eduappstateced, 4, 4
 reconversión, 11, 3
@@ -41670,7 +41329,6 @@ birosagi, 5, 5
 onnet, 2, 2
 majority, 60, 37
 onnek, 10, 8
-there's, 3, 3
 edumuphil, 3, 3
 biztosra, 2, 2
 wilm's, 2, 2
@@ -41752,7 +41410,6 @@ tribune-review, 6, 2
 pac's, 2, 1
 lvlatnetcom, 5, 5
 fenntartasa, 4, 3
-should, 21, 15
 mechanisms, 18, 14
 gazdagitasa, 2, 2
 szomoru, 9, 9
@@ -42648,7 +42305,6 @@ amelyiknek, 2, 2
 mucirckoumldik, 4, 3
 fine, 27, 19
 tevekenysegerol, 4, 4
-find, 4, 4
 tulsagosan, 4, 4
 illustrate, 7, 7
 gazsag, 2, 1
@@ -42698,7 +42354,6 @@ fish, 19, 18
 folyoirat, 6, 6
 nzcocybernet, 5, 5
 ongyilkos, 3, 2
-five, 21, 16
 lifestyles, 5, 4
 fits, 6, 5
 govusdojojp, 3, 3
@@ -42864,7 +42519,6 @@ vilaggal, 2, 2
 valoszinuseg, 2, 2
 eduuvscopenlab, 2, 2
 igert, 12, 7
-becoming, 5, 3
 twedunsysu, 3, 3
 grassley, 11, 11
 igeri, 2, 2

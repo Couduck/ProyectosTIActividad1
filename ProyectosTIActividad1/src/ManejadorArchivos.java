@@ -49,7 +49,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     }
 
 
-    public void tokenizarTodosArchivosStopList() throws IOException     //Actividad 6
+    public void tokenizarTodosArchivosStopList() throws IOException     //Actividad 9
     {
         hashcentral = new HashMap<>();
 
@@ -59,7 +59,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         long inicioTokenizacionCompleta = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
 
-        FileWriter salida = new FileWriter("Salidas\\TokenizedStopList.txt"), salida2 = new FileWriter("Salidas\\Salida9.txt");
+        FileWriter salida = new FileWriter("Salidas\\TokenizedStopList.txt"), salida2 = new FileWriter("Salidas\\Salida9.txt"), salida3 = new FileWriter("Salidas\\PostingStopList.txt");
 
         //Realiza con todos los archivos el siguiente ciclo
         for(String pagina : files)
@@ -121,6 +121,28 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
 
+        primeraVez = true;
+        //Posting con StopList
+        for(Palabra palabraCompleta : PalabrasComoLista)
+        {
+            int i = 0;
+
+            if(palabraCompleta.getFrecuencia() > 1 && palabraCompleta.getPalabra().length() > 1)
+            {
+                for (String pagina : palabraCompleta.getArchivosAparece())
+                {
+                    if (primeraVez) {
+                        salida3.write(pagina + ".html, " + palabraCompleta.getFrecuenciaArchivos().get(i) + "\n");
+                        primeraVez = false;
+                    } else {
+                        salida3.append(pagina + ".html, " + palabraCompleta.getFrecuenciaArchivos().get(i) + "\n");
+                    }
+
+                    i++;
+                }
+            }
+        }
+
         long finTokenizacionCompleta = System.currentTimeMillis();
 
         long duracionTokenizacionCompleta = finTokenizacionCompleta - inicioTokenizacionCompleta;
@@ -139,6 +161,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Se cierra el documento
         salida.close();
         salida2.close();
+        salida3.close();
     }
 
     public void almacenamientoHashTable() throws IOException    //Actividad 8 (NO COMENTADA)
@@ -822,14 +845,14 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         for (String palabra:listapalabras)
         {
+            palabra = palabra.toLowerCase();
+
             if(!palabra.isBlank())  //¿La palabra actual es un campo vacío? Rechazada
             {
                 if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada
                 {
                     if(filtradoStopList(palabra))   //¿La palabra se encuentra en el stoplist? Rechazada
                     {
-                        palabra = palabra.toLowerCase();
-
                         if(!listaFiltrada.isEmpty())    //Si la lista está vacía, se añade como la primera de la misma, caso contrario, se busca para ver que no sea una palabra ya existente, en caso de que no se encuentre, se añade a la lista
                         {
                             listaFiltrada.add(palabra);
@@ -931,6 +954,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     public void AniadirAHashCentral(HashMap<String, Palabra> palabrasArchivoActual, String pagina) throws IOException
     {
         Set<String> listaPalabras =palabrasArchivoActual.keySet();
+        int numPalabrasXArchivo = 0;
 
         for (String palabra : listaPalabras)
         {
@@ -1532,6 +1556,11 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
     public boolean filtradoStopList(String palabra)
     {
         boolean pasa;
+
+        if(palabra.length()==1)
+        {
+            int i =1;
+        }
 
         if(stopList.get(palabra) == null)
         {
