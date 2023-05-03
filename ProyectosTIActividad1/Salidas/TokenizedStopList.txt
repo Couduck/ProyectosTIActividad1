@@ -4070,6 +4070,7 @@ lincoln-douglas, 2, 2
 accrued, 3, 1
 viselik, 2, 2
 szabadi, 2, 1
+co-sponsored, 3, 1
 withdrawn, 4, 4
 megvizsgaltam, 2, 1
 külpolitikai, 10, 2

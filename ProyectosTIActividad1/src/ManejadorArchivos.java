@@ -48,8 +48,84 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         return hashdevolver;
     }
 
+    public void pesarTokens() throws IOException
+    {
+        contarTokensXArchivo();
 
-    public void tokenizarTodosArchivosStopList() throws IOException     //Actividad 6
+        hashcentral = new HashMap<>();
+
+        Sorter sort = new Sorter();
+
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioTokenizacionCompleta = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        FileWriter salida = new FileWriter("Salidas\\PostingPesado.txt"), salida2 = new FileWriter("Salidas\\Salida10.txt");
+
+        FileReader fileNumeroTokens = new FileReader("NumeroTokens.txt"), filePosting = new FileReader("Salidas\\Posting.txt");  //Se guarda el lector del archivo en cuestión
+        BufferedReader bufredNumTokens = new BufferedReader(fileNumeroTokens), bufredPosting = new BufferedReader(filePosting); // BufferedReader para el análisis de linea
+        String linea;  //Almacenará el archivo completo con el texto completo
+        int contador = 1;
+        HashMap<String, Integer> archivoVar = new HashMap<>();
+        long inicioPesarToken, finPesarToken;
+
+
+        while ((linea = bufredNumTokens.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            String[] palabras = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+            archivoVar.put(palabras[0], Integer.valueOf(palabras[1]));
+        }
+
+        while ((linea = bufredPosting.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            inicioPesarToken = System.currentTimeMillis();
+
+            String[] posting = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+
+            double peso = Integer.parseInt(posting[1])*100.0/archivoVar.get(posting[0]);
+            peso = peso*100;
+            peso = Math.round(peso);
+            peso = peso/100;
+
+            if(primeraVez)
+            {
+                salida.write(posting[0] + ", " + posting[1] + ", " + peso +"\n");
+                finPesarToken = System.currentTimeMillis();
+                long totalLeerToken = finPesarToken - inicioPesarToken;
+                salida2.write("Tiempo de procesamiento del Token " + contador + ": " + totalLeerToken + " milisegundos\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida.append(posting[0] + ", " + posting[1] + ", " + peso +"\n");
+                finPesarToken = System.currentTimeMillis();
+                long totalLeerToken = finPesarToken - inicioPesarToken;
+                salida2.append("Tiempo de procesamiento del Token " + contador + ": " + totalLeerToken + " milisegundos\n");
+            }
+
+            contador++;
+        }
+
+        long finPesarTokensCompleto = System.currentTimeMillis();
+
+        long duracionPesarTokensCompleto = finPesarTokensCompleto - inicioTokenizacionCompleta;
+
+        salida2.append("\nEl tiempo requerido para pesar todos los tokens fue de " + duracionPesarTokensCompleto/1000.0 + " segundos");
+
+        //Mismo proceso de arriba pero con la duración total del programa
+        long finPrograma = System.currentTimeMillis();
+
+        long duracionPrograma = finPrograma - tiempoInicio;
+
+        salida2.append("\nLa duración del programa fue de " + duracionPrograma/1000.0 + " segundos");
+
+        //Se cierra el documento
+        salida.close();
+        salida2.close();
+    }
+
+    public void tokenizarTodosArchivosStopList() throws IOException     //Actividad 9
     {
         hashcentral = new HashMap<>();
 
@@ -404,19 +480,22 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         System.out.print("\n----------\nGenerando archivo...");
 
+        int contador = 1;
+
         for(Palabra palabraCompleta : PalabrasComoLista)
         {
-
             if(primeraVez)
             {
-                salida.write(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+                salida.write(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + ", " + contador + "\n");
                 primeraVez = false;
             }
 
             else
             {
-                salida.append(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + "\n");
+                salida.append(palabraCompleta.getPalabra() + ", " + palabraCompleta.getFrecuencia() + ", " + palabraCompleta.getArchivos() + ", " + contador + "\n");
             }
+
+            contador += palabraCompleta.getArchivos();
 
         }
 
@@ -793,6 +872,80 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    public void contarTokensXArchivo() throws IOException
+    {
+        FileWriter salida = new FileWriter("NumeroTokens.txt");
+        boolean primeraVez = true;
+
+        for(String diccionario : files)
+        {
+            FileReader fileLectura = new FileReader("Palabras\\" + diccionario + ".txt");  //Se guarda el lector del archivo en cuestión
+            BufferedReader bufred = new BufferedReader(fileLectura); // BufferedReader para el análisis de linea
+            String archivoCompleto, linea;  //Almacenará el archivo completo con el texto completo
+            int contador = 0;
+
+            while ((linea = bufred.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+            {
+                contador++;
+            }
+
+            if(primeraVez)
+            {
+                salida.write(diccionario + ".html, " + contador + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                salida.append(diccionario + ".html, " + contador + "\n");
+            }
+        }
+
+        salida.close();
+    }
+
+    public void AniadirAHashCentral_StopList(HashMap<String, Palabra> palabrasArchivoActual, String pagina) throws IOException
+    {
+        Set<String> listaPalabras =palabrasArchivoActual.keySet();
+
+        for (String palabra : listaPalabras)
+        {
+            Palabra nuevaPalabra = new Palabra();
+
+            if(!hashcentral.isEmpty())
+            {
+                Palabra palabraExiste = hashcentral.get(palabra);
+
+                if(palabraExiste == null)
+                {
+                    nuevaPalabra.setPalabra(palabra);
+                    nuevaPalabra.setFrecuencia(palabrasArchivoActual.get(palabra).getFrecuencia());
+                    nuevaPalabra.getArchivosAparece().add(pagina);
+                    nuevaPalabra.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
+                    hashcentral.put(palabra, nuevaPalabra);
+                }
+
+                else
+                {
+                    palabraExiste.setFrecuencia(palabraExiste.getFrecuencia() + palabrasArchivoActual.get(palabra).getFrecuencia());
+                    palabraExiste.setArchivos(palabraExiste.getArchivos()+1);
+                    palabraExiste.getArchivosAparece().add(pagina);
+                    palabraExiste.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
+                    hashcentral.put(palabra, palabraExiste);
+                }
+            }
+
+            else
+            {
+                nuevaPalabra.setPalabra(palabra);
+                hashcentral.put(palabra, nuevaPalabra);
+            }
+        }
+    }
+
 
     public HashMap<String, Palabra> contarPalabrasXArchivo_CNStopList(String pagina) throws IOException
     {
@@ -923,6 +1076,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             else
             {
                 nuevaPalabra.setPalabra(palabra);
+                nuevaPalabra.setFrecuencia(palabrasArchivoActual.get(palabra).getFrecuencia());
+                nuevaPalabra.getArchivosAparece().add(pagina);
+                nuevaPalabra.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
                 hashTablecentral.put(palabra, nuevaPalabra);
             }
         }
@@ -935,6 +1091,11 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         for (String palabra : listaPalabras)
         {
             Palabra nuevaPalabra = new Palabra();
+
+            if(palabra.equals("co-sponsored"))
+            {
+                int i=1;
+            }
 
             if(!hashcentral.isEmpty())
             {
@@ -962,6 +1123,9 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             else
             {
                 nuevaPalabra.setPalabra(palabra);
+                nuevaPalabra.setFrecuencia(palabrasArchivoActual.get(palabra).getFrecuencia());
+                nuevaPalabra.getArchivosAparece().add(pagina);
+                nuevaPalabra.getFrecuenciaArchivos().add(palabrasArchivoActual.get(palabra).getFrecuencia());
                 hashcentral.put(palabra, nuevaPalabra);
             }
         }
@@ -1129,6 +1293,8 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         //Ciclo para sacar palabras del archivo
         for (String palabra:listapalabras)
         {
+            palabra=palabra.toLowerCase();
+
             if(!palabra.isBlank())  //¿La palabra actual es un campo vacío? Rechazada
             {
                 if(filtradoPalabras(palabra))   //¿La palabra no pasa el filtrado creado para palabras? Rechazada

@@ -2,7 +2,7 @@ a
 aceite
 bajo
 brinda
-Calidad
+calidad
 cambiar
 cambios
 certificado
@@ -10,7 +10,7 @@ comercializan
 con
 cuenta
 de
-Dónde
+dónde
 eficiente
 el
 ellas
@@ -21,8 +21,8 @@ estaciones
 estas
 forma
 fue
-Gran
-ISO
+gran
+iso
 las
 le
 lo
@@ -58,4 +58,4 @@ un
 una
 vehículo
 y
-YPF
+ypf

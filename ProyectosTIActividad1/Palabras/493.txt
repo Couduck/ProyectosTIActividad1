@@ -8,7 +8,7 @@ cada
 cantidad
 característico
 circulación
-Consejo
+consejo
 control
 de
 del
@@ -41,7 +41,7 @@ para
 por
 presión
 que
-Qué
+qué
 sobrepase
 un
 una

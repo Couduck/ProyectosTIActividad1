@@ -49552,7 +49552,7 @@ akerdezettek, 1, -702983191
 earned, 5, -1310336393
 pans, 1, 3433334
 hypnosis, 2, -106082979
-co-sponsored, 1, 957896984
+co-sponsored, 3, 957896984
 martians, 1, 255385779
 pang, 1, 3433322
 indianok, 1, 115532339

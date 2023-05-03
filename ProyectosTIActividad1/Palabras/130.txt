@@ -6,10 +6,10 @@ client
 coordinates
 did
 doesn't
-Either
-Error
+either
+error
 file
-Imagemap
+imagemap
 map
 not
 or
@@ -17,4 +17,4 @@ send
 support
 the
 was
-Your
+your
