@@ -30,7 +30,6 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         files[504] = "simple";
     }
 
-
     public HashMap<String, Palabra> generarStopList() throws IOException
     {
         FileReader fileLectura = new FileReader("Files\\StopList.txt");  //Se guarda el lector del archivo en cuestión
@@ -48,7 +47,96 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         return hashdevolver;
     }
 
-    public void pesarTokens() throws IOException
+    /*todo////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    public void crearArchivoID() throws IOException
+    {
+        boolean primeraVez = true;      //Variable booleana que indica si se realizará la primera escritura en el archivo de salida
+
+        long inicioCreacionArchivoIDs = System.currentTimeMillis();   //Empieza el conteo que indica el tiempo que el sistema tarda en generar el diccionario completo
+
+        FileWriter fileIDs = new FileWriter("Salidas\\DocumentosIDs.txt"), salida11 = new FileWriter("Salidas\\Salida11.txt"), postingIDs = new FileWriter("Salidas\\PostingConIDs.txt");
+
+        FileReader filePostPes = new FileReader("Salidas\\PostingPesado.txt"); //Se guarda el lector del archivo en cuestión
+        BufferedReader bufredPostPes = new BufferedReader(filePostPes); // BufferedReader para el análisis de linea
+        String linea;  //Almacenará el archivo completo con el texto completo
+        int contador = 1;
+        ArrayList<TokenPosting> archivoVarPosting = new ArrayList<>();
+        HashMap<String, Integer> archivoVarIDs = new HashMap<>();
+        long inicioCreacionID, finCreacionId, totalCreacionId;
+
+        while ((linea = bufredPostPes.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            String[] registrosPosting = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+            TokenPosting token = new TokenPosting(registrosPosting[0], registrosPosting[1], registrosPosting[2]);
+            archivoVarPosting.add(token);
+        }
+
+        for(String nomArchivo : files)
+        {
+            inicioCreacionID = System.currentTimeMillis();
+
+            if(primeraVez)
+            {
+                fileIDs.write(contador + ", " + nomArchivo + ".html" + "\n");
+                finCreacionId = System.currentTimeMillis();
+                totalCreacionId = finCreacionId - inicioCreacionID;
+                salida11.write("Id asignado al archivo " + nomArchivo + ".html correctamente en " + totalCreacionId + " milisegundos \n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                fileIDs.append(contador + ", " + nomArchivo + ".html" + "\n");
+                finCreacionId = System.currentTimeMillis();
+                totalCreacionId = finCreacionId - inicioCreacionID;
+                salida11.append("Id asignado al archivo " + nomArchivo + ".html correctamente en " + totalCreacionId + " milisegundos \n");
+            }
+
+            archivoVarIDs.put(nomArchivo+".html", contador);
+
+            contador++;
+        }
+
+        primeraVez = true;
+
+        for(TokenPosting token : archivoVarPosting)
+        {
+            int id = archivoVarIDs.get(token.getArchivo());
+            token.setArchivo(String.valueOf(id));
+
+            if(primeraVez)
+            {
+                postingIDs.write(token.getArchivo() + ", " + token.getNumRepeticion() + ", " + token.getPeso() + "\n");
+                primeraVez = false;
+            }
+
+            else
+            {
+                postingIDs.append(token.getArchivo() + ", " + token.getNumRepeticion() + ", " + token.getPeso() + "\n");
+            }
+        }
+
+        long finCreacionArchivoIDs = System.currentTimeMillis();
+
+        long duracionCreacionArchivoIDs = finCreacionArchivoIDs - inicioCreacionArchivoIDs;
+
+        salida11.append("\nEl tiempo requerido para pesar todos los tokens fue de " + duracionCreacionArchivoIDs+ " milisegundos");
+
+        //Mismo proceso de arriba pero con la duración total del programa
+        long finPrograma = System.currentTimeMillis();
+
+        long duracionPrograma = finPrograma - tiempoInicio;
+
+        salida11.append("\nLa duración del programa fue de " + duracionPrograma + " milisegundos");
+
+        fileIDs.close();
+        postingIDs.close();
+        salida11.close();
+
+    }
+
+    public void pesarTokens() throws IOException    //Actividad 10
     {
         contarTokensXArchivo();
 
@@ -872,8 +960,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         salida.close();
     }
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+    /*todo////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
     public void contarTokensXArchivo() throws IOException
     {
@@ -945,8 +1032,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
     }
-
-
+    
     public HashMap<String, Palabra> contarPalabrasXArchivo_CNStopList(String pagina) throws IOException
     {
         HashMap<String, Palabra> coleccion = new HashMap<String, Palabra>();

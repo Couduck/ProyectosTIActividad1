@@ -12,10 +12,11 @@ public class Main
 //        manejadorArchivos.generarDiccionarioCentral();
 //        manejadorArchivos.tokenizarArchivosActividad5();
 //        manejadorArchivos.tokenizarTodosArchivos();
-        manejadorArchivos.generarPosting();
-        manejadorArchivos.almacenamientoHashTable();
-        manejadorArchivos.tokenizarTodosArchivosStopList();
-        manejadorArchivos.pesarTokens();
+//        manejadorArchivos.generarPosting();
+//        manejadorArchivos.almacenamientoHashTable();
+//        manejadorArchivos.tokenizarTodosArchivosStopList();
+//        manejadorArchivos.pesarTokens();
+        manejadorArchivos.crearArchivoID();
         int i=1;
     }
 }
