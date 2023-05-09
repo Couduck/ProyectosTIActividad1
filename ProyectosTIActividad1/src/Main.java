@@ -16,7 +16,8 @@ public class Main
 //        manejadorArchivos.almacenamientoHashTable();
 //        manejadorArchivos.tokenizarTodosArchivosStopList();
 //        manejadorArchivos.pesarTokens();
-        manejadorArchivos.crearArchivoID();
+//        manejadorArchivos.crearArchivoID();
+        manejadorArchivos.solicitarPalabra();
         int i=1;
     }
 }

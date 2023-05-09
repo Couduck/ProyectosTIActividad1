@@ -12,6 +12,8 @@ public class Palabra
 
     List<Integer> frecuenciaArchivos;
 
+    int posicionPosting;
+
     public Palabra()
     {
         palabra = "";

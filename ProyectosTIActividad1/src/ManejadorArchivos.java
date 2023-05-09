@@ -19,6 +19,12 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     private HashMap<String, Palabra> stopList = generarStopList();
 
+    private HashMap<String, PalabraTokenizada> TokensMemoria;
+
+    private ArrayList<TokenPosting> PostingMemoria;
+
+    private HashMap<Integer, String> IDsMemoria;
+
     public ManejadorArchivos() throws IOException {
         for(int i = 0; i < 502; i++)
         {
@@ -28,6 +34,10 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         files[502] = "hard";
         files[503] = "medium";
         files[504] = "simple";
+
+        TokensMemoria = cargarTokensAMemoria();
+        PostingMemoria = cargarPostingAMemoria();
+        IDsMemoria = cargarListaIDs();
     }
 
     public HashMap<String, Palabra> generarStopList() throws IOException
@@ -47,7 +57,145 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
         return hashdevolver;
     }
 
+    public HashMap<Integer, String> cargarListaIDs() throws IOException
+    {
+        FileReader fileListIDs = new FileReader("Salidas\\DocumentosIDs.txt"); //Se guarda el lector del archivo en cuestión
+        BufferedReader bufredListIDs = new BufferedReader(fileListIDs); // BufferedReader para el análisis de linea
+        String linea;  //Almacenará el archivo completo con el texto completo
+        HashMap<Integer, String> archivoVarPosting = new HashMap<>();
+
+        while ((linea = bufredListIDs.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            String[] registrosIDs = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+            archivoVarPosting.put(Integer.parseInt(registrosIDs[0]), registrosIDs[1]);
+        }
+
+        return archivoVarPosting;
+    }
+
+    public ArrayList<TokenPosting> cargarPostingAMemoria() throws IOException
+    {
+        FileReader filePostPes = new FileReader("Salidas\\PostingConIDs.txt"); //Se guarda el lector del archivo en cuestión
+        BufferedReader bufredPostPes = new BufferedReader(filePostPes); // BufferedReader para el análisis de linea
+        String linea;  //Almacenará el archivo completo con el texto completo
+        ArrayList<TokenPosting> archivoVarPosting = new ArrayList<>();
+
+        while ((linea = bufredPostPes.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            String[] registrosPosting = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+            TokenPosting token = new TokenPosting(registrosPosting[0], registrosPosting[1], registrosPosting[2]);
+            archivoVarPosting.add(token);
+        }
+
+        return archivoVarPosting;
+    }
+
+    public HashMap<String, PalabraTokenizada> cargarTokensAMemoria() throws IOException
+    {
+        FileReader filePostPes = new FileReader("Salidas\\Tokenized.txt"); //Se guarda el lector del archivo en cuestión
+        BufferedReader bufredTokenized = new BufferedReader(filePostPes); // BufferedReader para el análisis de linea
+        String linea;  //Almacenará el archivo completo con el texto completo
+        HashMap<String, PalabraTokenizada> archivoVarPosting = new HashMap<>();
+
+        while ((linea = bufredTokenized.readLine()) != null)                               //Mientras no se haya llegado al final del archivo
+        {
+            String[] registrosTokenized = linea.split(", "); //Se genera un arreglo de Strings en el que se separa el archivo completo a base de espacios
+            PalabraTokenizada palabra = new PalabraTokenizada(registrosTokenized[0], Integer.parseInt(registrosTokenized[1]),Integer.parseInt(registrosTokenized[2]), Integer.parseInt(registrosTokenized[3]));
+            archivoVarPosting.put(registrosTokenized[0], palabra);
+        }
+
+        return archivoVarPosting;
+    }
+
     /*todo////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    public void solicitarPalabra() throws IOException
+    {
+        // TODO: 03/05/2023 VERIFICAR QUE INGRESAR LAS PALABRAS FUNCIONE CORRECTAMENTE EN LA CONSOLA
+        boolean repetirBusqueda = false;
+        Scanner intro = new Scanner(System.in);
+
+        do
+        {
+            System.out.println("¿Que palabra deseas encontrar?");
+            String palabra = intro.nextLine();
+
+            if(palabra != null)
+            {
+                busquedaPalabra(palabra);
+
+                do
+                {
+                    System.out.println("---------------------------");
+                    System.out.println("Deseas intentar con otra palabra?\n\n[Y/N]\n");
+                    palabra = intro.nextLine();
+                    System.out.println("---------------------------");
+
+                    if(!palabra.equals("Y") && !palabra.equals("N"))
+                    {
+                        System.out.println("---------------------------");
+                        System.out.println("Comado Invalido\n\nPRESIONE ENTER PARA CONTINUAR\n");
+                        palabra = intro.nextLine();
+                        System.out.println("---------------------------");
+                    }
+                }
+                while(!palabra.equals("Y") && !palabra.equals("N"));
+
+                if(palabra.equals("Y"))
+                {
+                    repetirBusqueda = true;
+                }
+
+                else
+                {
+                    repetirBusqueda = false;
+                }
+            }
+
+            else
+            {
+                System.out.println("Error: No se pueden ingresar valores nulos");
+            }
+        }
+
+        while(repetirBusqueda);
+
+
+    }
+
+    public void busquedaPalabra(String palabra) throws IOException
+    {
+        PalabraTokenizada palabraBuscar = TokensMemoria.get(palabra);
+
+        if(palabraBuscar != null)
+        {
+            ArrayList<TokenPosting> TokensPalabraEncontrada = new ArrayList<>();
+
+            int i = palabraBuscar.getPosicionPosting()-1;
+
+            for(int j = 0; j<palabraBuscar.getArchivosAparece(); j++)
+            {
+                TokensPalabraEncontrada.add(PostingMemoria.get(i));
+                i++;
+            }
+
+            System.out.println("Archivos en los que se encontro la palabra: " + palabra + "\n");
+
+            i=1;
+
+            for(int j = 0; j<TokensPalabraEncontrada.size(); j++)
+            {
+                System.out.println(i + "° " + IDsMemoria.get(Integer.parseInt(TokensPalabraEncontrada.get(j).getArchivo())));
+                i++;
+            }
+
+        }
+
+        else
+        {
+            System.out.println("No se encontro la palabra: " + palabra + " dentro de ningun archivo");
+        }
+    }
 
     public void crearArchivoID() throws IOException
     {
@@ -1032,7 +1180,7 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
             }
         }
     }
-    
+
     public HashMap<String, Palabra> contarPalabrasXArchivo_CNStopList(String pagina) throws IOException
     {
         HashMap<String, Palabra> coleccion = new HashMap<String, Palabra>();
