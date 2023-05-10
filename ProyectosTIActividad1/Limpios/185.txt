@@ -1,0 +1,52 @@
+ 
+ Launchspace Course Catalog 
+ 
+   
+   
+     
+ 
+
+  
+
+   Introduction to Space for Non-Technical Professionals   Kaplan Dec 9-10 Washington, DC
+   Electromagnetic Environment Effects (E3) Testing   Violette Dec 11-13 Washington, DC
+   Fundamentals of Orbit Mechanics   Kaufman Dec 11-13 Washington, DC
+   Intellectual Property - Valuing and Licensing   Jarosz & Goldscheider Dec 16-17 Washington, DC
+   Remote Sensing from Satellites   Brodsky Dec 18-20 Cocoa Beach, FL
+   Ascent Trajectory Design for Launch Vehicles   Baker Jan 8-10 Cocoa Beach, FL
+   Spacecraft Structural Design   Costanzo & Larkin Jan 8-10 Washington, DC
+   Modern Satellite Communications   Kiesling Jan 13-15 Los Angeles, CA
+   Launch Vehicle Systems Design & Engineering   Kaplan Jan 13-15 Washington, DC
+   Optimal Estimation and Control - A Fresh Look   Sonnabend Jan 13-17 Cocoa Beach, FL
+   Systems Engineering: An Approach to Information-Based Design   Hazelrigg Jan 22-24 San Diego, CA
+   Real-Time Flight Software Engineering and Development   Kovacs Jan 22-24 Washington, DC
+   Launch Vehicle Environments, Loads and Testing   Deans Jan 22-24 Cocoa Beach, FL
+   Space Flight Robotics and Teleoperation   Hinman-Sweeney Jan 29-31 Cocoa Beach, FL
+   Spacecraft Thermal Design and Analysis   Yanowitz Jan 29-31 Cocoa Beach, FL
+   Propulsion Systems for Launch Vehicles   Weegar Jan 29-31 Cocoa Beach, FL
+   Sounding Rockets: Technology and Application   Scredon Feb 3-5 Cocoa Beach, FL
+   Space Systems Avionics Design & Applications   Andrew Feb 5-7 Washington, DC
+   Ground Station Command & Control of Satellites and Resources   Kait Feb 5-7 Cocoa Beach, FL
+   International Spaceports   Ralph Feb 10-12 Cocoa Beach, FL
+   Mission Analysis for Solar System Exploration   Horsewood Feb 10-12 Cocoa Beach, FL
+   LEO Constellation Systems: Design, Analysis & Application   Cenker Feb 19-21 Cocoa Beach, FL
+   Solid Rocket Motor Design and Applications   Lee Feb 19-21 Cocoa Beach, FL
+   Pyrotechnic Design, Development and Qualification   Bement Feb 20-21 Washington, DC
+   The Kalman Filter with Aerospace Applications Using MATLAB   Mackison Feb 24-28 Cocoa Beach, FL
+   Spacecraft Dynamics and Attitude Control   Kaplan Feb 24-26 Washington, DC
+   Microsats: Design, Development and Execution of Minimum Missions   Fleeter Feb 26-28 Cocoa Beach, FL
+   Space Radiation Protection    Angelo   Mar 4-6   Cocoa Beach, FL
+   The Political Process in Systems Architecture Design   Forman Mar 4-6 Washington, DC
+   Introduction to Space for Non-Technical Professionals   Kaplan Mar 10-11 Cocoa Beach, FL
+   GEO Satellite On-Orbit Operations   Owens Mar 12-14 Washington, DC
+   Advanced Launch Systems - Reusables   Kaplan Mar 12-14 Cocoa Beach, FL
+  Wavelets: A Net Took for Signal Analysis Using MATLAB   Mackison   Mar 17-21   Washington, DC
+   Supportability Engineering Functions in Launch Vehicle Systems   Smiljanic Mar 24-26 Washington, DC
+   Launch Control System Design  Poole, Copella, Fisher Mar 24-26 Cocoa Beach, FL
+   Satellite Attitude Control and Attitude Determination Systems    Mackison   Apr 2-4   Washington, DC
+   Structural Dynamics Analysis and Design   Ojalvo Apr 7-9   Washington, DC
+  
+ 
+    
+ 
+ 

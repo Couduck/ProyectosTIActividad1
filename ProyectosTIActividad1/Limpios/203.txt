@@ -1,0 +1,758 @@
+ 
+
+ 
+
+ CDT | FBI Survelliance Activity Data - North Carolina 
+
+ 
+ 
+ 
+
+  APPENDIX A: NORTH CAROLINA  
+
+ 
+   NOTICE OF CAPACITY REQUIREMENTS BY COUNTY
+FOR   
+ 
+   TELECOMMUNICATIONS CARRIERS PROVIDING
+LOCAL SERVICES 
+   
+ 
+ Numbers represent historical simultaneous interceptions
+and an estimation of the simultaneous requirement of pen register,
+trap and trace, and call content interceptions that may be conducted
+anywhere within a county. *  
+ 
+ 
+ 
+ 
+        County Requirement  
+  
+
+        
+    
+
+   State    County  
+   Estimated Actual Interceptions That May Be Conducted  
+    Estimated Maximum Interceptions That May Be Conducted  
+    Historical Experience  
+  
+
+   North Carolina   Alamance
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Alexander
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Alleghany
+   12    16 
+   9   
+
+        
+    
+
+   North Carolina   Anson
+   3    4 
+   2   
+
+        
+    
+
+   North Carolina   Ashe 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Avery
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Beaufort
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Bertie
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Bladen
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Brunswick
+   11    15 
+   8   
+
+        
+    
+
+   North Carolina   Buncombe
+   11    15 
+   8   
+
+        
+    
+
+   North Carolina   Burke
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Cabarrus
+   8    11 
+   6   
+
+        
+    
+
+   North Carolina   Caldwell
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Camden
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Carteret
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Caswell
+   3    4 
+   2   
+
+        
+    
+
+   North Carolina   Catawba
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Chatham
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Cherokee
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Chowan
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Clay 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Cleveland
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Columbus
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Craven
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Cumberland
+   11    15 
+   8   
+
+        
+    
+
+   North Carolina   Currituck
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Dare 
+  2    3 
+   1   
+
+        
+    
+
+   North Carolina   Davidson
+   13    17 
+   10   
+
+        
+    
+
+   North Carolina   Davie
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Duplin
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Durham
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Edgecombe
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Forsyth
+   41    54 
+   32   
+
+        
+    
+
+   North Carolina   Franklin
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Gaston
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Gates
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Graham
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Granville
+   11    15 
+   8   
+
+        
+    
+
+   North Carolina   Greene
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Guilford
+   14    19 
+   11   
+
+        
+    
+
+   North Carolina   Halifax
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Harnett
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Haywood
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Henderson
+   8    11 
+   6   
+
+        
+    
+
+   North Carolina   Hertford
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Hoke 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Hyde 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Iredell
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Jackson
+   7    10 
+   5   
+
+        
+    
+
+   North Carolina   Johnston
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Jones
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Lee 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Lenoir
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Lincoln
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Macon
+   6    8 
+   4   
+
+        
+    
+
+   North Carolina   Madison
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Martin
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   McDowell
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Mecklenburg
+   13    17 
+   10   
+
+        
+    
+
+   North Carolina   Mitchell
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Montgomery
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Moore
+   11    15 
+   8   
+
+        
+    
+
+   North Carolina   Nash 
+  7    10 
+   5   
+
+        
+    
+
+   North Carolina   New Hanover
+   3    4 
+   2   
+
+        
+    
+
+   North Carolina   Northampton
+   4    6 
+   3   
+
+        
+    
+
+   North Carolina   Onslow
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Orange
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Pamlico
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Pasquotank
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Pender
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Perquimans
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Person
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Pitt 
+  31    41 
+   24   
+
+        
+    
+
+   North Carolina   Polk 
+  2    3 
+   0   
+
+        
+    
+
+   North Carolina   Randolph
+   29    38 
+   23   
+
+        
+    
+
+   North Carolina   Richmond
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Robeson
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Rockingham
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Rowan
+   9    12 
+   7   
+
+        
+    
+
+   North Carolina   Rutherford
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Sampson
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Scotland
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Stanly
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Stokes
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Surry
+   3    4 
+   2   
+
+        
+    
+
+   North Carolina   Swain
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Transylvania
+   13    17 
+   10   
+
+        
+    
+
+   North Carolina   Tyrrell
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Union
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Vance
+   3    4 
+   2   
+
+        
+    
+
+   North Carolina   Wake 
+  22    29 
+   17   
+
+        
+    
+
+   North Carolina   Warren
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Washington
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Watauga
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Wayne
+   2    3 
+   1   
+
+        
+    
+
+   North Carolina   Wilkes
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Wilson
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Yadkin
+   2    3 
+   0   
+
+        
+    
+
+   North Carolina   Yancey
+   2    3 
+   0   
+
+ 
+
+ 
+  
+ 
+  *   The term &quot;county&quot; includes
+boroughs and parishes as well as the District of Columbia and
+independent cities. U.S. territories (i.e., American Samoa, Guam,
+Mariana Islands, Puerto Rico, and the U.S. Virgin Islands) were
+considered as single entities.
+ 
+
+ 
+ Back. 
+ 
+ CDT Digital Telephony Page. 
+ 
+ CDT Home Page. 
+ 
+
+ 
