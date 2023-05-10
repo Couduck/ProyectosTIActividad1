@@ -1,0 +1,772 @@
+ 
+
+ 
+
+ CDT | FBI Survelliance Activity Data - Illinois 
+
+ 
+ 
+ 
+
+  APPENDIX A: ILLINOIS  
+
+ 
+   NOTICE OF CAPACITY REQUIREMENTS BY COUNTY
+FOR   
+ 
+   TELECOMMUNICATIONS CARRIERS PROVIDING
+LOCAL SERVICES 
+   
+ 
+ Numbers represent historical simultaneous interceptions
+and an estimation of the simultaneous requirement of pen register,
+trap and trace, and call content interceptions that may be conducted
+anywhere within a county. *  
+ 
+ 
+ 
+ 
+        County Requirement  
+  
+
+        
+    
+
+   State    County  
+   Estimated Actual Interceptions That May Be Conducted  
+    Estimated Maximum Interceptions That May Be Conducted  
+    Historical Experience  
+  
+
+   Illinois   Adams   14 
+   19    11 
+  
+
+        
+    
+
+   Illinois   Alexander 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Bond   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Boone   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Brown   2 
+   3    1 
+  
+
+        
+    
+
+   Illinois   Bureau 
+  8    11 
+   6   
+
+        
+    
+
+   Illinois   Calhoun 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Carroll 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Cass   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Champaign 
+  16    21 
+   12   
+
+        
+    
+
+   Illinois   Christian 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Clark   2 
+   3    1 
+  
+
+        
+    
+
+   Illinois   Clay   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Clinton 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Coles   7 
+   10    5 
+  
+
+        
+    
+
+   Illinois   Cook   318 
+   415    252 
+  
+
+        
+    
+
+   Illinois   Crawford 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Cumberland 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   De Witt 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   DeKalb 
+  3    4 
+   2   
+
+        
+    
+
+   Illinois   Douglas 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   DuPage 
+  36    47 
+   28   
+
+        
+    
+
+   Illinois   Edgar   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Edwards 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Effingham 
+  3    4 
+   2   
+
+        
+    
+
+   Illinois   Fayette 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Ford   2 
+   3    1 
+  
+
+        
+    
+
+   Illinois   Franklin 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Fulton 
+  11    15 
+   8   
+
+        
+    
+
+   Illinois   Gallatin 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Greene 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Grundy 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Hamilton 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Hancock 
+  4    6 
+   3   
+
+        
+    
+
+   Illinois   Hardin 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Henderson 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Henry   14 
+   19    11 
+  
+
+        
+    
+
+   Illinois   Iroquois 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Jackson 
+  6    8 
+   4   
+
+        
+    
+
+   Illinois   Jasper 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Jefferson 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Jersey 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Jo Daviess 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Johnson 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Kane   48 
+   63    38 
+  
+
+        
+    
+
+   Illinois   Kankakee 
+  13    17 
+   10   
+
+        
+    
+
+   Illinois   Kendall 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Knox   19 
+   25    15 
+  
+
+        
+    
+
+   Illinois   La Salle 
+  8    11 
+   6   
+
+        
+    
+
+   Illinois   Lake   9 
+   12    7 
+  
+
+        
+    
+
+   Illinois   Lawrence 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Lee   4 
+   6    3 
+  
+
+        
+    
+
+   Illinois   Livingston 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Logan   6 
+   8    4 
+  
+
+        
+    
+
+   Illinois   Macon   4 
+   6    3 
+  
+
+        
+    
+
+   Illinois   Macoupin 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Madison 
+  11    15 
+   8   
+
+        
+    
+
+   Illinois   Marion 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Marshall 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Mason   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Massac 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   McDonough 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   McHenry 
+  3    4 
+   2   
+
+        
+    
+
+   Illinois   McLean 
+  16    21 
+   12   
+
+        
+    
+
+   Illinois   Menard 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Mercer 
+  12    16 
+   9   
+
+        
+    
+
+   Illinois   Monroe 
+  18    24 
+   14   
+
+        
+    
+
+   Illinois   Montgomery 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Morgan 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Moultrie 
+  3    4 
+   2   
+
+        
+    
+
+   Illinois   Ogle   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Peoria 
+  8    11 
+   6   
+
+        
+    
+
+   Illinois   Perry   6 
+   8    4 
+  
+
+        
+    
+
+   Illinois   Piatt   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Pike   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Pope   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Pulaski 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Putnam 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Randolph 
+  6    8 
+   4   
+
+        
+    
+
+   Illinois   Richland 
+  4    6 
+   3   
+
+        
+    
+
+   Illinois   Rock Island
+   11    15 
+   8   
+
+        
+    
+
+   Illinois   Saline 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Sangamon 
+  26    34 
+   20   
+
+        
+    
+
+   Illinois   Schuyler 
+  3    4 
+   2   
+
+        
+    
+
+   Illinois   Scott   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Shelby 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   St. Clair 
+  6    8 
+   4   
+
+        
+    
+
+   Illinois   Stark   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Stephenson 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Tazewell 
+  6    8 
+   4   
+
+        
+    
+
+   Illinois   Union   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Vermilion 
+  21    28 
+   16   
+
+        
+    
+
+   Illinois   Wabash 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Warren 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Washington 
+  2    3 
+   0   
+
+        
+    
+
+   Illinois   Wayne   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   White   2 
+   3    0 
+  
+
+        
+    
+
+   Illinois   Whiteside 
+  4    6 
+   3   
+
+        
+    
+
+   Illinois   Will   9 
+   12    7 
+  
+
+        
+    
+
+   Illinois   Williamson 
+  2    3 
+   1   
+
+        
+    
+
+   Illinois   Winnebago 
+  7    10 
+   5   
+
+        
+    
+
+   Illinois   Woodford 
+  2    3 
+   0   
+
+ 
+
+ 
+  
+ 
+  *   The term &quot;county&quot; includes
+boroughs and parishes as well as the District of Columbia and
+independent cities. U.S. territories (i.e., American Samoa, Guam,
+Mariana Islands, Puerto Rico, and the U.S. Virgin Islands) were
+considered as single entities.
+ 
+
+ 
+ Back. 
+ 
+ CDT Digital Telephony Page. 
+ 
+ CDT Home Page. 
+ 
+
+ 
