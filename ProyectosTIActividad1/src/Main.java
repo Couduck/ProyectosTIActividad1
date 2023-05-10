@@ -17,7 +17,8 @@ public class Main
 //        manejadorArchivos.tokenizarTodosArchivosStopList();
 //        manejadorArchivos.pesarTokens();
 //        manejadorArchivos.crearArchivoID();
-        manejadorArchivos.solicitarPalabra();
+//        manejadorArchivos.solicitarPalabra();
+        manejadorArchivos.solicitarPalabra_UI();
         int i=1;
     }
 }

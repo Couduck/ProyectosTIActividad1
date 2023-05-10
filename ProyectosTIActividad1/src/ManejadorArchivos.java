@@ -1,5 +1,7 @@
+import javax.swing.*;
 import java.awt.*;
 import java.io.*;
+import java.lang.reflect.Type;
 import java.util.*;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -109,9 +111,51 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     /*todo////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+    public void solicitarPalabra_UI() throws IOException
+    {
+        boolean repetirBusqueda;
+
+        do
+        {
+            String palabra = JOptionPane.showInputDialog(null, "¿Que palabra deseas encontrar?", "BUSQUEDA DE PALABRAS", JOptionPane.QUESTION_MESSAGE);
+
+            if (!palabra.isBlank())
+            {
+                String archivos = busquedaPalabra(palabra);
+
+                if(archivos.equals("NOT_FOUND_ANYWHERE"))
+                {
+                    JOptionPane.showMessageDialog(null, "La palabra \"" + palabra + " \"no existe en ningún archivo", "SIN COINCIDENCIAS", JOptionPane.ERROR_MESSAGE);
+                }
+
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Archivos en los que se encontro la palabra: \"" + palabra + "\":\n\n" + archivos,"BUSQUEDA PALABRA",JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+
+            else
+            {
+                JOptionPane.showMessageDialog(null, "No se ingresó nada", "ERROR", JOptionPane.ERROR_MESSAGE);
+            }
+
+            if(JOptionPane.showConfirmDialog(null,"¿Desea buscar otra palabra?", "BUSQUEDA PALABRA",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE) == 0)
+            {
+                repetirBusqueda=true;
+            }
+
+            else
+            {
+                repetirBusqueda=false;
+                JOptionPane.showMessageDialog(null, "PROGRAMA TERMINADO", "BUSQUEDA PALABRA", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+        while(repetirBusqueda);
+    }
+
+
     public void solicitarPalabra() throws IOException
     {
-        // TODO: 03/05/2023 VERIFICAR QUE INGRESAR LAS PALABRAS FUNCIONE CORRECTAMENTE EN LA CONSOLA
         boolean repetirBusqueda = false;
         Scanner intro = new Scanner(System.in);
 
@@ -163,8 +207,10 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     }
 
-    public void busquedaPalabra(String palabra) throws IOException
+    public String busquedaPalabra(String palabra) throws IOException
     {
+        String archivos = "";
+
         PalabraTokenizada palabraBuscar = TokensMemoria.get(palabra);
 
         if(palabraBuscar != null)
@@ -179,13 +225,13 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
                 i++;
             }
 
-            System.out.println("Archivos en los que se encontro la palabra: " + palabra + "\n");
+            //System.out.println("Archivos en los que se encontro la palabra: " + palabra + "\n");
 
             i=1;
 
             for(int j = 0; j<TokensPalabraEncontrada.size(); j++)
             {
-                System.out.println(i + "° " + IDsMemoria.get(Integer.parseInt(TokensPalabraEncontrada.get(j).getArchivo())));
+                archivos+= i + "° " + IDsMemoria.get(Integer.parseInt(TokensPalabraEncontrada.get(j).getArchivo()))+"\n";
                 i++;
             }
 
@@ -193,8 +239,10 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
         else
         {
-            System.out.println("No se encontro la palabra: " + palabra + " dentro de ningun archivo");
+            archivos="NOT_FOUND_ANYWHERE";
         }
+
+        return archivos;
     }
 
     public void crearArchivoID() throws IOException
