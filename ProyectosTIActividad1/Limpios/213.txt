@@ -1,0 +1,1838 @@
+ 
+
+ 
+
+ CDT | FBI Survelliance Activity Data - Texas 
+
+ 
+ 
+ 
+
+  APPENDIX A: TEXAS  
+
+ 
+   NOTICE OF CAPACITY REQUIREMENTS BY COUNTY
+FOR   
+ 
+   TELECOMMUNICATIONS CARRIERS PROVIDING
+LOCAL SERVICES 
+   
+ 
+ Numbers represent historical simultaneous interceptions
+and an estimation of the simultaneous requirement of pen register,
+trap and trace, and call content interceptions that may be conducted
+anywhere within a county. *  
+ 
+ 
+ 
+        County Requirement  
+  
+
+        
+    
+
+   State    County  
+   Estimated Actual Interceptions That May Be Conducted  
+    Estimated Maximum Interceptions That May Be Conducted  
+    Historical Experience  
+  
+
+   Texas   Anderson   12 
+   16    9 
+  
+
+        
+    
+
+   Texas   Andrews   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Angelina   13 
+   17    10 
+  
+
+        
+    
+
+   Texas   Aransas   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Archer   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Armstrong 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Atascosa   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Austin   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bailey   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bandera   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bastrop   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Baylor   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bee   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bell   9 
+   12    7 
+  
+
+        
+    
+
+   Texas   Bexar   131 
+   171    104 
+  
+
+        
+    
+
+   Texas   Blanco   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Borden   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bosque   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Bowie   22 
+   29    17 
+  
+
+        
+    
+
+   Texas   Brazoria   27 
+   36    21 
+  
+
+        
+    
+
+   Texas   Brazos   14 
+   19    11 
+  
+
+        
+    
+
+   Texas   Brewster   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Briscoe   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Brooks   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Brown   9 
+   12    7 
+  
+
+        
+    
+
+   Texas   Burleson   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Burnet   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Caldwell   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Calhoun   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Callahan   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Cameron   37 
+   49    29 
+  
+
+        
+    
+
+   Texas   Camp   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Carson   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Cass   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Castro   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Chambers   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Cherokee   6 
+   8    4 
+  
+
+        
+    
+
+   Texas   Childress 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Clay   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Cochran   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Coke   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Coleman   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Collin   32 
+   42    25 
+  
+
+        
+    
+
+   Texas   Collingsworth 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Colorado   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Comal   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Comanche   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Concho   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Cooke   12 
+   16    9 
+  
+
+        
+    
+
+   Texas   Coryell   9 
+   12    7 
+  
+
+        
+    
+
+   Texas   Cottle   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Crane   6 
+   8    4 
+  
+
+        
+    
+
+   Texas   Crockett   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Crosby   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Culberson 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Dallam   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Dallas   305 
+   398    242 
+  
+
+        
+    
+
+   Texas   Dawson   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Deaf Smith 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Delta   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Denton   28 
+   37    22 
+  
+
+        
+    
+
+   Texas   DeWitt   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Dickens   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Dimmit   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Donley   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Duval   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Eastland   11 
+   15    8 
+  
+
+        
+    
+
+   Texas   Ector   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Edwards   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   El Paso   94 
+   123    74 
+  
+
+        
+    
+
+   Texas   Ellis   19 
+   25    15 
+  
+
+        
+    
+
+   Texas   Erath   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Falls   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Fannin   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Fayette   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Fisher   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Floyd   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Foard   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Fort Bend 
+  38    50 
+   30   
+
+        
+    
+
+   Texas   Franklin   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Freestone 
+  7    10 
+   5   
+
+        
+    
+
+   Texas   Frio   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Gaines   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Galveston 
+  21    28 
+   16   
+
+        
+    
+
+   Texas   Garza   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Gillespie 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Glasscock 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Goliad   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Gonzales   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Gray   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Grayson   7 
+   10    5 
+  
+
+        
+    
+
+   Texas   Gregg   13 
+   17    10 
+  
+
+        
+    
+
+   Texas   Grimes   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Guadalupe 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Hale   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hall   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hamilton   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hansford   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hardeman   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hardin   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Harris   371 
+   484    294 
+  
+
+        
+    
+
+   Texas   Harrison   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Hartley   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Haskell   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hays   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Hemphill   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Henderson 
+  13    17 
+   10   
+
+        
+    
+
+   Texas   Hidalgo   34 
+   45    27 
+  
+
+        
+    
+
+   Texas   Hill   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hockley   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Hood   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Hopkins   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Houston   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Howard   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hudspeth   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Hunt   7 
+   10    5 
+  
+
+        
+    
+
+   Texas   Hutchinson 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Irion   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Jack   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Jackson   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Jasper   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Jeff Davis 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Jefferson 
+  3    4 
+   2   
+
+        
+    
+
+   Texas   Jim Hogg   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Jim Wells 
+  8    11 
+   6   
+
+        
+    
+
+   Texas   Johnson   8 
+   11    6 
+  
+
+        
+    
+
+   Texas   Jones   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Karnes   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kaufman   11 
+   15    8 
+  
+
+        
+    
+
+   Texas   Kendall   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kenedy   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kent   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kerr   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kimble   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   King   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kinney   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Kleberg   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Knox   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   La Salle   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Lamar   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Lamb   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Lampasas   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Lavaca   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Lee   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Leon   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Liberty   8 
+   11    6 
+  
+
+        
+    
+
+   Texas   Limestone 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Lipscomb   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Live Oak   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Llano   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Loving   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Lubbock   21 
+   28    16 
+  
+
+        
+    
+
+   Texas   Lynn   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Madison   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Marion   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Martin   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Mason   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Matagorda 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Maverick   22 
+   29    17 
+  
+
+        
+    
+
+   Texas   McCulloch 
+  3    4 
+   2   
+
+        
+    
+
+   Texas   McLennan   17 
+   23    13 
+  
+
+        
+    
+
+   Texas   McMullen   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Medina   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Menard   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Midland   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Milam   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Mills   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Mitchell   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Montague   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Montgomery 
+  36    47 
+   28   
+
+        
+    
+
+   Texas   Moore   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Morris   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Motley   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Nacogdoches 
+  7    10 
+   5   
+
+        
+    
+
+   Texas   Navarro   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Newton   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Nolan   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Nueces   21 
+   28    16 
+  
+
+        
+    
+
+   Texas   Ochiltree 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Oldham   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Orange   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Palo Pinto 
+  2    3 
+   1   
+
+        
+    
+
+   Texas   Panola   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Parker   8 
+   11    6 
+  
+
+        
+    
+
+   Texas   Parmer   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Pecos   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Polk   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Potter   7 
+   10    5 
+  
+
+        
+    
+
+   Texas   Presidio   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Rains   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Randall   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Reagan   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Real   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Red River 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Reeves   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Refugio   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Roberts   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Robertson 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Rockwall   11 
+   15    8 
+  
+
+        
+    
+
+   Texas   Runnels   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Rusk   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Sabine   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   San Augustine 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   San Jacinto 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   San Patricio 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   San Saba   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Schleicher 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Scurry   6 
+   8    4 
+  
+
+        
+    
+
+   Texas   Shackelford 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Shelby   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Sherman   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Smith   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Somervell 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Starr   33 
+   43    26 
+  
+
+        
+    
+
+   Texas   Stephens   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Sterling   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Stonewall 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Sutton   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Swisher   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Tarrant   108 
+   141    85 
+  
+
+        
+    
+
+   Texas   Taylor   13 
+   17    10 
+  
+
+        
+    
+
+   Texas   Terrell   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Terry   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Throckmorton 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Titus   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Tom Green 
+  3    4 
+   2   
+
+        
+    
+
+   Texas   Travis   89 
+   116    70 
+  
+
+        
+    
+
+   Texas   Trinity   6 
+   8    4 
+  
+
+        
+    
+
+   Texas   Tyler   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Upshur   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Upton   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Uvalde   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Val Verde 
+  18    24 
+   14   
+
+        
+    
+
+   Texas   Van Zandt 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Victoria   7 
+   10    5 
+  
+
+        
+    
+
+   Texas   Walker   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Waller   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Ward   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Washington 
+  3    4 
+   2   
+
+        
+    
+
+   Texas   Webb   22 
+   29    17 
+  
+
+        
+    
+
+   Texas   Wharton   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Wheeler   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Wichita   18 
+   24    14 
+  
+
+        
+    
+
+   Texas   Wilbarger 
+  2    3 
+   0   
+
+        
+    
+
+   Texas   Willacy   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Williamson 
+  8    11 
+   
+
+        
+    
+
+   Texas   Wilson   2 
+   3    1 
+  
+
+        
+    
+
+   Texas   Winkler   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Wise   3 
+   4    2 
+  
+
+        
+    
+
+   Texas   Wood   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Yoakum   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Young   2 
+   3    0 
+  
+
+        
+    
+
+   Texas   Zapata   4 
+   6    3 
+  
+
+        
+    
+
+   Texas   Zavala   2 
+   3    0 
+  
+
+ 
+
+ 
+  
+ 
+ 
+  *   The term &quot;county&quot; includes
+boroughs and parishes as well as the District of Columbia and
+independent cities. U.S. territories (i.e., American Samoa, Guam,
+Mariana Islands, Puerto Rico, and the U.S. Virgin Islands) were
+considered as single entities.
+ 
+
+ 
+ Back. 
+ 
+ CDT Digital Telephony Page. 
+ 
+ CDT Home Page. 
+ 
+
+ 
+
+
