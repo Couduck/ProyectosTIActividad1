@@ -111,32 +111,40 @@ public class ManejadorArchivos      //Clase para manejar los archivos de HTML
 
     /*todo////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+    //Misma funcion que actividad 12, solo que por medio de JOptionPane
     public void solicitarPalabra_UI() throws IOException
     {
         boolean repetirBusqueda;
 
         do
         {
-            String palabra = JOptionPane.showInputDialog(null, "¿Que palabra deseas encontrar?", "BUSQUEDA DE PALABRAS", JOptionPane.QUESTION_MESSAGE);
-
-            if (!palabra.isBlank())
+            try
             {
-                String archivos = busquedaPalabra(palabra);
+                String palabra = JOptionPane.showInputDialog(null, "¿Que palabra deseas encontrar?", "BUSQUEDA DE PALABRAS", JOptionPane.QUESTION_MESSAGE);
 
-                if(archivos.equals("NOT_FOUND_ANYWHERE"))
+                if (!palabra.isBlank())
                 {
-                    JOptionPane.showMessageDialog(null, "La palabra \"" + palabra + " \"no existe en ningún archivo", "SIN COINCIDENCIAS", JOptionPane.ERROR_MESSAGE);
+                    String archivos = busquedaPalabra(palabra);
+
+                    if(archivos.equals("NOT_FOUND_ANYWHERE"))
+                    {
+                        JOptionPane.showMessageDialog(null, "La palabra \"" + palabra + " \"no existe en ningún archivo", "SIN COINCIDENCIAS", JOptionPane.ERROR_MESSAGE);
+                    }
+
+                    else
+                    {
+                        JOptionPane.showMessageDialog(null, "Archivos en los que se encontro la palabra: \"" + palabra + "\":\n\n" + archivos,"BUSQUEDA PALABRA",JOptionPane.INFORMATION_MESSAGE);
+                    }
                 }
 
                 else
                 {
-                    JOptionPane.showMessageDialog(null, "Archivos en los que se encontro la palabra: \"" + palabra + "\":\n\n" + archivos,"BUSQUEDA PALABRA",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "No se ingresó nada", "ERROR", JOptionPane.ERROR_MESSAGE);
                 }
             }
-
-            else
+            catch(NullPointerException a)
             {
-                JOptionPane.showMessageDialog(null, "No se ingresó nada", "ERROR", JOptionPane.ERROR_MESSAGE);
+
             }
 
             if(JOptionPane.showConfirmDialog(null,"¿Desea buscar otra palabra?", "BUSQUEDA PALABRA",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE) == 0)
